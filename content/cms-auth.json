@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-23T01:36:27.538Z",
+  "users": [
+    {
+      "id": "admin_22d26cf8-63e4-479a-a303-b16260389a0e",
+      "email": "emma@toknav.cn",
+      "passwordHash": "scrypt$JVnIPXeyaMF3ATpUyKJGuw$t5D1cW5xOk2Du_lOeL4sFf5FuVGSVycJwVbB8J6TAhMPZ-ohIanKeFeENlD-4KUgX_CRlYqcuIijCkQcw-RByQ",
+      "createdAt": "2026-06-23T01:36:27.475Z",
+      "updatedAt": "2026-06-23T01:36:27.475Z"
+    }
+  ]
+}
