@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>SEO 后台 | TOKNAV Website</title>
+  <link rel="icon" href="/public/assets/toknav-logo-blue.png">
+  <link rel="stylesheet" href="/admin/seo-admin.css?v=20260622c">
+</head>
+<body>
+  <div class="admin-toast" id="adminToast" role="status" aria-live="polite"></div>
+  <main class="admin-shell">
+    <aside class="admin-sidebar">
+      <a class="admin-brand" href="../index.html" aria-label="Back to website">
+        <img src="/public/assets/toknav-logo-blue.png" alt="TOKNAV">
+      </a>
+      <nav class="admin-nav" aria-label="SEO backend navigation">
+        <a href="#dashboard-panel" class="active">总览</a>
+        <a href="#pages">页面 SEO</a>
+        <a href="#copy">网站文字</a>
+        <a href="#materials">网站素材</a>
+        <a href="#blog-planner">博客选题</a>
+        <a href="#blog-builder">新增博客</a>
+        <a href="#wordpress">WordPress 交接</a>
+        <a href="#export">导出</a>
+      </nav>
+      <div class="admin-note">
+        <strong>轻量后台</strong>
+        <span>用于维护 SEO、素材替换和博客内容。导出后可交给 Codex、GitHub 或 WordPress 继续发布。</span>
+      </div>
+    </aside>
+
+    <section class="admin-content">
+      <section class="admin-hero" id="dashboard">
+        <div>
+          <span class="eyebrow">SEO Control Center</span>
+          <h1>外贸独立站 SEO 优化后台</h1>
+          <p>客户可以在这里维护页面 SEO、网站素材、博客文章、CTA 和交付清单。所有修改会保存在当前浏览器，也可以导出备份或发布文件。</p>
+        </div>
+        <div class="access-panel" id="accessPanel">
+          <label>
+            <span>访问码</span>
+            <input id="accessCode" type="password" placeholder="输入访问码">
+          </label>
+          <button id="unlockButton" type="button">进入后台</button>
+          <small>当前访问码：<code>toknav-seo</code>。静态访问码只适合轻量交接，不适合存放敏感信息。</small>
+        </div>
+      </section>
+
+      <div class="locked-layer" id="lockedLayer">
+        <section class="admin-panel admin-dashboard-panel is-active" id="dashboard-panel">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">Dashboard</span>
+              <h2>后台总览</h2>
+            </div>
+          </div>
+
+          <section class="metric-grid">
+            <article><span>页面总数</span><strong id="metricTotal">0</strong></article>
+            <article><span>平均 SEO 分</span><strong id="metricScore">0</strong></article>
+            <article><span>高优先级</span><strong id="metricHigh">0</strong></article>
+            <article><span>待优化</span><strong id="metricDraft">0</strong></article>
+          </section>
+
+          <div class="admin-home-grid">
+            <a href="#copy" class="home-entry">
+              <span>01</span>
+              <strong>修改网站文字</strong>
+              <em>首页标题、按钮、产品说明、联系页地址。</em>
+            </a>
+            <a href="#materials" class="home-entry">
+              <span>02</span>
+              <strong>更换网站素材</strong>
+              <em>上传新图、预览、填写 ALT、导出素材包。</em>
+            </a>
+            <a href="#blog-builder" class="home-entry">
+              <span>03</span>
+              <strong>新增 Blog</strong>
+              <em>生成文章 HTML、SEO 信息和汇总页卡片。</em>
+            </a>
+            <a href="#pages" class="home-entry">
+              <span>04</span>
+              <strong>优化页面 SEO</strong>
+              <em>维护 Title、Meta、H1、关键词和内链。</em>
+            </a>
+          </div>
+
+          <div class="content-tip dashboard-tip">
+            <strong>推荐流程</strong>
+            <span>先改文字，再换素材，最后新增 Blog。全部确认后在“导出”里下载备份，或把更新包交给 Codex 同步上线。</span>
+          </div>
+        </section>
+
+        <section class="admin-panel" id="pages">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">Page SEO</span>
+              <h2>页面 SEO 管理</h2>
+            </div>
+            <div class="panel-actions">
+              <button id="addPageButton" type="button">新增页面</button>
+              <button id="resetButton" type="button" class="ghost">恢复初始数据</button>
+            </div>
+          </div>
+
+          <div class="filter-row">
+            <input id="searchInput" placeholder="搜索页面、URL、关键词">
+            <select id="typeFilter">
+              <option value="">全部类型</option>
+            </select>
+            <select id="statusFilter">
+              <option value="">全部状态</option>
+              <option>Live</option>
+              <option>Review</option>
+              <option>Draft</option>
+            </select>
+          </div>
+
+          <div class="page-workspace">
+            <div class="page-list" id="pageList" aria-label="SEO page list"></div>
+
+            <form class="editor-form" id="pageEditor">
+              <div class="editor-top">
+                <div>
+                  <span class="eyebrow">Selected Page</span>
+                  <h3 id="editorTitle">选择一个页面</h3>
+                </div>
+                <div class="score-pill" id="scorePill">0/100</div>
+              </div>
+
+              <div class="form-grid">
+                <label><span>页面类型</span><input name="type"></label>
+                <label><span>优先级</span><select name="priority"><option>High</option><option>Medium</option><option>Low</option></select></label>
+                <label><span>状态</span><select name="status"><option>Live</option><option>Review</option><option>Draft</option></select></label>
+                <label><span>URL</span><input name="url"></label>
+              </div>
+
+              <label><span>目标关键词 Focus Keyword</span><input name="focusKeyword"></label>
+              <label><span>SEO Title</span><input name="seoTitle"></label>
+              <div class="hint-row"><span id="titleCount">0 chars</span><span>建议 45-65 字符</span></div>
+              <label><span>Meta Description</span><textarea name="metaDescription"></textarea></label>
+              <div class="hint-row"><span id="metaCount">0 chars</span><span>建议 120-165 字符</span></div>
+              <label><span>H1</span><input name="h1"></label>
+              <div class="form-grid">
+                <label><span>CTA</span><input name="cta"></label>
+                <label><span>内链数量</span><input name="internalLinks" type="number" min="0"></label>
+              </div>
+              <label><span>优化备注</span><textarea name="notes"></textarea></label>
+
+              <div class="checklist" id="seoChecklist"></div>
+
+              <div class="editor-actions">
+                <button type="submit">保存当前页面</button>
+                <button type="button" class="ghost" id="copySnippetButton">复制 SEO 信息</button>
+                <a id="openPageLink" href="../index.html" target="_blank" rel="noopener noreferrer">打开页面</a>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="admin-panel" id="copy">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">Website Copy</span>
+              <h2>网站文字管理</h2>
+            </div>
+            <div class="panel-actions">
+              <button id="addTextButton" type="button">新增文字位</button>
+              <button id="downloadTextPackageButton" type="button" class="ghost">下载文字更新包</button>
+            </div>
+          </div>
+
+          <div class="content-tip">
+            <strong>适合修改</strong>
+            <span>首页标题、产品介绍、按钮文案、页脚信息、联系页公司名称和地址等。保存后下载更新包，即可让维护人员同步到网站。</span>
+          </div>
+
+          <div class="content-toolbar">
+            <label>
+              <span>按页面筛选</span>
+              <select id="textPageFilter">
+                <option value="">全部页面</option>
+              </select>
+            </label>
+            <p>每个页面都可以新增文字位。筛选到某个页面后点“新增文字位”，会自动归到该页面。</p>
+          </div>
+
+          <div class="content-workspace">
+            <div class="content-list" id="textSlotList" aria-label="Website text slots"></div>
+
+            <form class="editor-form content-editor" id="textEditor">
+              <div class="editor-top">
+                <div>
+                  <span class="eyebrow">Selected Copy</span>
+                  <h3 id="textEditorTitle">选择一个文字位</h3>
+                </div>
+                <span class="score-pill muted-pill" id="textStatusPill">Draft</span>
+              </div>
+
+              <div class="form-grid">
+                <label><span>文字位置</span><input name="label" placeholder="例如：首页首屏标题"></label>
+                <label><span>所属页面</span><input name="page" placeholder="index.html"></label>
+                <label><span>页面区域</span><input name="section" placeholder="Hero / Footer / Contact"></label>
+                <label><span>语言</span><input name="locale" placeholder="English / Chinese"></label>
+              </div>
+              <label><span>当前文字</span><textarea name="currentText" placeholder="当前网站上的文字"></textarea></label>
+              <label><span>修改后文字</span><textarea name="newText" placeholder="输入希望替换成的新文字"></textarea></label>
+              <label><span>备注</span><textarea name="notes" placeholder="例如：首页标题建议更短、更适合广告落地页。"></textarea></label>
+
+              <div class="editor-actions">
+                <button type="submit">保存文字修改</button>
+                <button type="button" class="ghost" id="copyTextButton">复制文字说明</button>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="admin-panel" id="materials">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">Website Assets</span>
+              <h2>网站素材管理</h2>
+            </div>
+            <div class="panel-actions">
+              <button id="addAssetButton" type="button">新增素材位</button>
+              <button id="downloadAssetPackageButton" type="button" class="ghost">下载素材更新包</button>
+            </div>
+          </div>
+
+          <div class="content-tip">
+            <strong>使用方式</strong>
+            <span>选择需要替换的位置，上传新图片并填写 ALT。保存后可下载素材更新包，交给 Codex 或网站维护人员同步到线上。</span>
+          </div>
+
+          <div class="content-toolbar">
+            <label>
+              <span>按页面筛选</span>
+              <select id="assetPageFilter">
+                <option value="">全部页面</option>
+              </select>
+            </label>
+            <p>产品页、详情页、About、Contact、Blog、News 都可以单独维护素材位。</p>
+          </div>
+
+          <div class="asset-workspace">
+            <div class="asset-list" id="assetSlotList" aria-label="Website asset slots"></div>
+
+            <form class="editor-form asset-editor" id="assetEditor">
+              <div class="editor-top">
+                <div>
+                  <span class="eyebrow">Selected Asset</span>
+                  <h3 id="assetEditorTitle">选择一个素材位</h3>
+                </div>
+                <span class="score-pill muted-pill" id="assetStatusPill">Ready</span>
+              </div>
+
+              <div class="asset-preview">
+                <img id="assetPreview" src="/public/assets/toknav-logo-blue.png" alt="Selected asset preview">
+              </div>
+
+              <div class="form-grid">
+                <label><span>素材位置</span><input name="label" placeholder="例如：首页首屏 Banner"></label>
+                <label><span>所属页面</span><input name="page" placeholder="index.html"></label>
+                <label><span>当前文件路径</span><input name="currentPath" placeholder="public/assets/example.jpg"></label>
+                <label><span>推荐尺寸</span><input name="recommendedSize" placeholder="1920 x 720 px"></label>
+              </div>
+              <label><span>图片 ALT 文本</span><input name="alt" placeholder="TOKNAV GNSS receiver for construction surveying"></label>
+              <div class="form-grid">
+                <label><span>新文件名</span><input name="replacementName" placeholder="home-hero-2026.jpg"></label>
+                <label><span>上传新图片</span><input id="assetFileInput" type="file" accept="image/*"></label>
+              </div>
+              <label><span>备注</span><textarea name="notes" placeholder="例如：用于首页首屏，图片需保持蓝白科技风，不要压住文字。"></textarea></label>
+
+              <div class="editor-actions">
+                <button type="submit">保存素材信息</button>
+                <button type="button" class="ghost" id="copyAssetButton">复制素材说明</button>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="admin-panel" id="blog-planner">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">Content</span>
+              <h2>博客选题池</h2>
+            </div>
+            <button id="addBlogButton" type="button">新增选题</button>
+          </div>
+          <div class="blog-grid" id="blogGrid"></div>
+        </section>
+
+        <section class="admin-panel" id="blog-builder">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">Blog Publisher</span>
+              <h2>新增博客文章</h2>
+            </div>
+            <div class="panel-actions">
+              <button id="newBlogDraftButton" type="button">新建草稿</button>
+              <button id="downloadBlogPackageButton" type="button" class="ghost">下载博客更新包</button>
+            </div>
+          </div>
+
+          <div class="content-tip">
+            <strong>发布逻辑</strong>
+            <span>这里可以生成独立博客 HTML 页面和汇总页卡片。当前网站是静态站，生成后需要同步到 GitHub/Vercel 或搬到 WordPress 后粘贴使用。</span>
+          </div>
+
+          <div class="blog-builder-layout">
+            <form class="editor-form blog-editor" id="blogEditor">
+              <div class="form-grid">
+                <label><span>文章标题</span><input name="title" placeholder="TR10Pro New White Body: What Changed and Why It Matters"></label>
+                <label><span>URL Slug</span><input name="slug" placeholder="tr10pro-new-white-body"></label>
+                <label><span>分类</span><input name="category" placeholder="Product Updates"></label>
+                <label><span>发布日期</span><input name="date" type="date"></label>
+              </div>
+              <label><span>SEO Title</span><input name="seoTitle" placeholder="Keep it clear and search-friendly"></label>
+              <label><span>Meta Description</span><textarea name="metaDescription" placeholder="120-165 characters recommended."></textarea></label>
+              <div class="form-grid">
+                <label><span>封面图片路径</span><input name="cover" placeholder="/public/assets/blog-cover.jpg"></label>
+                <label><span>上传封面图</span><input id="blogCoverInput" type="file" accept="image/*"></label>
+              </div>
+              <label><span>摘要</span><textarea name="excerpt" placeholder="A short summary for the blog list page."></textarea></label>
+              <label><span>正文 Markdown</span><textarea name="content" class="large-textarea" placeholder="Use ## for H2, ### for H3, and normal paragraphs for body text."></textarea></label>
+              <label><span>FAQ（每行：问题 | 答案）</span><textarea name="faq" placeholder="What changed in the TR10Pro white version? | The body color changed while the positioning workflow remains focused on field marking."></textarea></label>
+              <div class="form-grid">
+                <label><span>CTA 文案</span><input name="ctaText" placeholder="Send Your Requirements"></label>
+                <label><span>CTA 链接</span><input name="ctaHref" placeholder="../contact.html"></label>
+              </div>
+              <div class="editor-actions">
+                <button type="submit">保存草稿并预览</button>
+                <button type="button" class="ghost" id="downloadBlogHtmlButton">下载博客 HTML</button>
+                <button type="button" class="ghost" id="copyBlogCardButton">复制汇总页卡片</button>
+              </div>
+            </form>
+
+            <div class="blog-preview-panel">
+              <div class="editor-top">
+                <div>
+                  <span class="eyebrow">Preview</span>
+                  <h3>文章预览</h3>
+                </div>
+              </div>
+              <div class="blog-preview" id="blogPreview"></div>
+              <textarea id="blogOutput" readonly placeholder="生成的 HTML / 卡片代码会显示在这里"></textarea>
+            </div>
+          </div>
+        </section>
+
+        <section class="admin-panel wordpress-panel" id="wordpress">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">WordPress Handoff</span>
+              <h2>给客户的 WordPress 操作说明</h2>
+            </div>
+          </div>
+          <div class="handoff-grid">
+            <article>
+              <strong>Rank Math / Yoast</strong>
+              <span>把 SEO Title、Meta Description、Focus Keyword 粘贴到插件对应字段。</span>
+            </article>
+            <article>
+              <strong>Elementor 页面</strong>
+              <span>每页保留一个 H1。产品页增加应用场景、规格表、FAQ 和询盘按钮。</span>
+            </article>
+            <article>
+              <strong>图片优化</strong>
+              <span>上传前压缩图片，并填写 ALT，例如 “TOKNAV T50Pro GNSS receiver for surveying”。</span>
+            </article>
+            <article>
+              <strong>发布检查</strong>
+              <span>发布后检查移动端、表单、WhatsApp、sitemap 和 Search Console 收录。</span>
+            </article>
+          </div>
+          <ul class="technical-list" id="technicalList"></ul>
+        </section>
+
+        <section class="admin-panel" id="export">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">Export</span>
+              <h2>导出交付文件</h2>
+            </div>
+          </div>
+          <div class="export-grid">
+            <button id="downloadJsonButton" type="button">下载 JSON 备份</button>
+            <button id="downloadCsvButton" type="button">下载 CSV 给客户</button>
+            <button id="copyAllButton" type="button">复制全部 SEO 清单</button>
+          </div>
+          <textarea id="exportOutput" readonly placeholder="导出内容会显示在这里"></textarea>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="/admin/seo-admin.js?v=20260622c"></script>
+</body>
+</html>

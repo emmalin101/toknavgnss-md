@@ -1,0 +1,574 @@
+
+
+--- Page 1 ---
+Rugged & GIS
+PRODUCT BROCHURE
+Guangzhou Toksurvey Information Technology Co.,Ltd
+www.toknavgnss.com | info@toknavgns.com
+Europe, North and South America
+Asia, Africa and Oceania
+Tel and WhatsApp
++86 139 2607 5986 (Jeffrey)
+No. 9 Caipin Road, Building B, Room 801-6, Huangpu District,
+Guangzhou, China 510000
+
+--- Page 2 ---
+ABOUT US
+Our Targets
+Company Introduction
+Guangzhou Toksurvey Information Technology Co.,
+Ltd. was founded in 2019 by a team of R&D
+engineers. The company team has nearly 15 years of
+R&D background. At present, the company has
+Make positioning Working together to To become a leader in Your reliable
+nearly 2,500 square meters of office and factory,
+more precise and improve global the global surveying supplier in
+complete set of research equipment, and strong easier. surveying quality. and mapping service. positioning!
+technical background.
+Mission Vision Value Slogan
+Our company is committed to the R&D,
+production and sales of high-precision satellite Fields of Application
+positioning terminal products. More than 60% of
+the employees are engineers. Driven by
+TOKNAV products can be widely used in precision
+technological innovation, the company maintains
+surveying & mapping, mining operations, deformation
+a steady growth rate of 60% every year.
+monitoring, autonomous driving and other fields. We
+Construction Monitoring
+currently have a number of mature GNSS application
+At present, the company has successfully solutions, such as deformation monitoring, CORS network,
+launched high-precision GNSS RTK (T5 series, marking robots, precision agriculture, mechanical control
+T10 series, T20 series, T30 series, T40 series and and digital construction field. TOKNAV products have Mapping & GIS Surveying
+T50 series), portable RTK receiver (P8 series), passed CE, FCC, KC, NGS, IGS and other certifications, and
+high-precision CORS station (NET660 series), are exported to more than 100 countries and regions
+data controller, GNSS antenna, precision around the world. Our products are well received in the
+Agriculture Marine
+agriculture, mechanical control, marking robot, global market, and now we have become a system
+USV and SLAM to the market. We not only integration supplier in the global market.
+provide trainings about our products, but also
+Certifications
+provide a series of relevant solutions.
+
+--- Page 3 ---
+Rugged & GIS Line Overview
+PRODUCTS PCR100T PCR500 PCR500Pro PCR600
+ITEM
+Operating system Android 11 Android 12 Android 14GMS
+CPU 8-core 2.0GHz processor Qualcomm SM6115 Qualcomm SDM 662
+SYSTEM
+Memory 4GB RAM + 64GB ROM
+External storage Micro SD, up to 512GB Micro SD Micro SD, up to 128GB Micro SD, up to 256GB
+Display 720*1440p 1080*1920p
+Multi-touch, support glove and
+Touch Panel 5-point capacitive touch
+wet hands operation
+Camera 13MP rear, Support Flash light Rear 13MP, AF with double white LED Flash
+INPUT/OUTPUT
+Gyroscope, Accelerometer,
+Sensors Ambient Light Sensor and Accelerometer
+Ambient Light and eCompass Sensor
+Type-C (USB3.0 Supports OTG)
+Option1: 1*Nano Sim+1*Micro SD
+Interface SIM: one Nano SIM card slot
+Option2: 2*Nano Sim
+Indicator LED
+BDS: B1I, B2I, B3I, B1C, B2a, B2b
+GPS: L1C/A, L1C, L2P (Y), L2C, L5
+Qualcomm GPS/A-GPS, GPS+BDS+GLONASS+AGPS
+GNSS GPS+BDS+GNSS+GLONASS+AGPS GLONASS: L1, L2 Galileo: E1, E5a, E5b, E6*
+GLONASS, BDS, Galileo non-high precision
+QZSS: L1, L2, L5, L6* SBAS*: L1, L5
+DATA
+COMMUNICATION
+WIFI 802.11 a/b/g/n/ac access point mode (2.4 G / 5G)
+Bluetooth BT5.0 (BLE)
+NFC support
+9000mAh (Support Rapid Charging) 9000mAh (Support Rapid Charging) 9000mAh (Support Rapid Charging)
+ELECTRICAL Battery Working time: 18h Working time: 22 hours Working time: 18~22 hours
+Charging time: ≤5 hours Charging time: Reaching 90% ≤4 hours Charging time: Reaching 90% ≤3 hours
+Dimension 221mm*78mm*16.5mm 227.8mm*95.8mm*20.9mm 226.3mm*90.6mm*16.9mm
+PHYSICAL
+Weight 410.6g 420g 412g
+Work Temperature: -20°C~+55°C -20°C~+65°C
+Temperature
+Storage Temperature: -40°C~+70°C -30°C~+70°C
+Work Humidity 5%~95%
+ENVIRONMENTAL
+Protection IP68
+Shock 1.5M 1.2M
+1 Manufacturers may update parameters at any time, please refer to the latest product information. 2
+
+--- Page 4 ---
+Rugged & GIS Line Overview
+PRODUCTS P8 P8Pro P8Global
+ITEM
+HARDWARE SYSTEM ESP32 + ASR ARM ARM Cortex-A7 1.8GHz
+OS FreeRTOS Linux
+GPS L1C/A, L2C, L2P(Y), L5 L1C/A, L1C, L2C, L2P(Y), L5
+GLONASS G1, G2 G1, G2, G3
+BDS B1I,B2I,B3I,B1C,B2a B1I, B2I, B3I, B1C, B2a, B2b
+GALILEO E1, E5a, E5b E1, E5a, E5b, E6
+GNSS
+QZSS L1C/A, L2C, L5 L1C/A, L1C, L2C, L5
+SBAS L1C/A
+NavlC(IRNSS) \ L5(Require specialized firmware)
+Channel 1408
+Data Format NMEA-0183
+Correction I / O
+RTCM3.X
+Protocol
+Data Update
+5Hz
+Frequency
+Single (RMS) Horizontal: 1.5m
+POSITIONING Horizontal: 0.8cm+1ppm
+RTK (RMS)
+ACCURACY Vertical: 1.5cm+1ppm
+Tilt compensation not support ≤2cm
+Accuracy(within 60°)
+LTE FDD:B1/2/3/4/5/7/8/12/13/
+Multi-network Compatible 18/19/20/25/26/28
+Network LTE FDD: B1, B3, B5, B8 LTE TDD: B38/39/40/41
+LTE TDD: B34, B38, B39, B40, B41 WCDMA: B1/2/4/5/6/8/19
+SYSTEM
+GSM: B2/3/5/8
+Bluetooth BR+EDR
+Dimension 53.8mm*37mm*117.5mm 60mm*41.3mm*126.3mm
+PHYSICAL
+Weight P8: 141g/P8Pro: 143g 176g
+Battery 7.4V 1800mAh 7.4V 2500mAh
+ELECTRICAL
+Work Time More than 8 hours More than 12 hours
+Operating Temperature: -20°C~+60°C
+Temperature
+Storage Temperature: -40°C~+85°C
+ENVIRONMENTAL
+Protection IP67
+3 Manufacturers may update parameters at any time, please refer to the latest product information. 4
+
+--- Page 5 ---
+PCR100T Data Controller
+SPECIFICATION
+The PCR100T is a flagship RTK measurement control
+SYSTEM FDD -LTE: B1/B2/B3/B4/B5/B7/B8
+terminal designed specifically for the surveying industry. It
+/B12/B17/B20/B28/
+boasts an impressive battery life of over 18 hours, a OS Android 11 Network TDD -LTE: B34/B38/B39/B40/B41
+WCDMA: B1/B2/B5/B8
+221
+5.45-inches sunlight-readable screen for easy outdoor mm CPU 8-core 2.0GHz processor GSM: B2/B3/B5/B8
+viewing, and operates on the Android 11 system for smooth TD-SCDMA: B34/39
+Memory 4GB RAM + 64GB ROM
+Bluetooth BT5.0 (BLE)
+performance. It features a digital keyboard and offers
+External storage Micro SD, up to 512GB
+NFC Supported
+IP68-level protection against the elements. With professional
+PHYSICAL PARAMETERS
+surveying software, it empowers users to effortlessly tackle ELECTRICAL
+Screen size : 5.45 inch
+various surveying scenarios. Display Resolution: 720*1440p Battery 9000mAh (Support Rapid Charging)
+Working time: 18h
+Touch Panel 5-point capacitive touch (non-removable) Charging time: ≤5 hours
+Button Standard English full keypad PHYSICAL
+CHARACTERISTIC WIDTH THICKNESS WEIGHT
+78 mm 16.5 mm 410.6 g Camera Rear 13MP, Support Flash light Dimension 221mm*78mm*16.5mm
+Ambient Light Sensor and
+Powerful System Sensors Accelerometer Weight 410.6g
+ENVIRONMENTAL
+Equipped with an Android 11 operating system, an Notification Audio, Vibration, and LED Indicators
+8-core 2.0GHz processor, 4GB of RAM with 64GB of Option1: 1*Nano Sim+1*Micro SD Work Temperature: -20°C~+55°C
+Interface Temperature
+Option2: 2*Nano Sim Storage Temperature: -40°C~+70°C
+storage, configure 13MP rear camera.
+DATA COMMUNICATION Humidity 5%~95%
+Protection IP68
+Display Excellence
+GNSS GPS+BDS+GNSS+GLONASS+AGPS
+Shock Withstand 1.2M pole drop
+IEEE 802.11 a/b/g/n/ac
+The device boasts a 5.45-inch display, with a WIFI
+Dual-band: 2.4G/5G Air discharge: ±15kV
+ESD
+resolution of 720*1440px. It offers a seamless touch Contact discharge: ±8kV
+experience with support for up to 5-point capacitive Manufacturers may update parameters at any time, please refer to the latest product information.
+touch. What's more, it enables effortless operation
+even with gloved or wet hands.
+Smooth Operation
+The device features an ergonomic design that provides a comfortable grip and an
+exceptional user experience during operation.
+Various Data Communication Methods
+The PCR100T Data Controller supports multiple communication methods such as Wi-Fi,
+Bluetooth, NFC and 4G, which satisfies the needs of users in most regions of the world.
+Long Endurance
+Built-in high-capacity lithium battery ensures continuous working time of more than 18
+hours under normal operation.
+Robust Device Protection
+The device is designed to withstand harsh environments and is tested to meet IP68
+waterproof and dustproof standards. It is also built to withstand drops from a height of
+1.5 meters, ensuring durability and reliability in challenging conditions.
+5 6
+
+--- Page 6 ---
+PCR500 Data Controller
+SPECIFICATION
+PCR500 is Toknav brand-new Android 12 data controller
+SYSTEM GSM: 850/900/1800/1900
+featuring the latest industrial-grade processor from
+WCDMA: B1/B2/B4/B5/B8
+Qualcomm. With its slim form factor and an innovative English OS Android 12 Network LTE-TDD: B34/B38/B39/B40/B41
+227.8 LTE-FDD: B1/B2/B3/B4/B5/B7/B8/
+keypad, it is designed for complex mobile office scenarios. mm
+Qualcomm SM6115 B12/B13/B17/B20/B25/B26/B28
+Besides, the 5.5-inch 1080P display utilizes Gorilla Glass, CPU Kryo Gold: quad high-performance
+Bluetooth BT5.0 (BLE)
+cores 2.0 GHz
+enhancing durability while ensuring excellent readability in
+Kryo Silver: quad low-power NFC Supported
+sunlight so as to enhance outdoor data collection visibility. cores 1.8 GHz
+ELECTRICAL
+Memory 4GB RAM + 64GB ROM
+9000mAh (Support Rapid Charging)
+External storage Micro SD
+Battery Working time: 22 hours
+CHARACTERISTIC PHYSICAL PARAMETERS (non-removable) Charging time:
+Reaching 90% ≤4 hours
+Screen size : 5.5 inch,500nit
+Powerful System 9 W 5 I . D 8 TH 2 TH 0 IC . K 9 NESS 4 W 2 EI 0 GHT Display Resolution:1080*1920p PHYSICAL
+mm mm g
+Multi-touch, support glove Dimension 227.8mm*95.8mm*20.9mm
+PCR500 is equipped with the Qualcomm SM6115 Touch Panel and wet hands operation
+Weight 420g
+processor, designed with an 11nm fabrication process, QWERTY keyboard, Power Key,
+Button ENVIRONMENTAL
+providing powerful performance for smooth CAD Function key etc. Supported key light
+drawing management and base map display, greatly Back Camera Rear 13MP, AF with double Temperature Work Temperature: -20°C~+65°C
+white LED Flash Storage Temperature: -30°C~+70°C
+enhancing productivity.
+Gyroscope, Accelerometer, Ambient Protection IP68
+Sensors
+Light and eCompass Sensor
+Display Excellence Shock Withstand 1.2M pole drop
+Speaker & Mic Support Motor Air discharge: ±10kV
+With its slim form factor and an innovative English Other equipment Support Hand band ESD Contact discharge: ±8kV
+Support Passive Stylus (External interface Contact
+keypad, it's specifically designed for field measurements
+Support Charger, Replaceable interface discharge: 6KV, Air discharge: 8KV)
+and mapping operations. The 5.5-inch 1080P resolution
+Audio Audio PA ENVIRONMENTAL
+industrial display with 500 nits brightness enhances
+Type-C (USB3.0 Supports OTG)
+outdoor data collection visibility even in sunlight. Interface SIM: one Nano SIM card slot Regulatory CCC, CTA, SRRC, CE, FCC
+Compliance
+Indicator LED
+DATA COMMUNICATION
+Standard English Full Keypad
+Qualcomm GPS/A-GPS,
+GNSS
+GLONASS, BDS, Galileo
+The brand-new British-style keypad design has been optimized, allowing for fast data
+IEEE 802.11 a/b/g/n/ac
+input without changing user’s habits. Moreover, without increasing the device's size, WIFI
+Dual-band: 2.4G/5G
+we've thoughtfully reserved multiple shortcut buttons to assist user in swiftly
+Manufacturers may update parameters at any time, please refer to the latest product information.
+completing various operations in industry applications. The large-capacity battery
+design ensures uninterrupted data collection tasks, making PCR500 an efficient
+handheld terminal for measurement and mapping applications.
+Various Data Communication Methods
+PCR500 provides various connectivity options, including Bluetooth 5.0, dual-band 2.4G
+and 5G Wi-Fi, and a 4G modem supporting global network, ensuring seamless and
+reliable connectivity with user’s preferred GNSS receivers and RTK network correction
+sources. The built-in 9000mAh battery provides long-lasting working performance.
+Robust Device Protection
+Designed for extreme durability, it can withstand drops from up to 1.2 meters high and
+comply with stringent IP68 standards. PCR500 excels in challenging environments,
+making data collection tasks easier and more efficient.
+7 8
+
+--- Page 7 ---
+PCR500Pro Data Controller
+SPECIFICATION
+The PCR500 Pro series handheld terminal is the ultimate solution for
+enhancing efficiency and productivity in mobile field operations. SYSTEM Sensors and Multimedia
+Equipped with a 5.5-inch sunlight-readable display, users can easily OS Android 12 GMS support 13 MP Primary Camera,
+Camera supporting high-speed autofocus
+view GIS data tables, complex vector and raster maps, and mm
+Qualcomm SDM 662 octa-core and AR measurement.
+CPU
+high-resolution images even in bright sunlight and high-light 227.8 2.0 GHz
+G-sensor, Gyroscope,
+Sensors
+conditions. Its industrial design, compliant with the IP68 standard, Memory 4GB RAM + 64GB ROM E-compass, Microphone
+ensures reliable performance in extreme and challenging External storage MicroSDHC up to 128GB Light sensor Support
+environments, making it the preferred choice for field professionals, Speaker 120dB High-Fidelity Speaker
+PHYSICAL
+particularly those with demanding equipment requirements. Communications
+Size(L × W × H) 228 mm × 96 mm × 21 mm
+The PCR500 Pro series integrates precision GNSS positioning
+SIM Card Type Nano-SIM card
+Weight 420 g (14.42 oz) with battery
+technology and long-range RFID technology, empowering efficient
+GSM: 850/900/1800/1900
+data collection for both individual operators and large field teams. WIDTH THICKNESS WEIGHT Operating: WCDMA: B1/B2/B4/B5/B8
+95.8 mm 20.9 mm 420 g Environment -20°C to +65 °C (-4°F to +149°F) Network modem LTE-TDD: B34/B38/39/B40/B41
+Storage:
+LTE-FDD: B1/B2/B3/B4/B5/B7/B8
+-30°C to +70°C (-22°F to +158°F)
+/B12/B13/B17/B20/B25/B26/B28/B66
+Dust and water proof IP68
+802.11 a/b/g/n/ac
+Wi-Fi
+CHARACTERISTIC access point mode (2.4 G / 5G)
+Humidity 5% ~ 95% (non-condensing)
+Bluetooth 5.0
+Shock and vibration 1.2 m (4 ft) fall on concrete
+Powerful System USB Type C, OTG supported
+5.5" IPS LTPS LCD capacitive
+Powered by Android 12 OS with GMS Certification. The Display multi-touch 1920 × 1080 NFC Support
+pixels HD+ 401 ppi
+Electrical
+PCR500 Pro is equipped with the Qualcomm 662 processor, Brightness 500 nit
+designed with an 11nm fabrication process, providing powerful Keypad QWERT KEY Li-ion battery 9000 mAh Working Hours (1)
+capacity 22 Hours* Typical Value
+performance for smooth CAD drawing management and base
+RTK GNSS
+Charging time
+map display, greatly enhancing productivity.
+Channel 1408 Other
+Display Excellence BDS: B1I, B2I, B3I, B1C, B2a, B2b
+13 MP rear camera with auto-focus
+GPS: L1C/A, L1C, L2P (Y), L2C, L5
+Constellation GLONASS: L1, L2 Sensors and and flash GNSS (BDS, GPS, GLONASS)
+The 5.5-inch 1080P resolution industrial display with 500 Multimedia A-GPS support G-sensor, Gyroscope,
+Galileo: E1, E5a, E5b, E6*
+E-compass, Light sensor, Microphone
+nits brightness enhances outdoor data collection QZSS: L1, L2, L5, L6* SBAS*: L1, L5
+visibility even in sunlight. Standard A/C charger, USB cable,
+RTK 2 cm HRMS Accessories Stylus, Handstrap
+SBAS < 1 m HRMS Certifications CCC SRRC, CE, FCC, UN38.3, MSDS
+High - Precision Positioning Function
+Manufacturers may update parameters at any time, please refer to the latest product information.
+Interference-resistant antenna, worry-free operation in complex environments. Enjoy
+centimeter-level positioning services anytime, anywhere with a full constellation and
+full frequency point matching, coupled with a four-wall helical antenna. Eliminate
+cumbersome installations, easily portable, and make outdoor measurements more
+effortless.
+Exceptional Operational Experience
+The PCR500 Pro features a popular slim and lightweight design, yet it comes equipped
+with a high-capacity 9000mAh battery, weighing just a light 420 grams. The
+brand-new British-style keyboard design has been optimized, allowing for fast data
+input without changing user habits. Moreover, without increasing the device's size,
+we've thoughtfully reserved multiple shortcut buttons to assist you in swiftly
+completing various operations in industry applications. The large-capacity battery
+design ensures uninterrupted data collection tasks, making the PCR500 Pro an
+efficient handheld terminal for measurement and mapping applications.
+9 10
+
+--- Page 8 ---
+PCR600 Data Controller
+SPECIFICATION
+PCR600 is a full-keyboard surveying data collector specifically
+designed for the surveying industry. Equipped with a 9000mAh SYSTEM WIFI IEEE 802.11 a/b/g/n/ac
+Dual-band: 2.4G/5G
+high-capacity battery, it achieves 22 hours of continuous operation. OS Android 14 GMS GSM：850/900/1800/1900
+Featuring a 5.5-inch 500nit high-definition sunlight-readable 221 mm WCDMA：B1/B2/B4/B5/B8
+CPU Media Tek G85 8-core 2.0GHz
+TDD-LTE：B34/B38/B39/B40/B41
+Network
+display, it can withstand 1.5-meter drop without damage and has an Memory 4GB RAM + 64GB ROM FDD-LTE：B1/B2/B3/B4/B5/B7/B8/
+B12/B13/B17/B20/ B25/B26/B28/B66
+IP68 waterproof rating, making it suitable for all-weather outdoor
+External storage Micro SDHC, up to 256GB
+use. Powered by an 8-core 2.0GHz industrial-grade processor and Bluetooth BT5.0 (BLE)
+PHYSICAL PARAMETERS
+DDR4 high-speed memory, installed with Android 14 system, it can NFC Supported
+Screen size : 5.5 inch 16:9
+run various surveying software smoothly, helping users cope with USB Type-C, OTG Supported
+Display Resolution: 1080*1920p
+various surveying scenarios. Maximum brightness: 500nit ELECTRICAL
+IPS FHD LCD multi-touch
+9000mAh (Support Rapid Charging)
+WIDTH THICKNESS WEIGHT Touch Panel capacitive screen Battery
+Working time: 18h~22h
+78 16.5 410.6 (Supports glove and stylus modes) (non-removable)
+CHARACTERISTIC mm mm g Charging time: ≤3 hours
+Button Full numeric + English alphabet PHYSICAL
+keyboard and one side custom key
+Powerful System Configuration Dimension 226.3mm*90.6mm*16.9mm
+13MP AF camera, Supports
+Android 14 + AR Core 8-core 2.0Hz intelligent system Camera high-speed autofocus and Weight 412g
+AR measurement
+platform, 4G SDRAM + 64G ROM high-speed memory, ENVIRONMENTAL
+Flash light Supported
+bringing users efficient computing and unlimited
+expansion of functions. Sensors G gy ra ro v s it c y o s p e e n , s e o le r, c l t ig ro h n t i s c e c n o s m or p , ass Temperature W Sto o r r a k g T e e T m e p m e p ra e t r u a r t e u : r - e 2 : 0 -3 °C 0 ~ °C +6 ~ 5 +7 °C 0°C
+Loudspeaker 2W 120dB Humidity 5%~95%
+Excellent Screen Display
+Protection IP68
+Dual Nano SIM standby or single
+Slot
+SIM card/TF card combination
+PCR600 is equipped with a 5.5-inch 500nit Shock Withstand 1.5M pole drop
+high-definition sunlight-readable display with a DATA COMMUNICATION
+resolution of 1080*1920, which is not afraid of harsh
+GPS+BDS+GLONASS+AGPS
+GNSS
+environments. Equipped with a physical surveying full non-high precision
+keyboard, the blind operation efficiency is increased by
+Manufacturers may update parameters at any time, please refer to the latest product information.
+40%. The LCD multi-touch screen supports touch with
+gloves or wet hands, allowing users to perfectly control
+the data collector in any situation.
+Global High-Speed Connectivity
+Bluetooth 5.0 + dual-band WiFi + 4G global roaming, featuring good compatibility, fast
+response to GNSS/RTK devices, strong signal, high network speed and stable connection.
+Long Battery Life
+PCR600 is equipped with a 9000mAh high-capacity pure cobalt battery, supporting
+users to work continuously outdoors for 22 hours, freeing users from battery anxiety.
+Comprehensive Protection
+PCR600 supports IP68 dust-proof and waterproof, with a waterproof charging port itself,
+and can withstand 1.5-meter drop without damage. The magnesium-aluminum alloy
+frame achieves a military-grade impact-resistant structure, which can effectively resist
+harsh outdoor environments and ensure the stable use of users in complex scenarios.
+11 12
+
+--- Page 9 ---
+P8/P8Pro Portable RTK Receiver
+SPECIFICATION
+P8/P8Pro is a portable intelligent positioning terminal developed
+based on BDS high-precision positioning technology. The main
+SYSTEM Satellite Indicator Show position status
+unit is lightweight and compact, making it easy to carry around. It
+117.5 Data Link Indicator Show differential signal status
+mm HARDWARE SYSTEM ESP32+ASR ARM
+supports tracking of signals from all satellite constellations with
+OS FreeRTOS Bluetooth Indicator Show Bluetooth status
+1408 channels, providing centimeter-level positioning accuracy. It
+GNSS ENVIRONMENT
+caters to various measurement and layout tasks such as road
+construction, power line surveying, site leveling control, CAD GPS L1 C/A, L1C, L2P(Y), L5 Operating Temperature -20°C~+60°C
+applications, railway stakeout, and etc. GLONASS G1, G2 Storage Temperature -40°C~+85°C
+BDS B1I, B2I, B3I, B1C, B2a Protection Rating IP67
+WIDTH THICKNESS WEIGHT
+CHARACTERISTIC 53.8 mm 37 mm 141 g GALILEO E1, E5a, E5b PHYSICAL
+QZSS L1/C, L2C, L5 Materials PC+ABS
+Integrated Hardware & Software SBAS L1C/A 53.8mm*37mm*117.5mm (Height
+Dimension
+including helical antenna)
+Channel 1408
+Based on fully autonomous domestic hardware and the FreeRTOS intelligent system P8: 141g/P8Pro: 143g (Weight
+Weight
+platform, this device provides users with efficient computing power and the ability to Data Format NMEA-0183 including helical antenna)
+expand product functionality infinitely. Correction I/O Protocol RTCM 3.X BATTERY
+Data Update Frequency 5Hz(max)
+Battery 7.4V, 1800mAh
+Centimeter-Level Positioning
+ACCURACY
+Endurance Over 8 hours
+P8/P8Pro Portable RTK Receiver is equipped with a compact and omnidirectional
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m Charging 5V/2A
+helical antenna. It supports tracking signals from all constellations and frequencies.
+RTK (RMS) Horizontal: ± (8mm+1ppm) ACCESSORIES
+With 1408 channels, it can simultaneously receive BDS, GPS, GLONASS, GALILEO, Vertical: ± (15mm+1ppm)
+QZSS and SBAS signals. It enables full constellation positioning and supports base SYSTEM P8/P8Pro Device 1 SET
+station differential correction. It can integrate with the GBAS. The accuracy can Full-band Helical
+Bluetooth BR+EDR 1 PCS
+reach to centimeter-level precision. Antenna
+Multi-network Compatible
+Network LTE FDD: B1, B3, B5, B8 Plumb Rod Adapter 1 PCS
+Multipurpose LTE TDD: B34, B38, B39, B40, B41
+5V/2A USB Power
+1 PCS
+INDICATOR Adapter
+The Receiver supports 4G CAT1 network, Bluetooth connectivity for communication
+and control purposes. It can be combined with a cloud server to enable remote Power Indicator Show power status
+monitoring, configuration, and alerts for the main unit.
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+Compact & Portable Manufacturers may update parameters at any time, please refer to the latest product information.
+P8/P8Pro Portable RTK Receiver weighs only 141g, making it convenient for
+portable use. It also has low power consumption. With a built-in 1800mAh
+lithium battery, the device can work continuously for over 8 hours.
+Tilt Measurement
+P8Pro is equipped with a built-in intelligent high-precision inertial navigation
+module, providing real-time tilt compensation that enhances the accuracy of
+RTK measurements. It provides positioning accuracy of less than 2cm within a
+tilt range of 60 degrees. (Note: P8 does not support tilt measurement)
+IP67 Design
+Industrial design, in line with IP67 design requirements, safe and reliable.
+13 14
+
+--- Page 10 ---
+P8Glo Portable RTK Receiver
+SPECIFICATION
+P8Global is a portable intelligent positioning terminal developed
+based on BDS high-precision positioning technology. The main
+SYSTEM INDICATOR
+unit is lightweight and compact, making it easy to carry around. It
+126.3
+supports tracking of signals from all satellite constellations with mm HARDWARE SYSTEM ARM Cortex-A7 1.8GHz Power Indicator Show power status
+OS Linux
+1408 channels, built-in high-precision IMU supports tilt Satellite Indicator Show position status
+measurement, providing centimeter-level positioning accuracy. It GNSS Data Link Indicator Show differential signal status
+caters to various measurement and layout tasks such as road GPS L1 C/A, L1C, L2C, L2P(Y), L5 Bluetooth Indicator Show Bluetooth status
+construction, power line surveying, site leveling control, CAD GLONASS G1, G2, G3 ENVIRONMENT
+applications, railway stakeout, and etc. BDS B1I, B2I, B3I, B1C, B2a,B2b(PPP)
+WIDTH THICKNESS WEIGHT Work Temperature -20°C~+60°C
+60 41.3 176
+mm mm g GALILEO E1, E5a, E5b, E6(PPP)
+Storage Temperature -40°C~+85°C
+QZSS L1/C/A, L2C, L2C, L5
+Protection IP67
+CHARACTERISTIC SBAS L1C/A
+PHYSICAL
+IRNSS L5(Require specialized firmware)
+Materials PC+ABS
+Linux Intelligent System
+Channel 1408
+60mm*41.3mm*126.3mm (Height
+Dimension
+ARM Cortex-A7 + Linux, the intelligent system platform, brings efficient computing and Data Format NMEA-0183 including helical antenna)
+unlimited expansion of product functions to users. Correction I/O Protocol RTCM 3.X Weight 176g (Weight including helical
+antenna)
+Data Update Frequency 5Hz(max)
+BATTERY
+Centimeter-Level Positioning
+ACCURACY
+Battery 7.4V, 2500mAh
+Equipped with a compact and omnidirectional helical antenna, it supports tracking
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m
+signals from all constellations and frequencies. With 1408 channels, it can Endurance More than 12 hours
+Horizontal: ± (8mm+1ppm)
+RTK (RMS)
+simultaneously receive BDS, GPS, GLONASS, GALILEO, QZSS, SBAS and Vertical: ± (15mm+1ppm) Charging 5V/2A
+NavIC(IRNSS) signals. It enables full constellation positioning and supports base Tilt Compensation
+<2cm ACCESSORIES
+station differential correction. It can integrate with the GBAS. The accuracy can reach Accuracy(within 60°)
+to centimeter-level precision. SYSTEM P8Global Device 1 SET
+Full-band Helical
+Bluetooth BR+EDR+BLE 1 PCS
+Antenna
+Qualcomm 4G Full Band Modem
+LTE FDD:B1/2/3/4/5/7/8/12/13/18/
+Network 19/20/25/26/28 Plumb Rod Adapter 1 PCS
+The Receiver supports Qualcomm 4G Full Band Modem, Bluetooth connectivity for LTE TDD:B38/39/40/41
+5V/2A USB Power
+communication and control purposes. It can be combined with a cloud server to WCDMA:B1/2/4/5/6/8/19 Adapter 1 PCS
+GSM:B2/3/5/8
+enable remote monitoring, configuration, and alerts for the main unit.
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Compact & Portable Any issue please contact Toknav or local dealers to verify the specific details.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+P8Global Portable RTK Receiver weighs only 176g, making it convenient for
+portable use. It also has low power consumption. With a built-in 2500mAh
+lithium battery, the device can work continuously for over 12 hours.
+Tilt Measurement
+P8Global is equipped with a built-in intelligent high-precision inertial navigation
+module, providing real-time tilt compensation that enhances the accuracy of RTK
+measurements. It provides positioning accuracy of less than 2cm within a tilt range
+of 60 degrees.
+IP67 Design
+Industrial design, in line with IP67 design requirements, safe and reliable.
+15 16

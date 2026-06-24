@@ -1,0 +1,1544 @@
+
+
+--- Page 1 ---
+GNSS Receiver
+PRODUCT BROCHURE
+Guangzhou Toksurvey Information Technology Co.,Ltd
+www.toknavgnss.com | info@toknavgns.com
+Europe, North and South America
+Asia, Africa and Oceania
+Tel and WhatsApp
++86 139 2607 5986 (Jeffrey)
+No. 9 Caipin Road, Building B, Room 801-6, Huangpu District,
+Guangzhou, China 510000
+GNSS Receiver Manufacturer
+Professional OEM&ODM
+Over 15 years experience in R&D and manufacturing
+
+--- Page 2 ---
+ABOUT US
+Our Targets
+Company Introduction
+Guangzhou Toksurvey Information Technology Co.,
+Ltd. was founded in 2019 by a team of R&D
+engineers. The company team has nearly 15 years of
+R&D background. At present, the company has
+Make positioning Working together to To become a leader in Your reliable
+nearly 2,500 square meters of office and factory,
+more precise and improve global the global surveying supplier in
+complete set of research equipment, and strong easier. surveying quality. and mapping service. positioning!
+technical background.
+Mission Vision Value Slogan
+Our company is committed to the R&D,
+production and sales of high-precision satellite Fields of Application
+positioning terminal products. More than 60% of
+the employees are engineers. Driven by
+TOKNAV products can be widely used in precision
+technological innovation, the company maintains
+surveying & mapping, mining operations, deformation
+a steady growth rate of 60% every year.
+monitoring, autonomous driving and other fields. We
+Construction Monitoring
+currently have a number of mature GNSS application
+At present, the company has successfully solutions, such as deformation monitoring, CORS network,
+launched high-precision GNSS RTK (T5 series, marking robots, precision agriculture, mechanical control
+T10 series, T20 series, T30 series, T40 series and and digital construction field. TOKNAV products have Mapping & GIS Surveying
+T50 series), portable RTK receiver (P8 series), passed CE, FCC, KC, NGS, IGS and other certifications, and
+high-precision CORS station (NET660 series), are exported to more than 100 countries and regions
+data controller, GNSS antenna, precision around the world. Our products are well received in the
+Agriculture Marine
+agriculture, mechanical control, marking robot, global market, and now we have become a system
+USV and SLAM to the market. We not only integration supplier in the global market.
+provide trainings about our products, but also
+Certifications
+provide a series of relevant solutions.
+
+--- Page 3 ---
+WWW.TOKNAVGNSS.COM
+Products
+CONTENT
+GNSS Receiver Line Overview 01
+T5Lite GNSS Receiver 07
+T5 GNSS Receiver 09
+T10Pro GNSS Receiver 11
+T20Pro GNSS Receiver 13
+tBase GNSS Receiver 15
+T30 GNSS Receiver 17
+T30Pro GNSS Receiver 19
+T40 GNSS Receiver 21
+T40Pro GNSS Receiver 23
+T50basic GNSS Receiver 25
+T50 GNSS Receiver 27
+T50Pro GNSS Receiver 29
+NET660 GNSS Receiver 31
+NET660i GNSS Receiver 33
+NET660i-H GNSS Receiver 35
+NET660i-1U GNSS Receiver 37
+
+--- Page 4 ---
+GNSS Receiver Line Overview
+PRODUCTS T5Lite T5 T10Pro T20Pro tBase T30 T30Pro
+ITEM
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz
+OS Linux
+GPS L1C/A, L1C, L2P(Y), L2C, L5
+GLONASS L1, L2, L3
+GALILEO E1, E5a, E5b, E6
+BDS B1I, B2I, B3I, B1C, B2a, B2b
+QZSS L1, L2, L5
+GNSS SBAS L1
+NavIC (IRNSS) L5
+Channel 1408
+Data format NMEA-0183
+Correction I / O Protocol RTCM3.X
+Data update frequency 5Hz(max) 20Hz(max)
+Bluetooth BR+EDR+BLE
+WIFI 802.11 b/g/n
+LTE FDD: B1/2/3/5/8 LTE TDD: B38/39/40/41 LTE FDD: B1/2/3/4/5/7/8/12/13/18/19/20/25/26/28
+Network
+GSM: 900/1800MHz LTE TDD: B38/39/40/41 WCDMA: B1/2/4/5/6/8/19 GSM: B2/3/5/8
+Receive Only Frequency: 410~470MHz Integrated high-power transceiver
+Frequency: 410~470MHz Protocol: TRIMTALK, TRIMMK3, Protocols: TRIMTALK, TRIMMK3, SOUTH, TRANSEOT
+SYSTEM
+Data Radio Not support Protocol: TRIMTALK, TRIMMK3, SOUTH, TRANSEOT Frequency Range: 410~470MHz
+SOUTH, TRANSEOT RF transmit power: 0.5W/1.5W Power: 1W/2W/5W
+Air baud rate: 9600 / 19200bps Air baud rate: 9600 / 19200bps
+Air Baud Rate: 9600, 19200bps
+Storage 32GB
+Tilt measurement IMU60°
+Other Not support NFC
+Battery 3.7V, 9600mAh 7.4V, 6500mAh 7.2V, 13800mAh
+ELECTRICAL Work time More than 16 hours (Rover) More than 18 hours(Rover) More than 12 hours(5W Radio, Base) More than 48 hours (Rover)
+Charge MTK PE+1.1/2.0 9V/2A, USB PD 12V/1.25A, 5V/3A USB PD 15V/2A, 5V/3A
+Work Temperature -20℃~+60℃
+Storage Temperature -40℃~+85℃
+ENVIRONMENTAL
+Shock Withstand 1.5M pole drop
+Protection IP65 IP68
+Material Magnesium alloy main body, ABS/PC top cover
+PHYSICAL Dimension 100.5mm*100.5mm*69mm 100.5mm*100.5mm*72mm Φ147.9mm*68mm Φ143.5mm*90.7mm Φ174.9mm*104.9mm
+Weight 600g 630g 740g 900g 1500g
+01 02
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 5 ---
+GNSS Receiver Line Overview
+PRODUCTS T40 T40Pro T50basic T50 T50Pro
+ITEM
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz
+OS Linux
+GPS L1C/A, L1C, L2P(Y), L2C, L5
+GLONASS L1, L2, L3
+GALILEO E1, E5a, E5b, E6
+BDS B1I, B2I, B3I, B1C, B2a, B2b
+QZSS L1, L2, L5
+GNSS SBAS L1
+NavIC (IRNSS) L5
+Channel 1408
+Data format NMEA-0183
+Correction I / O Protocol RTCM3.X
+Data update frequency 20Hz(max)
+Bluetooth BR+EDR+BLE
+WIFI 802.11 b/g/n
+LTE FDD: B1/2/3/4/5/7/8/12/13/18/19/20/25/26/28
+Network
+LTE TDD: B38/39/40/41 WCDMA: B1/2/4/5/6/8/19 GSM: B2/3/5/8
+Integrated high-power transceiver Integrated high-power transceiver
+Protocols: TRIMTALK, TRIMMK3, SOUTH, TRANSEOT Protocols: TRIMTALK, TRIMMK3, SOUTH, TRANSEOT, SATEL, LORA
+SYSTEM
+Data Radio Frequency Range: 410~470MHz Frequency Range: 410~470MHz
+Power: 1W/2W/5W Power: 0.5W/1.5W
+Air Baud Rate: 9600, 19200bps Air Baud Rate: 4800, 9600, 19200bps
+Storage 32GB
+Tilt measurement IMU60°
+Other NFC, AR Stakeout, Laser Measurement, Laser Camera NFC, AR Stakeout, Photogrammetry NFC, AR Stakeout NFC, AR Stakeout, Laser Measurement, Laser Camera NFC, AR Stakeout, Photogrammetry
+Battery 7.2V，3400mAh *2 7.4V, 6500mAh
+ELECTRICAL Work time More than 20 hours (Rover) Over 16 hours (Typical, Rover, GSM)
+Charge Dedicated charger, 9~24VDC USB PD 15V/2A 5V/3A
+Work Temperature -20°C~+60°C -30°C~+65°C
+Storage Temperature -20°C~+70°C -40°C~+85°C
+ENVIRONMENTAL
+Shock Withstand 1.5M pole drop
+Protection IP68
+Material Magnesium alloy main body, ABS/PC top cover
+PHYSICAL Dimension Φ160mm*103mm Φ132 * 83mm
+Weight 850g(without battery) 770g
+03 04
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 6 ---
+GNSS Receiver Line Overview
+PRODUCTS NET660 NET660i NET660i-H NET660i-1U
+ITEM
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz
+OS Linux
+GPS L1C/A, L2P(Y), L2C, L5 L1C/A, L1C, L2P(Y), L2C, L5 L1C/A, L2P, L2C, L5 L1C/A, L1C, L2, L5
+GLONASS L1, L2, L3 L1, L2
+BDS B1I, B2I, B3I, B1C, B2a, B2b B1I, B2I, B3I, B1C, B2b B1I, B2I, B3I, B1C, B2a, B2b
+GALILEO E1, E5a, E5b E1, E5a, E5b, E6 E1, E5a, E5b, E6
+QZSS L1 C/A, L2C, L5 L1, L2, L5 L1, L2, L5, L6(CLAS)
+SBAS L1 C/A L1 L1 C/A
+GNSS
+NavIC (IRNSS) L5 Not support L5
+Channel / 1408 1507
+Differential Data RTCM 3.X
+Position Data NMEA-0183
+Frequency 1Hz, 2Hz, 5Hz, 10Hz, 20Hz 2Hz, 5Hz (Turn off Integrated Navigation)
+Data format RINEX, Custom
+IMU Not support Support
+Standard RS232 interface with baud rates
+Serial Port
+supporting 9600, 19200, 38400, 115200, and 230400 bps
+Network port Standard RJ45 interface, 10/100M adaptive
+Applying Type-C Interface, Quick Charge Integrated on the 7-pin interface, support access
+USB
+and data transfer supported to the computer to copy data directly
+LTE FDD: B1/2/3/4/5/7/8/12/13/18/19/20/25/26/28
+SYSTEM LTE TDD: B38/39/40/41
+Network
+WCDMA: B1/2/4/5/6/8/19
+Communication
+GSM: B2/3/5/8
+PWR*1: Power supply port DATA*1 PWE*1: Power supply port DATA*1 PPS*1 PWE*1: Power supply port DATA*1 PPS*1 PWE*1: Power supply port DATA*1 PPS*1
+Interface COM*2 SIM*1 PPS*1 Ethernet*1 SIM*1: Nano SIM card Ethernet*1 SIM*1: Nano SIM card Ethernet*1 SIM*1: Nano SIM card Ethernet*1
+GNSS*1: Main antenna 4G*1: 4G antenna port GNSS*1: Main antenna 4G*1: 4G antenna port GNSS*2: TNC port 4G*1: 4G antenna port GNSS*1: Main antenna 4G*1: 4G antenna port
+Storage 32GB storage
+Operating Temperature -20℃~+60℃ -40℃~+85℃
+ENVIRONMENTAL Storage Temperature -20℃~+70℃ -40℃~+85℃
+Protection Class IP68
+Material Magnesium alloy main body
+Dimension 172*148*58mm 148.8*105*50.3mm
+PHYSICAL
+Weight 1920g 490g
+05 06
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 7 ---
+SPECIFICATION
+T5Lite GNSS Receiver
+SYSTEM INDICATOR
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz Bluetooth Indicator Show Bluetooth status
+T5Lite is a mini portable multifunctional GNSS receiver, a new generation of
+OS Linux Satellite Indicator Show position status
+measurement engine supporting tilt measurement, built-in 4G Modem,
+GNSS Data link Indicator Show differential signal status
+Bluetooth and WIFI. It adopts a new appearance design, magnesium alloy
+Power Indicator Show power status
+GPS L1C/A, L1C, L2P(Y), L2C, L5
+structure and Linux operating system. It is an economical and portable
+BATTERY
+GLONASS L1, L2, L3
+geodesic GNSS receiver.
+BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP) Battery 3.7V, 9600mAh
+More than 16 hours
+GALILEO E1, E5a, E5b, E6(PPP)
+(Typical, Rover, GSM)
+CHARACTERISTIC QZSS L1, L2, L5 Work time The static working mode
+supports continuous data
+SBAS L1(PPP) collection for 24 hours
+NavIC (IRNSS) L5*(IRNSS support in future) MTK PE+1.1/2.0 9V/2A
+Linux intelligent system USB PD 12V/1.25A 5V/3A
+Channel 1408
+Charge (Support fast charging adapter
+andadaptively and dynamically
+ARM Cortex-A7 + Linux, the intelligent system platform, brings efficient computing and Standard Output NMEA-0183
+adjustcharging current)
+unlimited expansion of product functions to users. Correction I/O Protocol RTCM 3.X
+ENVIRONMENT
+Frequency 5Hz(max)
+Work Temperature -20°C~+60°C
+Multi constellation Reacquisition Time <1s
+Storage Temperature -40°C~+85°C
+Cold Start Time <40s
+With its 1408 channels, T5 provides an excellent on board real time navigation solution with Can withstand a 1.5m drop at
+ACCURACY Shock Resistance normal temperatures
+high accuracy. All GNSS signals (GPS, GLONASS, BDS, GALILEO, QZSS, SBAS and IRNSS) are
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m Protection Rating IP65
+included.
+DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m PHYSICAL
+Horizontal: ± (8mm+1ppm) Magnesium alloy main body,
+Tilt Measurement RTK (RMS) Vertical: ± (15mm+1ppm) Materials ABS/PC top cover
+Timing Precision (RMS) 20ns Dimensions 100.5mm*100.5mm*69mm
+T5Lite has the IMU module. Fast initialization and up to 60° inclination.
+Static Mode Horizontal: ±（2.5mm+1ppm） Weight 600g
+Precision (RMS) Vertical: ±（5mm+1ppm）
+ACCESSORIES
+Combined antenna Velocity Estimation 0.03m/s
+(RMS)
+T5Lite Device 1 SET
+Tilt Correction
+The new four in one antenna integrates GNSS, WIFI, Bluetooth and 4G, with smaller volume (Within 60°) <2cm USB power adapter 1 PCS
+and better signal. SYSTEM PLATFORM USB A To Type-C 1 PCS
+CERTIFICATION
+Bluetooth BR+EDR+BLE
+4G Modem
+WIFI 802.11 b/g/n CE, NGS
+Regulatory Compliance
+T5Lite has an internal 4G Modem that operates with more cellular network signals, a fast LTE FDD: B1/2/3/5/8
+Network LTE TDD: B38/39/40/41
+internet connection is guaranteed.
+GSM: 900/1800MHz
+Storage 32GB Storage
+Long Endurance Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+Built in high-capacity lithium battery ensures continuous working time of more than 16 hours Manufacturers may update parameters at any time, please refer to the latest product information.
+under normal operation.
+IP65 Design
+Industrial design, solid magnesium ally shell, in line with IP65 design requirements, safe and
+reliable.
+07 08
+
+--- Page 8 ---
+SPECIFICATION
+T5 GNSS Receiver
+SYSTEM Receive Only
+Frequency: 410~470MHz
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz Data Radio Protocol: TRIMTALK, TRIMMK3,
+T5 is a mini portable multifunctional GNSS receiver, a new generation of SOUTH, TRANSEOT
+OS Linux Air baud rate: 9600 / 19200bps
+measurement engine, supporting tilt measurement, built-in 4G Modem, radio,
+GNSS
+INDICATOR
+Bluetooth and WIFI. It adopts a new appearance design, magnesium alloy
+GPS L1C/A, L1C, L2P(Y), L2C, L5
+structure and Linux operating system. It is an extremely light-weight and Bluetooth Indicator Show Bluetooth status
+GLONASS L1, L2, L3
+portable geodesic GNSS receiver. Satellite Indicator Show position status
+BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP)
+Data link Indicator Show differential signal status
+GALILEO E1, E5a, E5b, E6(PPP)
+Power Indicator Show power status
+CHARACTERISTIC QZSS L1, L2, L5
+BATTERY
+SBAS L1(PPP)
+Battery 3.7V, 9600mAh
+NavIC (IRNSS) L5*(IRNSS support in future)
+Linux Intelligent System More than 16 hours
+Channel 1408 (Typical, Rover, GSM)
+Work time
+The static working mode
+ARM Cortex-A7 + Linux, the intelligent system platform, brings efficient computing and Standard Output NMEA-0183 supports continuous data
+collection for 24 hours
+unlimited expansion of product functions to users. Correction I/O Protocol RTCM 3.X
+MTK PE+1.1/2.0 9V/2A
+Frequency 5Hz(max) USB PD 12V/1.25A 5V/3A
+Charge (Support fast charging adapter
+Multi Constellation Reacquisition Time <1s andadaptively and dynamically
+Cold Start Time <40s adjustcharging current)
+With its 1408 channels, T5 provides an excellent on board real time navigation solution with ENVIRONMENT
+ACCURACY
+high accuracy. All GNSS signals (GPS, GLONASS, BDS, GALILEO, QZSS, SBAS and IRNSS) are
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m Work Temperature -20°C~+60°C
+included.
+Storage Temperature -40°C~+85°C
+DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m
+Can withstand a 1.5m drop at
+Horizontal: ± (8mm+1ppm) Shock Resistance
+RTK (RMS) normal temperatures
+Tilt Measurement Vertical: ± (15mm+1ppm)
+Protection Rating IP65
+Timing Precision (RMS) 20ns
+T5 has the IMU module. Fast initialization and up to 60° inclination. PHYSICAL
+Static Mode Horizontal: ±（2.5mm+1ppm）
+Precision (RMS) Vertical: ±（5mm+1ppm）
+Magnesium alloy main body,
+Materials
+ABS/PC top cover
+Combined Antenna Velocity Estimation
+0.03m/s
+(RMS) Dimensions 100.5mm*100.5mm*72mm
+The new four in one antenna integrates GNSS, WIFI, Bluetooth and 4G, with smaller volume Tilt Correction Weight 630g
+<2cm
+(Within 60°)
+and better signal. ACCESSORIES
+SYSTEM PLATFORM
+T5 Device 1 SET
+4G Modem Bluetooth BR+EDR+BLE
+USB power adapter 1 PCS
+WIFI 802.11 b/g/n
+T5 has an internal 4G Modem that operates with more cellular network signals, a fast internet USB A To Type-C 1 PCS
+LTE FDD: B1/2/3/5/8
+connection is guaranteed. Radio Antenna 1 PCS
+Network LTE TDD: B38/39/40/41
+GSM: 900/1800MHz CERTIFICATION
+Long Endurance Storage 32GB Storage Regulatory Compliance CE, NGS
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Built in high-capacity lithium battery ensures continuous working time of more than 16 hours Any issue please contact Toknav or local dealers to verify the specific details.
+under normal operation. Manufacturers may update parameters at any time, please refer to the latest product information.
+IP65 Design
+Industrial design, solid magnesium alloy shell, in line with IP65 design requirements, safe and
+reliable.
+09 10
+
+--- Page 9 ---
+SPECIFICATION
+T10Pro GNSS Receiver
+Frecuencia:410~470MHz
+SYSTEM
+Protocolo: TRIMTALK, TRIMMK3,
+SOUTH, TRANSEOT
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz
+Data Radio Potencia de transmisión por
+T10Pro is a latest portable multifunctional GNSS receiver, a new generation of OS Linux radiofrecuencia: 0.5W/1.5W
+Velocidad en baudios del
+measurement engine, supporting tilt measurement, NFC, built-in 4G Modem, GNSS aire:9600 / 19200bps
+Bluetooth and WIFI. It adopts a new appearance design, magnesium alloy INDICATOR
+GPS L1C/A, L1C, L2P(Y), L2C, L5
+structure and Linux operating system. It is an extremely light-weight, fully
+GLONASS L1, L2, L3 Power Indicator Show power status
+functional and portable geodesic GNSS receiver.
+BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP) Satellite Indicator Show position status
+GALILEO E1, E5a, E5b, E6(PPP) Data link Indicator Show differential signal status
+QZSS L1, L2, L5 BATTERY
+CHARACTERISTIC SBAS L1(PPP) Battery 3.7V, 9600mAh
+NavIC (IRNSS) L5*(IRNSS support in future)
+More than 16 hours
+Channel 1408 (Typical, Rover, GSM)
+Work time
+The static working mode supports
+Linux Intelligent System
+Data format NMEA-0183 continuous data collection for 24
+hours under full power
+Correction I / O Protocol RTCM 2.X, RTCM3.X
+ARM Cortex-A7 + Linux, the intelligent system platform, brings efficient computing and
+MTK PE+1.1/2.0 9V/2A
+unlimited expansion of product functions to users. Data update frequency 5 Hz (típico) 20 Hz (máx.) USB PD 12V/1.25A 5V/3A
+Charge Support fast charging adapter and
+Recapture Time <1s
+adaptively and dynamically adjust
+Cold Boot <30s charging current
+Multi Constellation
+POSITIONING ACCURACY ENVIRONMENTAL
+With its 1408 channels, T10Pro provides an excellent on board real time navigation solution
+Single (RMS) Horizontal: 1.5m / Vertical: 2.5m Work Temperature -20°C~+60°C
+with high accuracy. All GNSS signals (GPS, GLONASS, BDS, GALILEO, QZSS, SBAS and
+DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m Storage Temperature -40°C~+85°C
+IRNSS) are included.
+Horizontal: ± (8mm+1ppm) Soporta caídas desde
+RTK (RMS) Vertical: ± (15mm+1ppm) Shock postes de 1.5M
+Tilt Measurement Time Accuracy (RMS) 20ns Protection IP68
+Horizontal: ±(2.5mm+0.5ppm) PHYSICAL
+Static Accuracy (RMS)
+Vertical: ±(5mm+0.5ppm)
+T10Pro has the IMU module. Fast initialization and up to 60° inclination.
+Magnesium alloy main body,
+Material
+Speed Accuracy (RMS) 0.03m/s ABS/PC top cover
+Dimension Φ147.9mm*68mm
+Combined Antenna Tilt compensation
+Accuracy(within 60°) ≤2cm Weight 740g
+The new four in one antenna integrates GNSS, WIFI, Bluetooth and 4G, with smaller volume SYSTEM A FULL SET
+and better signal.
+Bluetooth BR+EDR+BLE T10Pro Device 1 SET
+WIFI 802.11 b/g/n
+USB power adapter 1 PCS
+4G Modem LTE FDD: B1/2/3/4/5/7/8/12/13/
+USB A To Type-C 1 PCS
+18/19/20/25/26/28
+T10Pro has an internal 4G Modem that operates with more cellular network signals, a fast Network LTE TDD: B38/39/40/41 Radio Antenna 1 PCS
+WCDMA: B1/2/4/5/6/8/19
+internet connection is guaranteed. GSM: B2/3/5/8 CERTIFICATION
+Storage 32GB Almacenamiento
+Cumplimiento normativo NGS, CE, FCC, KC
+Long Endurance Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+Built in high-capacity lithium battery ensures continuous working time of more than 16 hours Manufacturers may update parameters at any time, please refer to the latest product information.
+under normal operation.
+11 12
+
+--- Page 10 ---
+SPECIFICATION
+T20Pro GNSS Receiver
+SYSTEM
+Radio RF transmit power: 1W/2W/5W
+Air Baud Rate: 9600, 19200bps
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz
+T20Pro is a high-performance GNSS receiver that provides an easy-to-use Storage 32GB storage
+OS Linux
+solution for users. TOKNAV T20Pro supports the original tilt compensating
+DISPLAY
+GNSS
+GNSS solution. Multi constellation and frequency tracking always guarantee a
+Screen size: 1.3inch
+fixed solution for your job. LCD display screen can make your operation faster GPS L1 C/A, L1C, L2P(Y), L2C, L5 Display mode: TFT
+LCD
+Display format: 240*RGB*240
+GLONASS L1, L2, L3
+and easier. T20Pro built-in 5W radio allows users to have a longer working View Angle: FULL
+BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP)
+distance, up to 16km in open areas, The durable IP68 design makes it possible BATTERY
+GALILEO E1, E5a, E5b, E6(PPP)
+to work in extreme environments.
+Battery 7.4V, 6500mAh
+QZSS L1, L2, L5
+More than 18 hours (Typical,
+SBAS L1(PPP) Rover, GSM)
+Work time The static working mode
+NavIC (IRNSS) L5(Requires firmware support)
+CHARACTERISTIC supports continuous data
+Channel 1408 collection for 26 hours
+Standard Output NMEA-0183 USB PD 15V/2A
+Linux Intelligent System 5V/3A
+Correction I/O Protocol RTCM 3.X
+Charge (Support fast charging adapter
+Frequency 20Hz(max) and adaptively and dynamically
+ARM Cortex-A7 + Linux, the intelligent system platform, brings efficient computing and
+adjust charging current)
+Reacquisition Time <1s
+unlimited expansion of product functions to users.
+ENVIRONMENT
+Cold Start Time <40s
+Work Temperature -20°C~+60°C
+ACCURACY
+Multi Constellation
+Storage Temperature -40°C~+85°C
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m
+With its 1408 channels, T20Pro provides an excellent on board real time navigation solution Shock Withstand a 1.5m pole drop
+DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m
+with high accuracy. All GNSS signals (GPS, GLONASS, BDS, GALILEO, QZSS and SBAS) are Horizontal: ± (8mm+1ppm) Protection IP68
+RTK (RMS)
+included. Vertical: ± (15mm+1ppm) PHYSICAL
+Timing Precision (RMS) 20ns
+Magnesium alloy casing with
+Materials
+Static Mode Horizontal: ± (2.5mm+0.5ppm) ABS/PC plastic top cover
+Adjustable Power
+Precision (RMS) Vertical: ± (5mm+0.5ppm)
+Dimensions Φ143.5 * 90.7mm
+Velocity Estimation
+T20Pro has internal radio of adjustable power of 1W/2W/5W, and works as base station at 0.03m/s Weight 900g
+(RMS)
+5W power. The transmission distance can reach to maximum 16km when working in the Tilt Correction ACCESSORIES
+<2cm
+(Within 60°)
+open area.
+T20Pro 1 Unit
+SYSTEM PLATFORM
+USB power adapter 1 PCS
+Combined Antenna Bluetooth BR+EDR+BLE
+Type-C To Type-C 1 PCS
+WIFI 802.11 b/g/n
+The new four in one antenna integrates GNSS, WIFI, Bluetooth and 4G, with smaller volume Radio Antenna 1 PCS
+LTE FDD: B1/2/3/4/5/7/8/12/13/
+and better signal. 18/19/20/25/26/28 CERTIFICATION
+Network LTE TDD: B38/39/40/41
+WCDMA: B1/2/4/5/6/8/19 NGS, CE, FCC
+Regulatory Compliance
+GSM: B2/3/5/8
+4G Modem
+Frequency: 410~470MHz
+Radio Protocols: TRIMTALK, TRIMMK3,
+T20Pro has an internal 4G Modem that operates with more cellular network signals. A fast
+SOUTH, TRANSEOT
+internet connection is guaranteed. Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+Long Endurance
+Built in high-capacity lithium battery ensures continuous working time of more than 18 hours
+under normal operation.
+13 14
+
+--- Page 11 ---
+SPECIFICATION
+tBase GNSS Receiver
+SYSTEM Storage 32GB storage
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz Integrated high-power
+tBase is designed and developed specifically for professional base station transceiver
+OS Linux Frequency Range: 410~470MHz
+applications. It features a high-precision positioning module, supporting
+Radio Power: 1W/2W/5W
+GNSS
+full-system, multi-frequency satellite signal tracking. Equipped with 4G, Protocols: TRIMTALK, TRIMMK3,
+SOUTH, TRANSEOT
+GPS L1 C/A, L1C, L2P(Y), L2C, L5
+Bluetooth, WiFi, a 5W radio, and a large-capacity battery, it meets the Air Baud Rate: 9600, 19200bps
+GLONASS L1, L2, L3
+demands for concurrent data links at base stations and alleviates the
+INDICATOR
+BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP)
+endurance concerns typical of built-in radio work modes, making
+Indicates power and charging
+GALILEO E1, E5a, E5b, E6(PPP) Power Indicator
+measurements more convenient and efficient. status
+QZSS L1, L2, L5
+Differential Signal Indicates differential signal
+SBAS L1(PPP) Indicator transmission status
+NavIC (IRNSS) L5(IRNSS support in future) Satellite Indicator Indicates satellite reception status
+CHARACTERISTIC
+Channel 1408 Bluetooth Indicator Indicates Bluetooth connection
+status
+Standard Output NMEA-0183
+BATTERY / CHARGE
+Linux Intelligent System Correction I/O Protocol RTCM 3.X
+Capacity 7.2V, 13800mAh
+Frequency 20Hz(max)
+Endurance Over 12 hours(5W Radio, Base)
+ARM Cortex-A7+Linux, the intelligent system platform, brings efficient computing and
+Reacquisition Time <1s
+Supports USB PD 15V/2A
+unlimited expansion of product functions to users.
+Cold Start Time <40s Charging and 5V/3A(With adaptive dynamic
+current adjustment)
+ACCURACY
+Full System GNSS Reception ENVIRONMENT
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m
+Operating Temperature -20°C~+60°C
+The receiver integrates a high-precision positioning module, utillizing 1408 channels to DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m
+Storage Temperature -40°C~+85°C
+support a comprehensive range of signals including BDS B1I/B2I/B3I/B1C/B2a/B2b(PPP), RTK (RMS) Horizontal: ± (8mm+1ppm)
+Vertical: ± (15mm+1ppm) Can withstand a 1.5m drop at
+Shock Resistance
+GPS L1/L2/L5, GLONASS L1/L2/L3, Galileo E1/E5a/E5b/E6(PPP) and QZSS L1/L2/L5. normal temperatures
+Timing Precision (RMS) 20ns
+Protection Rating IP68
+Static Mode Horizontal: ± (2.5mm+1ppm)
+Precision (RMS) Vertical: ± (5mm+1ppm) PHYSICAL
+Extended Range and Battery Life
+Velocity Estimation
+0.03m/s Magnesium alloy casing with
+(RMS) Materials
+Features a built-in radio capable of 5W transmission and a 13800mAh battery, ensuring ABS/PC plastic top cover
+Tilt Correction
+operational distances over 16km and continuous operation up to 12 hours. (Within 60°) <2cm Dimensions Φ174.9 * 104.9mm
+SYSTEM PLATFORM Weight 1500g
+Concurrent Data links Bluetooth BR+EDR+BLE ACCESSORIES
+WIFI 802.11 b/g/n tBase 1 Unit
+The integrated 4G and 5W radio enables simultaneous network and radio differential
+LTE FDD: B1/2/3/4/5/7/8/12/13/ Power adapter 1 PCS
+transmission, streamlining operations by eliminating the need to choose between radio and 18/19/20/25/26/28
+Network LTE TDD: B38/39/40/41 Type-C To Type-C 1 PCS
+network.
+WCDMA: B1/2/4/5/6/8/19
+Radio Antenna 1 PCS
+GSM: B2/3/5/8
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Remote VPN Management
+Any issue please contact Toknav or local dealers to verify the specific details.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+With an integrated VPN, the device allows remote configuration of various functions without
+the need to return to the base station setup point, facilitating flexible adjustment of work
+requirements in complex environments.
+15 16
+
+--- Page 12 ---
+SPECIFICATION
+T30 GNSS Receiver
+SYSTEM Bluetooth BR+EDR+BLE
+WIFI 802.11 b/g/n
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz
+Storage 32GB storage
+T30 is a full-featured GNSS receiver designed for long battery life and high OS Linux
+Sensor size: 1/3.06 inch
+precision. It includes an advanced positioning module supporting full-system and GNSS
+Aperture:f/2.9
+multi-frequency satellite signal tracking. Equipped with 4G universal connectivity, GPS L1 C/A, L1C, L2P(Y), L2C, L5 Laser Camera Resolution: 4224*3200
+Field of view:D44°H=35°V=26.5°
+Bluetooth, WiFi, a 5W data radio, and a large-capacity battery, it can operate GLONASS L1, L2, L3 Distortion:＜1%
+continuously for up to two days on a single charge. The device integrates a BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP) AR real-time stakeout supported
+Sensor size: 1/2.8 inch
+high-precision inertial navigation system combined with AR and laser camera GALILEO E1, E5a, E5b, E6(PPP) Aperture: f/2.5
+AR Camera
+technology for AR stakeout and laser measurement, and augmented reality QZSS L1, L2, L5 Resolution: 1920*1080
+Field of view: D70.3°H62.7°V38.6°
+plotting, making surveying tasks more efficient and convenient. SBAS L1(PPP) Distortion: ＜0.38%
+NavIC (IRNSS) L5(Requires firmware support) INDICATOR
+Channel 1408
+Indicates power and charging
+CHARACTERISTIC Power Indicator
+Standard Output NMEA-0183 status
+Differential Signal Indicates differential signal
+Correction I/O Protocol RTCM 3.X
+Indicator transmission status
+Linux Intelligent System Frequency 20Hz(max)
+Satellite Indicator Indicates satellite reception status
+Reacquisition Time <1s
+Indicates Bluetooth connection
+Linux+ARM Cortex-A7, the intelligent system platform, brings efficient computing and unlimited Bluetooth Indicator
+Cold Start Time <40s status
+expansion of product functions to users.
+ACCURACY BATTERY / CHARGE
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m Capacity 7.2V, 13800mAh
+Full System GNSS Reception
+Over 48 hours(when applying
+DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m Endurance
+controller network mode)
+The receiver integrates a high-precision positioning module, utillzing 1408 channels to support a Horizontal: ± (8mm+1ppm)
+RTK (RMS) Supports USB PD 15V/2A
+Vertical: ± (15mm+1ppm)
+Charging and 5V/3A (With adaptive dynamic
+comprehensive range of signals including BDS B1I/B2I/B3I/B1C/B2a/B2b(PPP), GPS L1/L2/L5,
+Timing Precision (RMS) 20ns current adjustment
+GLONASS L1/L2/L3, Galileo E1/E5a/E5b/E6(PPP), QZSS L1/L2/L5.
+Static Mode Horizontal: ± (2.5mm+1ppm) ENVIRONMENT
+Precision (RMS) Vertical: ± (5mm+1ppm)
+Operating Temperature -20°C~+60°C
+Velocity Estimation
+Full Netcom 4G Communication 0.03m/s
+(RMS) Storage Temperature -40°C~+85°C
+Tilt Correction Can withstand a 1.5m drop at
+Based on the Linux platform, this full netcom 4G solution supports mobile, Unicom, Telecom (Within 60°) <2cm Shock Resistance normal temperatures
+2/3/4G networks for better compatibility and stronger, more stable connections. The three-dimensional accuracy Protection Rating IP68
+Laser Measurement of laser tilt measurement within
+5m: no more than 2.5cm PHYSICAL
+Visualized Laser Measurement
+SYSTEM PLATFORM Materials Magnesium alloy casing with
+ABS/PC plastic top cover
+Featuring a high-precision, millimeter-grade laser ranging module and a high-definition camera,
+LTE FDD: B1/2/3/4/5/7/8/12/13/ Dimensions Φ174.9 * 104.9mm
+the receiver enables precise point-and-measure functionality. The combination of 18/19/20/25/26/28
+Network LTE TDD: B38/39/40/41 Weight 1500g
+high-accuracy inertial navigation and the camera's HD visuals ensures seamless operation even
+WCDMA: B1/2/4/5/6/8/19
+ACCESSORIES
+in complex environments. GSM: B2/3/5/8
+Integrated high-power transceiver T30 1 Unit
+Frequency Range: 410~470MHz
+Power adapter 1 PCS
+AR Real-Time Stakeout Power: 5W
+Radio
+Protocols: TRIMTALK, TRIMMK3,
+Type-C To Type-C 1 PCS
+SOUTH, TRANSEOT
+Utilizes a professional ultra-wide-angle camera to provide high-definition real-time plotting
+Air Baud Rate: 9600, 19200bps Radio Antenna 1 PCS
+functionality, making layout tasks more accurate and convenient.
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+17 18
+
+--- Page 13 ---
+SPECIFICATION
+T30Pro GNSS Receiver
+SYSTEM Storage 32GB storage
+Supports image survey
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz
+Sensor size: 1/2.6 inch
+The T30Pro is a long-life battery GNSS receiver integrates AR and Photogrammetry. OS Linux Focal length: 6mm
+IS Camera Aperture: f/2.8
+It has a built-in high-precision positioning module that supports tracking satellite GNSS Resolution: 1920*1080
+Field of view: D51.8°H42.4°V32.4°
+signals from all systems and frequency bands. It is equipped with 4G full Netcom, GPS L1 C/A, L1C, L2P(Y), L2C, L5 Distortion: ＜0.5%
+Bluetooth, Wi-Fi, a 5W data transmission radio. With a 7.2V, 13800mAh battery, it GLONASS L1, L2, L3 Supports AR real scene stakeout
+Sensor size: 1/2.8 inch
+supports two days of operation after a single charge. The receiver also features a BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP)
+Aperture: f/2.5
+AR Camera
+high-precision IMU module, Photogrammetry, and AR stakeout, further expanding GALILEO E1, E5a, E5b, E6(PPP) Resolution: 1920*1080
+Field of view: D70.3°H62.7°V38.6°
+the boundaries of RTK survey. QZSS L1, L2, L5 Distortion: ＜0.38%
+SBAS L1(PPP)
+INDICATOR
+NavIC (IRNSS) L5(IRNSS support in future)
+Indicates power and charging
+Power Indicator
+Channel 1408 status
+CHARACTERISTIC
+Standard Output NMEA-0183 Differential Signal Indicates differential signal
+Indicator transmission status
+Correction I/O Protocol RTCM 3.X
+Satellite Indicator Indicates satellite reception status
+Linux Intelligent System Frequency 20Hz(max)
+Indicates Bluetooth connection
+Bluetooth Indicator
+Reacquisition Time <1s status
+Linux+ARM Cortex-A7 intelligent system platform offers efficient computation and
+Cold Start Time <40s BATTERY / CHARGE
+unlimited product functionality expansion.
+ACCURACY
+Capacity 7.2V, 13800mAh
+Full System GNSS Reception SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m Endurance Over 48 hours(when applying
+controller network mode)
+DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m
+Supports USB PD 15V/2A
+Charging
+The receiver integrates a high-precision positioning module with 1408 high-speed channels. Horizontal: ± (8mm+1ppm) and 5V/3A
+RTK (RMS)
+Vertical: ± (15mm+1ppm)
+It supports BDS B1I/B2I/B3I/B1C/B2a/B2b(PPP), GPS L1/L2/L5, GLONASS L1/L2/L3, Galileo ENVIRONMENT
+Timing Precision (RMS) 20ns
+E1/E5a/E5b/E6(PPP), QZSS L1/L2/L5 signals reception and calculation.
+Operating Temperature -20°C~+60°C
+Static Mode Horizontal: ±（2.5mm+1ppm）
+Precision (RMS) Vertical: ±（5mm+1ppm） Storage Temperature -40°C~+85°C
+Photogrammetry V (R e M lo S c ) ity Estimation 0.03m/s Shock Resistance C no a r n m w a i l t h te s m ta p n e d r a at 1 u .5 re m s drop at
+Tilt Correction Protection Rating IP68
+Equipped with a 1/2.6-inch large base high-definition wide-angle camera, it integrates (Within 60°) <2cm
+PHYSICAL
+high-precision inertial navigation algorithms and works with high-performance Android SYSTEM PLATFORM
+Magnesium alloy casing with
+handheld devices for high-precision image measurement. Bluetooth BR+EDR+BLE Materials ABS/PC plastic top cover
+WIFI 802.11 b/g/n Dimensions Φ174.9 * 104.9mm
+AR Real-Time Stakeout LTE FDD: B1/2/3/4/5/7/8/12/13/ Weight 1500g
+18/19/20/25/26/28
+ACCESSORIES
+Network LTE TDD: B38/39/40/41
+Utilizes a professional ultra-wide-angle camera to provide high-definition real-time plotting
+WCDMA: B1/2/4/5/6/8/19
+T30Pro 1 Unit
+functionality, making layout tasks more accurate and convenient. GSM: B2/3/5/8
+Integrated receiver/transmitter Power adapter 1 PCS
+Frequency Range: 410~470MHz
+Type-C To Type-C 1 PCS
+Power: 1W/2W/5W
+4G Full NetCom Radio
+Protocols: TRIMTALK, TRIMMK3, Radio Antenna 1 PCS
+SOUTH, TRANSEOT
+The 4G NetCom solution based on the Linux platform fully supports 2/3/4G networks of Air Baud Rate: 9600, 19200 7-Pin Data Cable 1 PCS
+China Mobile/China Unicom/China Telecom, offering better compatibility, stronger signals, Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+and more stable connections.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+19 20
+
+--- Page 14 ---
+SPECIFICATION
+T40 GNSS Receiver
+SYSTEM Protocols: TRIMTALK, TRIMMK3,
+Radio SOUTH, TRANSEOT
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz Air Baud Rate: 9600, 19200bps
+OS Linux Type: Class 3R
+T40 is a versatile GNSS receiver equipped with dual-laser cameras. It integrates Range: 30m
+GNSS Precision: ±5mm±100*10-6*D，
+a high-precision positioning module, IMU, AR, laser technology, and laser Laser Module
+(D: Measurement Distance)
+visualization to enable high-precision positioning, tilt measurement, AR GPS L1C/A, L1C, L2P(Y), L2C, L5 Wavelength: 520±20nm
+Power: 3.8mW
+real-world staking, and visualized laser point measurement. It boasts a GLONASS L1, L2, L3
+Sensor：1/3.06 inch
+maximum testing radius of up to 30 meters. The receiver features a robust BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP) Resolution: 4224x3200
+Laser Assist Camera
+FOV: D44°H35°V26.5°
+magnesium-aluminum alloy design, offering durability and reliability. It GALILEO E1, E5a, E5b, E6(PPP)
+Distortion: ＜1%
+supports hot-swappable batteries, allowing quick recharging without power QZSS L1, L2, L5 AR Stakeout Supported
+interruption, thereby extending operational time. SBAS L1(PPP) Sensor: 1/2.8 inch
+Aperture: f/2.5
+AR Camera
+NavIC (IRNSS) L5*(Requires firmware support) Resolution: 1920*1080
+FOV: 70.3°H62.7°V38.6°
+Channel 1408
+Distortion: ＜0.38%
+CHARACTERISTIC Standard Output NMEA-0183
+DISPLAY
+Correction I/O Protocol RTCM 3.X
+Sensor: 1.3 inch
+LCD Panel
+Frequency 20Hz max Resolution: 240*RGB*240
+Full-System, Multi-Frequency GNSS Receiver
+Reacquisition Time <1s BATTERY / CHARGE
+The receiver integrates a high-precision positioning module with 1,408 high-speed Cold Start Time <40s
+7.2V, 3400mAh*2
+Capacity
+channels. It supports full-system and multi-frequency signal reception and processing, ACCURACY (Removable, dedicated charger)
+Over 20 hours(when applying
+including: BDS: B1I, B2I, B3I, B1C, B2a, B2b, GPS: L1 C/A, L1C, L2C, L5, GLONASS: L1, L2, L3, Endurance
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m controller network mode)
+Galileo: E1, E5a, E5b, E6, QZSS: L1, L2, L5, SBAS and NavIC systems.
+DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m Charging 9~24VDC
+RTK (RMS) Horizontal: ± (8mm+1ppm) ENVIRONMENT
+Tilt Measurement Vertical: ± (15mm+1ppm)
+Time Accuracy(RMS) 20ns Operating Temperature -20°C~+60°C
+Equipped with an intelligent high-precision inertial navigation (IMU) module, the device
+Horizontal: ± (2.5mm+1ppm) Storage Temperature -20°C~+70°C
+Static(RMS)
+offers real-time tilt compensation, eliminating the issue of "floating points" in RTK surveys. Vertical: ± (5mm+1ppm) Can withstand a 1.5m drop at
+Shock Resistance
+Speed Accuracy(RMS) 0.03m/s normal temperatures
+AR Stake Out Tilt Compensation Protection Rating IP68
+<2cm
+(≤60°)
+PHYSICAL
+A professional ultra-wide-angle camera provides HD real-world stake out capabilities. Its Horizontal: ± (8mm+1ppm)
+AR Stake Out Accuracy
+Vertical: ± (15mm+1ppm) Magnesium alloy casing with
+user-friendly AR stake out application ensures precise, one-shot staking performance. Materials
+≤2.5cm 3D error within ABS/PC plastic top cover
+Laser Measurement
+5m range
+Dimensions Φ160 * 103mm
+Visualized Laser Measurement
+SYSTEM PLATFORM
+Weight 850g(without battery)
+Featuring a high-precision, millimeter-grade laser ranging module and a high-definition Bluetooth BR+EDR+BLE
+ACCESSORIES
+camera, the receiver enables precise point-and-measure functionality. The combination of WIFI 802.11 b/g/n
+T40 1 Unit
+high-accuracy inertial navigation and the camera's HD visuals ensures seamless operation LTE FDD: B1/2/3/4/5/7/8/12/13/
+18/19/20/25/26/28
+External Battery 2 PCS
+even in complex environments. Network LTE TDD: B38/39/40/41
+WCDMA: B1/2/4/5/6/8/19 Battery Charging Cradle 1 PCS
+GSM: B2/3/5/8
+Extended Battery Life Radio Antenna 1 PCS
+Storage 32GB storage
+The receiver supports two detachable batteries that allow hot-swapping without power Integrated high-power transceiver
+Radio Frequency Range: 410~470MHz
+interruption. This enables quick battery replacement, significantly extending operational
+Power: 1W/2W/5W
+endurance. Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+21 22
+
+--- Page 15 ---
+SPECIFICATION
+T40Pro GNSS Receiver
+SYSTEM Integrated receiver/transmitter
+Frequency Range: 410~470MHz
+HARDWARE SYSTEM ARM Cortex-A7 Power: 1W/2W/5W
+Data Radio
+Protocols: TRIMTALK, TRIMMK3,
+The T40Pro is a versatilel GNSS receiver equipped with photogrammetry
+OS Linux SOUTH, TRANSEOT
+technology. It integrates a high-precision positioning module, IMU, AR, and a Air Baud Rate: 9600, 19200
+GNSS
+high-definition imaging camera, combining precise inertial navigation and Supports Photogrammetry
+GPS L1C/A, L1C, L2P(Y), L2C, L5 Sensor size: 1/2.6 inch
+positioning data. It enables tilt measurement, AR real-time staking, and Focal length: 6mm
+GLONASS L1, L2, L3
+IS Camera Aperture: f/2.8
+image-based survey, allowing for efficient extraction of high-precision
+BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP) Resolution: 1920*1080
+coordinates from real-world images. The receiver features a robust Field of view: D51.8° H42.4° V32.4°
+GALILEO E1, E5a, E5b, E6(PPP) Distortion: < 0.5%
+magnesium-aluminum alloy design, offering durability and reliability. It
+QZSS L1, L2, L5 AR Stakeout Supported
+supports hot-swappable batteries, allowing quick recharging without power Sensor: 1/2.8 inch
+SBAS L1(PPP)
+Aperture: f/2.5
+interruption, thereby extending operational time. NavIC (IRNSS) L5*(Requires firmware support) AR Camera Resolution: 1920*1080
+FOV: 70.3°H62.7°V38.6°
+Channel 1408 Distortion: ＜0.38%
+Standard Output NMEA-0183 DISPLAY
+CHARACTERISTIC
+Correction I/O Protocol RTCM 3.X Sensor: 1.3 inch
+LCD Panel
+Resolution: 240*RGB*240
+Frequency 20Hz max
+BATTERY
+Reacquisition Time <1s
+Linux Intelligent System
+Cold Start Time <40s Battery 7.2V，3400mAh *2 (Removable
+battery, dedicated charger)
+The Linux + ARM Cortex-A7 intelligent system platform provides users with efficient ACCURACY
+Over 20 hours (when applying
+Work time
+computing power and unlimited expansion of product features. controller network mode)
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m
+External power 9~24VDC
+DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m
+Tilt Measurement Horizontal: ± (8mm+1ppm) ENVIRONMENT
+RTK (RMS)
+Vertical: ± (15mm+1ppm)
+Work Temperature -20°C~+60°C
+Equipped with an intelligent high-precision inertial navigation (IMU) module, the device Time Accuracy(RMS) 20ns
+Storage Temperature -20°C~+70°C
+offers real-time tilt compensation, eliminating the issue of “floating points” in RTK surveys. Horizontal: ±（2.5mm+1ppm）
+Static(RMS) Vertical: ±（5mm+1ppm） Shock Resistance Can withstand a 1.5m drop at
+normal temperatures
+Speed Accuracy(RMS) 0.03m/s
+Protection Rating IP68
+AR Stake Out
+Tilt Correction
+<2cm PHYSICAL
+(Within 60°)
+A professional ultra-wide-angle camera provides HD real-world stake out capabilities. Its Horizontal：±(8mm+1ppm) Magnesium alloy main body,
+AR Stakeout Accuracy Materials
+Vertical：±(15mm+1ppm) ABS/PC top cover
+user-friendly AR stake out application ensures precise, one-shot staking performance.
+Photogrammetry
+Error of 2-4 cm within 2-15 meters. Dimensions Φ160mm*103mm
+Accuracy
+Weight 850g(without battery)
+Photogrammetry SYSTEM PLATFORM
+ACCESSORIES
+Bluetooth BR+EDR+BLE
+The receiver is equipped with a high-definition wide-angle camera with a large 1/2.6-inch
+WIFI 802.11 b/g/n T40Pro 1 Unit
+sensor, integrating high-precision inertial navigation algorithms. Coupled with a
+LTE FDD:B1/2/3/4/5/7/8/12/13/ External Battery 2 PCS
+high-performance Android controller, it achieves high-precision image survey.
+18/19/20/25/26/28
+Network Battery Charging Cradle 1 PCS
+LTE TDD: B38/39/40/41
+WCDMA: B1/2/4/5/6/8/19 Radio Antenna 1 PCS
+Extended Battery Life GSM: B2/3/5/8
+Storage 32GB Storage
+The receiver supports two detachable batteries that allow hot-swapping without power
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+interruption. This enables quick battery replacement, significantly extending operational Any issue please contact Toknav or local dealers to verify the specific details.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+endurance.
+23 24
+
+--- Page 16 ---
+SPECIFICATION
+T50basic GNSS Receiver
+SYSTEM Storage 32GB storage
+Integrated transceiver radio
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz
+T50basic is a portable multi-functional GNSS. It has a built-in high-precision Frequency Range: 410~470MHz
+OS Linux Power: 0.5W/1.5W
+positioning module that supports tracking satellite signals from all systems Radio Protocols: TRIMTALK, TRIMMK3,
+GNSS
+SOUTH, TRANSEOT, SATEL, LORA
+and frequency bands. It is equipped with 4G full network access, bluetooth,
+Air Baud Rate: 4800, 9600, 19200
+GPS L1 C/A, L1C, L2P(Y), L2C, L5
+WIFI and built-in data transmission radio. The high-precision IMU integrates
+Supports AR real scene stakeout
+GLONASS L1, L2, L3
+AR to achieve tilt measurement, tilt measurement and AR real-Time Stakeout, Sensor size: 1/2.8 inch
+BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP) Aperture: f/2.5
+making the measurement work more convenient and efficient. AR Camera Resolution: 1920*1080
+GALILEO E1, E5a, E5b, E6(PPP) Field of view: 69.3°±3°
+Distortion: ＜0.38%
+QZSS L1, L2, L5
+BATTERY / CHARGE
+SBAS L1(PPP)
+CHARACTERISTIC
+NavIC (IRNSS) L5(IRNSS support in future) Capacity 7.4V, 6500mAh
+Channel 1408 Endurance Over 16 hours (Typical, Rover, GSM)
+Standard Output NMEA-0183 Charging USB PD 15V/2A 5V/3A
+Linux Intelligent System
+Correction I/O Protocol RTCM 3.X ENVIRONMENT
+Linux+ARM Cortex-A7 intelligent system platform offers efficient computation and
+Frequency 20Hz(max)
+Operating Temperature -30°C~+65°C
+unlimited product functionality expansion.
+Reacquisition Time <1s
+Storage Temperature -40°C~+85°C
+Cold Start Time <40s Can withstand a 1.5m drop at
+Shock Resistance
+Full System GNSS Reception normal temperatures
+ACCURACY
+Protection Rating IP68
+The receiver integrates a high-precision positioning module, utilizing 1408 channels to SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m
+PHYSICAL
+support a comprehensive range of signals including BDS (B1I/B2I/B3I/B1C/B2a/B2b), GPS DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m
+Magnesium alloy casing with
+(L1/L2/L5), GLONASS (L1/L2/L3), Galileo (E1/E5a/E5b/E6), QZSS (L1/L2/L5),SBAS and NavIC. RTK (RMS) Horizontal: ± (8mm+1ppm) Materials ABS/PC plastic top cover
+Vertical: ± (15mm+1ppm)
+Dimensions Φ132 * 83mm
+Timing Precision (RMS) 20ns
+Weight 770g
+Tilt Measurement Static Mode Horizontal: ± (2.5mm+1ppm)
+Precision (RMS) Vertical: ± (5mm+1ppm) ACCESSORIES
+Built-in intelligent high-precision inertial navigation module for real-time tilt compensation, Velocity Estimation
+0.03m/s
+(RMS) T50basic 1 Unit
+eliminating "fly points" in RTK measurement.
+Tilt Correction Type-C power adapter 1 PCS
+<2cm
+(Within 60°)
+Type-C To Type-C 1 PCS
+AR Real-Time Stakeout Horizontal: ±(8mm+1ppm)
+AR Stakeout Vertical: ±(15mm+1ppm) Radio Antenna 1 PCS
+Utilizes a professional ultra-wide-angle camera to provide high-definition real-time plotting SYSTEM PLATFORM
+functionality, making stakeout tasks more accurate and convenient. Bluetooth BR+EDR+BLE
+WIFI 802.11 b/g/n
+4C Full NetCom LTE FDD: B1/2/3/4/5/7/8/12/13/
+18/19/20/25/26/28
+The 4G NetCom solution based on the Linux platform fully supports 2/3/4G networks, Network LTE TDD: B38/39/40/41
+WCDMA: B1/2/4/5/6/8/19
+offering better compatibility, stronger signals, and more stable connections. GSM: B2/3/5/8
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+Long Endurance Manufacturers may update parameters at any time, please refer to the latest product information.
+Industrial design, solid magnesium alloy shell, in line with IP68 design requirements, safe and
+reliable.
+25 26
+
+--- Page 17 ---
+SPECIFICATION
+T50 GNSS Receiver
+SYSTEM Integrated high-power transceiver
+Frequency Range: 410~470MHz
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz Radio Power: 0.5W/1.5W
+T50 is a portable multi-functional GNSS. It has a built-in high-precision Protocols: TRIMTALK, TRIMMK3,
+OS Linux SOUTH, TRANSEOT, SATEL, LORA
+positioning module that supports tracking satellite signals from all systems
+Air Baud Rate: 4800, 9600, 19200
+GNSS
+and frequency bands. It is equipped with 4G full network access, bluetooth, Type: Class 3R
+GPS L1C/A, L1C, L2P(Y), L2C, L5 Range: 100m
+WIFI and built-in data transmission radio. The high-precision IMU integrates
+Precision: ±5mm±100*10-6*D，
+GLONASS L1, L2, L3 Laser Module
+AR and Laser to achieve tilt measurement, Laser measurement and AR (D: Measurement Distance)
+BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP) Wavelength: 520±20nm
+real-Time Stakeout, making the measurement work more convenient and Power: 3.8mW
+GALILEO E1, E5a, E5b, E6(PPP)
+efficient. Sensor：1/3.06 inch
+QZSS L1, L2, L5 Resolution: 4224x3200
+Laser Assist Camera
+FOV: D44°H35°V26.5°
+SBAS L1(PPP) Distortion: ＜1%
+NavIC (IRNSS) L5*(Requires firmware support) AR Stakeout Supported
+CHARACTERISTIC
+Sensor: 1/2.8 inch
+Channel 1408
+Aperture: f/2.5
+AR Camera
+Standard Output NMEA-0183 Resolution: 1920*1080
+FOV: 69.3°±3°
+Linux Smart System Correction I/O Protocol RTCM 3.X Distortion: ＜0.38%
+Frequency 20Hz max BATTERY / CHARGE
+Linux+ARM Cortex-A7 intelligent system platform offers efficient computation and
+Reacquisition Time <1s
+Capacity 7.4V, 6500mAh
+unlimited product functionality expansion.
+Cold Start Time <40s Over 16 hours(when applying
+Endurance
+controller network mode)
+ACCURACY
+Full System GNSS Reception
+Charging USB PD 15V/2A 5V/3A
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m
+ENVIRONMENT
+The receiver integrates a high-precision positioning module, utilizing 1408 channels to
+DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m
+support a comprehensive range of signals including BDS (B1I/B2I/B3I/B1C/B2a/B2b), GPS Horizontal: ± (8mm+1ppm) Operating Temperature -30°C~+65°C
+RTK (RMS)
+Vertical: ± (15mm+1ppm)
+(L1/L2/L5), GLONASS (L1/L2/L3), Galileo (E1/E5a/E5b/E6), QZSS (L1/L2/L5),SBAS and NavIC. Storage Temperature -40°C~+85°C
+Time Accuracy(RMS) 20ns Can withstand a 1.5m drop at
+Shock Resistance
+Horizontal: ± (2.5mm+1ppm) normal temperatures
+Tilt Measurement Static(RMS)
+Vertical: ± (5mm+1ppm)
+Protection Rating IP68
+Speed Accuracy(RMS) 0.03m/s
+Built-in intelligent high-precision inertial navigation module for real-time tilt compensation, PHYSICAL
+Tilt Compensation
+<2cm
+eliminating "fly points" in RTK measurement. (≤60°) Magnesium alloy casing with
+Materials
+Horizontal: ± (8mm+1ppm) ABS/PC plastic top cover
+AR Stake Out Accuracy
+Vertical: ± (15mm+1ppm) Dimensions Φ132 * 83mm
+AR Real-Time Stakeout
+≤2.5cm 3D error within
+Laser Measurement 5m range Weight 770g
+Utilizes a professional ultra-wide-angle camera to provide high-definition real-time plotting
+SYSTEM PLATFORM ACCESSORIES
+functionality, making stakeout tasks more accurate and convenient.
+Bluetooth BR+EDR+BLE T50 1 Unit
+WIFI 802.11 b/g/n Type-C power adapter 2 PCS
+4C Full NetCom
+LTE FDD: B1/2/3/4/5/7/8/12/13/
+Type-C To Type-C 1 PCS
+18/19/20/25/26/28
+The 4G NetCom solution based on the Linux platform fully supports 2/3/4G networks, Network LTE TDD: B38/39/40/41 Radio Antenna 1 PCS
+WCDMA: B1/2/4/5/6/8/19
+offering better compatibility, stronger signals, and more stable connections.
+GSM: B2/3/5/8
+Storage 32GB storage
+Laser Measurement
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+Equipped with a high-precision millimeter-level laser ranging module, combined with Manufacturers may update parameters at any time, please refer to the latest product information.
+high-precision inertial navigation for accurate laser targeting in complex environments.
+27 28
+
+--- Page 18 ---
+SPECIFICATION
+T50Pro GNSS Receiver
+SYSTEM Integrated receiver/transmitter
+Frequency Range: 410~470MHz
+HARDWARE SYSTEM ARM Cortex-A7 Power: 0.5W/1.5W
+T50Pro is a portable multi-functional GNSS. It has a built-in high-precision Data Radio Protocols: TRIMTALK, TRIMMK3,
+OS Linux SOUTH, TRANSEOT, SATEL, LORA
+positioning module that supports tracking satellite signals from all systems
+Air Baud Rate: 4800,9600, 19200
+GNSS
+and frequency bands. It is equipped with 4G full network access, bluetooth,
+Supports Photogrammetry
+WIFI and built-in data transmission radio. The high-precision IMU integrates GPS L1C/A, L1C, L2P(Y), L2C, L5 Sensor size: 1/2.6 inch
+Focal length: 3.27mm
+GLONASS L1, L2, L3
+AR and Photogrammetry to achieve tilt measurement, Photogrammetry and IS Camera Aperture: f/2.8
+BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP) Resolution: 1920*1080
+AR real-Time Stakeout, making the measurement work more convenient and
+Field of view: 83x72x51°
+efficient. GALILEO E1, E5a, E5b, E6(PPP) Distortion: < 0.5%
+QZSS L1, L2, L5 AR Stakeout Supported
+Sensor: 1/2.8 inch
+SBAS L1(PPP)
+Aperture: f/2.5
+AR Camera
+NavIC (IRNSS) L5*(Requires firmware support) Resolution: 1920*1080
+CHARACTERISTIC FOV: 69.3°±3°
+Channel 1408 Distortion: ＜0.38%
+Standard Output NMEA-0183 BATTERY
+Linux Intelligent System
+Correction I/O Protocol RTCM 3.X
+Battery 7.4V, 6500mAh
+Linux+ARM Cortex-A7 intelligent system platform offers efficient computation and Frequency 20Hz max Over 16 hours (when applying
+Work time
+controller network mode)
+unlimited product functionality expansion. Reacquisition Time <1s
+Charge USB PD 15V/2A 5V/3A
+Cold Start Time <40s
+ENVIRONMENT
+Full System GNSS Reception ACCURACY
+Work Temperature -30°C~+65°C
+SINGLE (RMS) Horizontal: 1.5m / Vertical: 2.5m
+The receiver integrates a high-precision positioning module, utilizing 1408 channels to Storage Temperature -40°C~+85°C
+DGPS (RMS) Horizontal: 0.4m / Vertical: 0.8m
+support a comprehensive range of signals including BDS (B1I/B2I/B3I/B1C/B2a/B2b), GPS Can withstand a 1.5m drop at
+Horizontal: ± (8mm+1ppm) Shock Resistance
+RTK (RMS) normal temperatures
+(L1/L2/L5), GLONASS (L1/L2/L3), Galileo (E1/E5a/E5b/E6), QZSS (L1/L2/L5),SBAS and NavIC. Vertical: ± (15mm+1ppm)
+Protection Rating IP68
+Time Accuracy(RMS) 20ns
+PHYSICAL
+Horizontal: ±（2.5mm+1ppm）
+Tilt Measurement Static(RMS)
+Vertical: ±（5mm+1ppm）
+Magnesium alloy main body,
+Materials
+Speed Accuracy(RMS) 0.03m/s ABS/PC top cover
+Built-in intelligent high-precision inertial navigation module for real-time tilt compensation,
+Tilt Correction Dimensions Φ132mm*83mm
+eliminating "fly points" in RTK measurement. <2cm
+(Within 60°)
+Weight 770g
+Horizontal：±(8mm+1ppm)
+AR Stakeout Accuracy Vertical：±(15mm+1ppm) ACCESSORIES
+Photogrammetry
+Photogrammetry
+Error of 2-4 cm within 2-15 meters. T50Pro 1 Unit
+Accuracy
+Equipped with a 1/2.6-inch large base high-definition wide-angle camera, it integrates
+SYSTEM PLATFORM Type-C power adapter 1 PCS
+high-precision inertial navigation algorithms and works with high-performance Android
+Type-C To Type-C 1 PCS
+Bluetooth BR+EDR+BLE
+handheld devices for high-precision Photogrammetry.
+Radio Antenna 1 PCS
+WIFI 802.11 b/g/n
+LTE FDD:B1/2/3/4/5/7/8/12/13/
+AR Real-Time Stakeout 18/19/20/25/26/28
+Network
+LTE TDD: B38/39/40/41
+WCDMA: B1/2/4/5/6/8/19
+Utilizes a professional ultra-wide-angle camera to provide high-definition real-time plotting
+GSM: B2/3/5/8
+functionality, making stakeout tasks more accurate and convenient.
+Storage 32GB Storage
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+IP68 Design
+Manufacturers may update parameters at any time, please refer to the latest product information.
+Industrial design, solid magnesium alloy shell, in line with IP68 design requirements, safe and
+reliable.
+29 30
+
+--- Page 19 ---
+SPECIFICATION
+NET660 GNSS Receiver
+SYSTEM Standard RJ45 interface,
+Ethernet Port
+10/100Mbps network adaptive
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz
+Two 5-pin connectors;
+OS Linux standard RS232 interface with
+NET660 GNSS receiver is a high-performance device engineered specifically for Serial Port baud rates supporting 9600,
+GNSS 19200, 38400, 115200,
+the construction of ground-based enhancement systems, such as those used with
+and 230400 bps
+the Beidou navigation satellite system. It boasts an built-in Linux operating GPS L1 C/A, L2P(Y), L2C, L5
+Storage 32GB storage
+system and fully independent intellectual property rights. Its diverse interfaces GLONASS L1, L2, L3
+INDICATOR
+BDS B1I, B2I, B3I, B1C, B2b, B2b
+and communication methods, along with support for event inputs, PPS outputs,
+Size: 1.3inch
+and substantial data storage, make it an ideal choice for foundational system GALILEO E1, E5a, E5b LCD Display Resolution: 240*RGB*240
+QZSS L1C/A, L2C, L5
+construction. Indicates power and charging
+Power Indicator
+SBAS L1C/A status
+NavIC(IRNSS)* L5*(Requires firmware support) Differential Signal Indicates the status of
+Indicator network connection
+CHARACTERISTIC L-band Satellite Indicator Indicates satellite reception status
+Standard Output NMEA-0183
+Indicates Bluetooth connection
+Bluetooth Indicator
+Correction I/O Protocol RTCM 3.X status
+Linux Intelligent System Frequency 1Hz, 2Hz, 5Hz, 10Hz, 20Hz max BATTERY / CHARGE
+Utilizing a Linux + ARM Cortex-A7 system platform, the NET660 offers efficient computation Reacquisition Time <1s Capacity 7.2V, 13800mAh
+Cold Start Time <40s Over 24 hours(Supports
+and endless possibilities for product function expansion.
+Endurance continuous data collection for
+ACCURACY
+26 hours on a full charge)
+Comprehensive GNSS Receiver TYPEC - USB PD 15V/2A 5V/3A
+Single(RMS) Horizontal: 1.5m / Vertical: 2.5m
+Charging LEMO - 12V/2A DC
+DGPS(RMS) Horizontal: 0.4m / Vertical: 0.8m Input supported
+The device integrates a high-precision positioning module capable of receiving and
+Horizontal: ± (8mm+1ppm) ENVIRONMENT
+processing signals from a full array of systems and frequencies, including BDS (B1I/B2I/B3I, RTK(RMS)
+Vertical: ± (15mm+1ppm)
+B1C/B2a/B2b), GPS (L1CA/L2P/L2C/L5), GLONASS (G1/G2), Galileo (E1/E5a/E5b), QZSS, Operating Temperature -20°C~+60°C
+Timing Accuracy (RMS) 20ns
+SBAS, and IRNSS, providing complete system and full-frequency signal reception and Storage Temperature -20°C~+70°C
+Static Mode Horizontal: ± (2.5mm+1ppm)
+solution. Precision (RMS) Vertical: ± (5mm+1ppm) Shock Resistance GB/T2423
+≥98% Protection Rating IP68
+Data Availability
+(Data available/Data collected)
+Advanced Positioning Capabilities
+PHYSICAL
+≥98%(Data collected/
+Data Completeness
+Expected data to be collected) Material Magnesium alloy main body
+Features narrowband interference resistance and continuous wave interference
+INTERFACE Dimension 172mm*148mm*58mm
+suppression, enabling rapid initial positioning and fast satellite signal lock for quick and
+precise data acquisition necessary for subsequent processing. Bluetooth BR+EDR+BLE Weight 1920g
+WIFI 802.11 b/g/n ACCESSORIES
+Full frequency
+Versatile Connectivity Options NET660 1 Unit
+LTE FDD: B1/2/3/4/5/7/8/12/13/
+Network 18/19/20/25/26/28 Power adapter 1 PCS
+Offers Ethernet, WiFi, serial ports, Bluetooth, and mobile network interfaces, allowing for LTE TDD: B38/39/40/41
+WCDMA: B1/2/4/5/6/8/19 Serial Port 2 PCS
+flexible connectivity solutions. GSM: B2/3/5/8
+WIFI Antenna 1 PCS
+4G Antenna 1 PCS
+Protocol Compatibility
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+Supports a variety of protocols including Ntrip Client/Server/Caster, TCP Client/Server, FTP
+Manufacturers may update parameters at any time, please refer to the latest product information.
+for file transfers, and HTTP/HTTPS for secure communications over protected networks.
+31 32
+
+--- Page 20 ---
+SPECIFICATION
+NET660i GNSS Receiver
+SYSTEM SYSTEM
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz Standard RS232 interface,
+Baud rate supports 1200, 2400,
+NET660i is a cost-effective and miniaturized GNSS receiver designed for the OS Linux Serial Port 4800, 9600, 19200, 38400,
+115200, 230400bps
+construction of Beidou ground-based augmentation system. It has built-in Linux GNSS
+Integrated on the 7-pin interface,
+operating system, completely independent intellectual property development, rich GPS L1 C/A, L1C, L2P(Y), L2C, L5 USB support access to the computer
+interface types, diverse communication methods, and supports large-capacity data GLONASS L1, L2, L3 to copy data directly
+Standard RJ45 interface,
+storage. It is the best choice for the construction of the Beidou ground-based BDS B1I, B2I, B3I, B1C, B2a, B2b(PPP) Network port 10/100Mbps network adaptive
+augmentation system. GALILEO E1, E5a, E5b, E6(PPP) LTE FDD: B1/2/3/4/5/7/8/12/13/
+Network 18/19/20/25/26/28
+QZSS L1, L2, L5
+Communication LTE TDD: B38/39/40/41
+SBAS L1(PPP) (Full Netcom) WCDMA: B1/2/4/5/6/8/19
+GSM: B2/3/5/8
+NavIC (IRNSS) L5(IRNSS support in future)
+CHARACTERISTIC PWE*1: Power supply port
+Channel 1408 DATA*1 PPS*1
+Interface SIM*1: Nano SIM card
+Differential Observation
+10.0cm Ethernet*1 GNSS*1: Main antenna
+Accuracy(RMS)
+Multi Constellation 4G*1: 4G antenna port
+Kinematic Phase 32GB storage, circular storage
+Observation 1.0cm Storage support multi-channel storage
+With its 1408 channels, NET660i provides an excellent on board real time navigation solution Accuracy(RMS)
+ELECTRICAL CHARACTERISTIC
+with high accuracy. All GNSS signals (GPS, GLONASS, BDS, GALILEO, QZSS and SBAS) are Data Format RINEX, Custom
+included. Position Data NMEA-0183 Voltage Input 9-24V DC(12V typical)
+Power Dissipation 1.8W(typ)
+Differential Data RTCM 3.X
+ENVIRONMENT
+Rich Interfaces & Various Communication Methods Data update frequency 1Hz, 2Hz, 5Hz, 10Hz, 20Hz
+≥98% Operating Temperature -40°C~+85°C
+Receive Data Availability
+NET660i provides Ethernet，serial and mobile network interfaces for customers to choose. (Data available/Data collected)
+Storage Temperature -40°C~+85°C
+≥98%(Data collected/
+Data Integrity Protection Class IP68
+Data should be collected)
+PHYSICAL
+Compatible with Multiple Protocols Single (RMS) Horizontal: 1.5m / Vertical: 2.5m
+Horizontal: ± (8mm+1ppm) Material Magnesium alloy main body
+RTK (RMS)
+NET660i supports Ntrip Client/Server/Caster, TCP Client/Server connection, FTP protocol Vertical: ± (15mm+1ppm)
+Dimension 148.8mm*105mm*50.3mm
+file transfer, HTTP/HTTPS protocol, private network transfer function with protection policy. Horizontal: ± (2.5mm+0.5ppm)
+Static Accuracy (RMS) Weight 490g
+Vertical: ± (5mm+0.5ppm)
+Timing Precision (RMS) 20ns
+Cloud Service Function
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+NET660i can regularly report the device status such as device location, network status,
+Manufacturers may update parameters at any time, please refer to the latest product information.
+signal strength, satellite reception status, etc., and supports cloud platform to restart, reset,
+and upgrade the remote device.
+Support Front-end Solution
+NET660i supports the front-end calculation function which can complete the static data
+calculation on the device inside and upload the results to the cloud, which greatly reduces
+the requirements for the computing power of the cloud server.
+33 34
+
+--- Page 21 ---
+SPECIFICATION
+NET660i-H GNSS Receiver
+SYSTEM SYSTEM
+NET660i-H is a cost-effective and miniaturized GNSS receiver designed for the HARDWARE SYSTEM ARM Cortex-A7 1.8GHz Standard RS232 interface,
+Baud rate supports 1200, 2400,
+construction of Beidou ground-based augmentation system. It has built-in Linux OS Linux Serial Port 4800, 9600, 19200, 38400,
+115200, 230400bps
+operating system, completely independent intellectual property development, rich GNSS
+Integrated on the 7-pin interface,
+interface types, diverse communication methods, and supports large-capacity data GPS L1 C/A, L2P/L2C, L5 USB support access to the computer
+to copy data directly
+storage. NET660i-H supports full system and frequency, and dual-antenna directed GLONASS L1, L2
+Standard RJ45 interface,
+positioning solution with dual-antenna independent differential output capability. It BDS B1I, B2I, B3I, B1C*, B2b(PPP) Network port 10/100Mbps network adaptive
+is the best choice for the construction of the mechanical intelligent control system. GALILEO E1, E5a, E5b, E6(PPP) LTE FDD: B1/2/3/4/5/7/8/12/13/
+Network 18/19/20/25/26/28
+QZSS L1, L2, L5
+Communication LTE TDD: B38/39/40/41
+SBAS L1C/A (Full Netcom) WCDMA: B1/2/4/5/6/8/19
+CHARACTERISTIC GSM: B2/3/5/8
+Channel 1408
+PWE*1: Power supply port
+Differential Observation DATA*1 PPS*1
+10.0cm
+Accuracy(RMS) Interface SIM*1: Nano SIM card
+Ethernet*1 GNSS*2: TCN port
+Kinematic Phase
+Multi Constellation 4G*1: 4G antenna port
+Observation 1.0cm
+Accuracy(RMS) 32GB, circular storage
+Storage
+support multi-channel storage
+With its 1408 channels, NET660i-H provides an excellent on board real time navigation Data Format RINEX, Custom
+ELECTRICAL CHARACTERISTIC
+solution with high accuracy. All GNSS signals (GPS, GLONASS, BDS, GALILEO and QZSS) are Position Data NMEA-0183
+included. Differential Data RTCM 3.X Voltage Input 9-24V DC(12V typical)
+Power Dissipation 2W(typ)
+Data update frequency 1Hz, 2Hz, 5Hz, 10Hz, 20Hz
+Rich Interfaces & Various Communication Methods ≥98% ENVIRONMENT
+Receive Data Availability
+(Data available/Data collected)
+Operating Temperature -40°C~+85°C
+NET660i-H provides Ethernet, serial and mobile network interfaces for customers to ≥98%(Data collected/
+Data Integrity Data should be collected) Storage Temperature -40°C~+85°C
+choose.
+Single (RMS) Horizontal: 1.5m / Vertical: 2.5m Protection Class IP68
+Horizontal: ± (8mm+1ppm) PHYSICAL
+Compatible with Multiple Protocols RTK (RMS)
+Vertical: ± (15mm+1ppm)
+Material Magnesium alloy main body
+Horizontal: ± (2.5mm+0.5ppm)
+NET660i-H supports Ntrip Client/Server/Caster, TCP Client/Server connection, FTP Static Accuracy (RMS) Vertical: ± (5mm+0.5ppm) Dimension 148.8mm*105mm*50.3mm
+protocol file transfer, HTTP/HTTPS protocol, private network transfer function with Timing Accuracy (RMS) 20ns Weight 490g
+protection policy. Heading Accuracy(RMS) 0.2°/m
+Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+Cloud Service Function
+Manufacturers may update parameters at any time, please refer to the latest product information.
+NET660i-H can regularly report the device status such as device location, network status,
+signal strength, satellite reception status, etc., and supports cloud platform to restart, reset,
+and upgrade the remote device.
+Support Front-end Solution
+NET660i-H supports the front-end calculation function, which can complete the static data
+calculation on the device inside and upload the results to the cloud, which greatly reduces
+the requirements for the computing power of the cloud server.
+35 36
+
+--- Page 22 ---
+SPECIFICATION
+NET660i-1U GNSS Receiver
+SYSTEM Measuring range: ±16g
+Full temperature zero
+deviation: 5mg
+HARDWARE SYSTEM ARM Cortex-A7 1.8GHz Accelerometer
+Scale error: 2‰
+NET660i-1U is a high-performance, compact GNSS receiver designed for unmanned OS Linux Three-axis orthogonal
+coupling error: 0.9‰ (0.05°)
+vehicles. It features the latest high-performance automotive-grade positioning chip, GNSS
+SYSTEM
+an integrated MEMS inertial measurement unit, and a functional safety processor.
+GPS L1 C/A, L1C*, L2, L5
+Standard RS232 interface,
+The receiver supports high-performance RTK positioning and deeply coupled
+GLONASS L1, L2 Baud rate supports 1200, 2400,
+Serial Port
+navigation algorithms, effectively addressing challenges such as satellite signal 4800, 9600, 19200, 38400,
+BDS B1I, B2I, B3I, B1C*, B2a, B2b*(PPP)
+115200, 230400bps
+interference, blockage, and multipath effects. It provides continuous, real-time, and
+GALILEO E1, E5a, E5b, E6*(PPP)
+Integrated on the 7-pin interface,
+reliable high-precision position and posture information, suitable for applications in QZSS L1C/A, L2, L5, L6(CLAS*) USB support access to the computer
+to copy data directly
+intelligent driving, precision agriculture, and intelligent robotics.
+SBAS* L1C/A
+Standard RJ45 interface,
+Network port
+NavIC(IRNSS)* L5* 10/100Mbps network adaptive
+LTE FDD: B1/2/3/4/5/7/8/12/13/
+Marked * indicates firmware support is required
+18/19/20/25/26/28
+Network
+CHARACTERISTIC LTE TDD: B38/39/40/41
+Channel 1507 Communication
+WCDMA: B1/2/4/5/6/8/19
+Pseudirange Observation GSM: B2/3/5/8
+≤10.0cm
+Accuracy
+PWE*1: Power supply port
+Linux Intelligent System Carrier Phase DATA*1 PPS*1
+Observation ≤1.0cm Interface SIM*1: Nano SIM card
+ARM Cortex-A7 + Linux, the intelligent system platform, brings efficient computing and Accuracy Ethernet*1 GNSS*1: Main antenna
+4G*1: 4G antenna port
+unlimited expansion of product functions to users. Single Accuracy(RMS) Horizontal: 1.5m / Vertical: 2.5m
+32GB, circular storage
+Storage
+Horizontal: ± (10mm+1ppm) support multi-channel storage
+RTK Accuracy(RMS)
+Vertical: ± (15mm+1ppm)
+All-system Dual-frequency GNSS Receiver ELECTRICAL CHARACTERISTIC
+Horizontal: ± (2.5mm+1ppm)
+Static Accuracy (RMS)
+Vertical: ± (5mm+1ppm) Voltage Input 9-24V DC(12V typical)
+Integrated high-precision positioning module with fully independent intellectual property
+Time Accuracy (RMS) ≤20ns(It does not include delays Power Dissipation 1.8W
+rights, supporting: BDS B1I, B2I, B3I, B1C*, B2a, B2b*(PPP), GPS L1C/A, L1C*, L2, L5，GLONASS caused by RF cables or antennas)
+ENVIRONMENT
+L1, L2, Galileo E1, E5a, E5b, E6*, SBAS L1C/A, QZSS L1C/A, L2, L5, L6(CLAS*) . Position Data NMEA-0183
+Differential Data RTCM 3.X Operating Temperature -40°C~+85°C
+Compatibility with Multiple Protocols Data Format RINEX, Custom Storage Temperature -40°C~+85°C
+2Hz, 5Hz(Turn off integrated Protection Class IP68
+Data update frequency
+Navigation)
+NET660i-1U supports Ntrip Client/Server/Caster, TCP Client/Server connections, FTP file PHYSICAL
+IMU: 50/100Hz
+transfer, HTTP/HTTPS, and MQTT transmission.
+IMU Material Magnesium alloy main body
+Gyroscope Range: ±300°/s Dimension 148.8mm*105mm*50.3mm
+Built-in Deeply Coupled Navigation Algorithm Full temperature zero
+Weight 490g
+deviation: 0.3°/s
+IMU parameters
+Scale error: 4‰
+Integrated MEMS inertial measurement unit enables dead reckoning, providing continuous
+Three-axis orthogonal
+high-precision position and speed information even during short-term obstructions. The coupling error: 1.7‰ (0.1°)
+deeply coupled navigation algorithm improves GNSS signal quality, enhancing positioning Equipped with electronic fence system, Toknav’s product have area code restrictions.
+Any issue please contact Toknav or local dealers to verify the specific details.
+accuracy in urban canyons by 2-5 times compared to loosely coupled algorithms.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+Cloud Service Functionality
+The device can regularly report the device status such as device location, network status,
+signal strength, satellite reception status, etc., and support cloud platform to restart, reset,
+and upgrade the remote device.
+37 38

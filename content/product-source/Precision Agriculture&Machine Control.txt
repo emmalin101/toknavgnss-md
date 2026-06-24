@@ -1,0 +1,483 @@
+
+
+--- Page 1 ---
+Precision Agriculture
+&Machine Control
+PRODUCT BROCHURE
+Guangzhou Toksurvey Information Technology Co.,Ltd
+www.toknavgnss.com | info@toknavgns.com
+Europe, North and South America
+Asia, Africa and Oceania
+Tel and WhatsApp
++86 139 2607 5986 (Jeffrey)
+No. 9 Caipin Road, Building B, Room 801-6, Huangpu District,
+Guangzhou, China 510000
+
+--- Page 2 ---
+ABOUT US
+Our Targets
+Company Introduction
+Guangzhou Toksurvey Information Technology Co.,
+Ltd. was founded in 2019 by a team of R&D
+engineers. The company team has nearly 15 years of
+R&D background. At present, the company has
+Make positioning Working together to To become a leader in Your reliable
+nearly 2,500 square meters of office and factory,
+more precise and improve global the global surveying supplier in
+complete set of research equipment, and strong easier. surveying quality. and mapping service. positioning!
+technical background.
+Mission Vision Value Slogan
+Our company is committed to the R&D,
+production and sales of high-precision satellite Fields of Application
+positioning terminal products. More than 60% of
+the employees are engineers. Driven by
+TOKNAV products can be widely used in precision
+technological innovation, the company maintains
+surveying & mapping, mining operations, deformation
+a steady growth rate of 60% every year.
+monitoring, autonomous driving and other fields. We
+Construction Monitoring
+currently have a number of mature GNSS application
+At present, the company has successfully solutions, such as deformation monitoring, CORS network,
+launched high-precision GNSS RTK (T5 series, marking robots, precision agriculture, mechanical control
+T10 series, T20 series, T30 series, T40 series and and digital construction field. TOKNAV products have Mapping & GIS Surveying
+T50 series), portable RTK receiver (P8 series), passed CE, FCC, KC, NGS, IGS and other certifications, and
+high-precision CORS station (NET660 series), are exported to more than 100 countries and regions
+data controller, GNSS antenna, precision around the world. Our products are well received in the
+Agriculture Marine
+agriculture, mechanical control, marking robot, global market, and now we have become a system
+USV and SLAM to the market. We not only integration supplier in the global market.
+provide trainings about our products, but also
+Certifications
+provide a series of relevant solutions.
+
+--- Page 3 ---
+TAG66 CHARACTERISTIC
+Integrated Controller Design
+Electric Steering Wheel
+This autonomous steering system uses an integrated controller that combines a 4G, IMU sensor,
+Autonomous Driving System
+UHF radio, and BeiDou positioning modules, making it easy to install and transfer between
+vehicles. There is no need to install additional wheel angle sensors, making installation even easier.
+High Precision
+The system provides industry-standard RTK precision, combining BeiDou positioning with INS
+terrain compensation to ensure a pass precision of 2.5cm even in difficult agricultural terrains. This
+level of precision and accuracy is valuable for various agricultural activities such as plowing,
+sowing, and harvesting. By eliminating overlaps and skips, it can increase yield while saving fuel,
+seeds, and time.
+Excellent Performance
+The system easily maintains a precision of ±2.5cm within a speed range of 0.15 to 25 kilometers per
+hour. With high-precision algorithms, it is very suitable for sowing, planting, spraying, plowing, and
+TAG66 is an electric steering wheel autonomous driving system. It obtains centimeter-level
+other ground operations.
+vehicle positioning through BeiDou high-precision positioning and adjusts the vehicle’s
+direction through an advanced DC servo motor solution. This autonomous steering system
+uses an integrated controller that combines a 4G module, IMU sensor, UHF radio, and All-in-One Features
+BeiDou positioning module to achieve high-precision autonomous driving. It is suitable for
+Compatible with various operating modes, including AB line, A+ line, custom curves, and angle
+agricultural activities such as sowing, harvesting, spraying, mulching, plowing, and ridge
+harrowing. It supports work area statistics, work trajectory recording, data upload and download,
+making. It can effectively improve work efficiency and yield while saving fuel, seed, and
+and shared operation modes among multiple vehicles.
+labor costs.
+Easy to Use
+Users can activate common functions in just a few steps, allowing them to get started quickly and
+learn on the go.
+Sowing Transplanter Apply Medicine System composition
+Intelligent Display Screen Electric steering wheel
+Film Covering Plow Furrow Ridge Formation
+01 02
+
+--- Page 4 ---
+SPECIFICATION
+TAG66
+Electric Steering Wheel Autonomous Driving System
+RECEIVER AUTO-STEERING SYSTEM
+GPS L1, L2, L5 Rated Torque 7.5 N·m
+GLONASS L1, L2 Max RPM 180 RPM
+GALILEO E1, E5a, E5b Rated Current 15A
+BDS B1, B2, B3 I/O 1 × CAN
+Horizontal:±8mm + 1ppm RMS Power (9-32) VDC
+Accuracy (RTK)
+Vertical: ±15mm + 1ppm RMS
+Motor Dimensions 165mm × 80.5mm
+Working Temperature -20°C ~+70°C
+Camera
+GNSS Receiver Steering Wheel Diameter D: 410mm
+Auto-Steering System Storage Temperature -40°C ~+80°C
+Operating Temperature -20°C ~ +70°C
+Size 159*56 mm
+Storage Temperature -40°C ~ +85°C
+Network 2G/3G/4G
+Dust & Waterproof Rating IP65
+Dust and Waterproof IP69K
+CAMERA
+VEHICLE MOUNTED COMPUTER
+Power Supply DC12V ±5%
+12-inch, Support 5-point
+Display Screen Viewing Angle 120°
+capacitive touth
+Android 11.0 Resolution 1280(H) × 720(V)
+High-Precision Display Dual system Linux 5.10，Qt 5.15.7
+Dust & Waterproof Rating IP65
+and Control Terminal Brightness 750cd/m2
+Operating Temperature -20°C ~ +70°C
+Resolution 1280*800px
+Storage Temperature -40°C ~ +85°C
+DC_OUPUT 12V output *2
+I/O IO_INPUT input *2 ACCESSORIES
+100Mbps Ethernet *1
+RS232*2 RS485*1 CAN*2 Receiver 1 PCS
+4G
+WiFi 2.4G/5G Tablet 1 PCS
+Communication
+BT 4.2, BLE
+Steering Wheel 1 PCS
+USB 3.0*1
+Operating Temperature -30°C ~ +70°C Motor and Driver 1 PCS
+Storage Temperature -40°C ~ +85°C Main Cable 1 PCS
+Protection Level IP65
+Tablet Power Cable 1 PCS
+Work Humidity 0%-90%RH
+Screw Accessories Pack 1 PCS
+Vibration standard
+MIL-STD-810
+(Operational) Mount 1 PCS
+Impact standard
+ISO16750 Camera (Optional) 1 PCS
+Supports receiving external RTK corrections via UHF radio. (Operational)
+9-36V DC Input
+Power
+ACC, State detection for ignition
+Supports wheel angle sensor mode required for specific farm operations.
+www.toknav.cn info@toknav.cn
+Supports secondary development for tighter integration of components.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+03 04
+
+--- Page 5 ---
+TAG88 CHARACTERISTIC
+Full Network Signal Coverage
+Automated GNSS The system integrates Beidou satellite, compatible with GPS, BDS, GALILEO, and GLONASS
+signals. The base station covers a maximum radius of 30 km, reducing the hassle of base
+Land Leveling System
+station relocation and enabling simultaneous operation of multiple devices.
+Intelligent Display Screen
+12-inch high-definition display with instant five-finger touch response. Protection against
+contamination and dust, as well as resistance to shock, magnetism, and electromagnetic
+interference, ensuring stable performance.
+Multitasking: Adaptable to Various Grading Tools
+The system includes tractor navigation, compatible with telescopic, ripper, paddy leveling
+blades, scrapers, and graders for tasks like ridging, slope scraping, and farmland leveling.
+24-Hour Continuous Operation
+TAG88 Automated GNSS Land Leveling System is a satellite positioning-based, fully The system supports 24-hour continuous operation, capable of working in various adverse
+automated control system for high-precision land leveling with agricultural machinery. It weather conditions, including daytime, nighttime, strong winds, sandstorms, and smog.
+features 24-hour operation, a 30-kilometer coverage radius, and eliminates the need for
+frequent base station relocation. The system supports simultaneous operation of multiple Real-time Map Visualization
+units. Through real-time display of fill and cut volumes and automatic adjustment of the
+Users can monitor operation trajectories and terrain elevations via the software, design operation
+land leveler's position and attitude, it enables construction without prior staking, ensuring
+routes, and achieve an intuitive understanding of the work process.
+rapid and accurate task completion even in complex terrains, thereby enhancing efficiency,
+reducing rework, and increasing economic benefits.
+Automatic Terrain Recognition and Adjustment
+The system automatically identifies terrain variations and adjusts the plot datum, achieving an
+operation accuracy of ±2.5 cm. It can level both flat and sloped surfaces, increasing operation
+efficiency by 20%.
+System composition
+Road Construction Site Preparation for Buildings Agricultural Field Leveling
+Intelligent Display Screen Electronic Control Unit
+Airport Runway Construction Mining Operations Landscape Grading
+05 06
+
+--- Page 6 ---
+SPECIFICATION
+TAG88
+Automated GNSS Land Leveling System
+SATELLITE SYSTEM Vibration standard MIL-STD-810
+(Operational)
+BDS B1I, B2I, B3I, B1C, B2a, B2b* Impact standard
+ISO16750
+(Operational)
+GPS L1, L2, L5
+9-36V DC Input
+Power
+GLONASS L1, L2, L3 ACC, State detection for ignition
+GALILEO E1, E5a, E5b, E6 ECU CONTROLLER
+QZSS L1, L2, L5, L6 Dimensions(L*W*H) 16cm* 10.8cm*4.5cm
+IRNSS L5 Input Voltage 9–36V
+GNSS Antenna
+L-Band Hydraulic Output Voltage 12V
+High-Precision Display WORKING ENVIRONMENT A highly integrated leveling
+control unit and radio
+and Control Terminal
+Operating Temperature: communication unit.
+-40°C ~ +85°C The leveling control unit is
+Environment
+Storage Temperature: equipped with an on-board ARM
+-55°C ~ +85°C processor and industrial-grade
+Complies with national standards communication chip, ensuring
+GBT-3871, GBT-2423, stable performance and robust
+Vibration Standards Description
+and GBT-28046 for vehicle anti-interference capability.
+vibration standards The radio communication unit
+Electronic Control Unit
+incorporates mainstream
+VEHICLE MOUNTED COMPUTER
+measurement-grade
+communication modules,
+12-inch, Support 5-point
+Display Screen compatible with domestic and
+capacitive touth
+international standard
+Android 11.0 measurement base stations.
+Dual system
+Linux 5.10，Qt 5.15.7
+ACCESSORIES
+Brightness 750cd/m2
+Tablet 1 PCS
+Resolution 1280*800px
+ECU 1 PCS
+DC_OUPUT 12V output *2
+IO_INPUT input *2
+I/O Gnss antenna 1 PCS
+100Mbps Ethernet *1
+RS232*2 RS485*1 CAN*2 Hydraulic control valve 1 PCS
+4G Tablet Holder 1 PCS
+WiFi 2.4G/5G
+Communication
+BT 4.2, BLE Power cable 1 PCS
+USB 3.0*1
+Hydraulic valve cable 1 PCS
+Operating Temperature -30°C ~ +70°C
+Gnss antenna cable 1 PCS
+Storage Temperature -40°C ~ +85°C
+The system automatically identifies terrain variations and adjusts the plot datum. Protection Level IP65
+Work Humidity 0%-90%RH
+Achieving an operation accuracy of ±2.5 cm.
+www.toknav.cn info@toknav.cn
+24-Hour Continuous Operation.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+07 08
+
+--- Page 7 ---
+TMC10 CHARACTERISTIC
+High Precision
+Dozer 3D Guidance System
+The system leverages GNSS positioning and sensor fusion, integrated with modeling
+algorithms and electro-hydraulic controls, for centimeter-accurate control, enhancing
+performance.
+24-Hour Continuous Operation
+The system supports 24-hour continuous operation and allows reliable operation at night.
+Real-time Monitoring and Control
+The system uses cutting-edge sensors to track the blade's status and the worksite
+environment continuously. This data feeds into the control system for precise blade
+management, keeping operations at peak efficiency.
+Stakeless Operation with Increased Efficiency
+TMC10 Dozer 3D Guidance System pairs high-precision BeiDou GNSS technology with
+construction machinery. It precisely tracks the blade's position and orientation, aligning
+The system integrates algorithms with 3D plans for digital guidance, removing the need for
+with 3D digital plans to guide users via digital readouts or indicators. Utilizing global
+professional surveyors. It enables quick bulldozer leveling, saving labor costs and boosting
+navigation and embedded technology, the system offers real-time control over dozing
+efficiency by over 50%.
+tasks, boosting accuracy, efficiency, and safety. It's ideal for road and rail grading, dam
+construction, riverbed leveling, and land preparation in large-scale projects and
+agriculture. Easy Installation and Operation
+Featuring straightforward installation and intuitive operation, it's easy for users can quickly
+become proficient.
+System composition
+Road Grading Farmland Leveling Riverbed Leveling
+Intelligent Display Screen Gyroscope
+Land Preparation Nighttime Operations Construction Operations
+09 10
+
+--- Page 8 ---
+SPECIFICATION
+TMC10
+SATELLITE SYSTEM ±1°/s
+Zero-drift at Rest
+Condition: Horizontal Placement
+BDS B1I, B2I, B3I, B1C, B2a, B2b*
+Dozer 3D Guidance System Temperature Drift ±5 (°/s)/°C
+GPS L1, L2, L5 Condition: -40°C~+85°C
+10s Smoothing 2.03°/h
+GLONASS L1, L2, L3
+(Zero Bias Stability) Condition: Horizontal Static Placement
+GALILEO E1, E5a, E5b, E6 Allan Variance 1.80°/h
+QZSS L1, L2, L5, L6 (Zero Bias Instability) Condition: Horizontal Static Placement
+HEADING ANGLE
+IRNSS L5
+Range Z:±180°
+L-Band
+Heading Accuracy 0.1°
+WORKING ENVIRONMENT
+0.0055°
+Operating Temperature: LSB
+Condition: Horizontal Placement
+GNSS Antenna -40°C ~ +85°C
+Environment
+Storage Temperature: MODULE
+High-Precision Display -55°C ~ +85°C
+and Control Terminal Complies with national standards Communication 4800bps ~ 230400bps
+GBT-3871, GBT-2423, Interface Condition: UART Default: 115200bps
+Vibration Standards
+and GBT-28046 for vehicle Output Content Angular Velocity, Angle
+vibration standards
+0.2Hz ~ 500Hz
+VEHICLE MOUNTED COMPUTER Output Rate
+Default: 10Hz
+GNSS Antenna
+10.1-inch, Support 5-point Stratup Time 1000ms (Max Value)
+Display Screen
+capacitive touth
+Operating Temperature -40°C~85°C
+Brightness 750cd/m2 Storage Temperature -40°C~100°C
+Resolution 1024*600px ELECTRICAL PARAMETERS
+RS232*2
+3.3V~5.5V
+I/O RS485*1 Supply Voltage
+CAN*1/2 Typical: 5V
+4G 9.5mA (Typical)
+Operating Current
+Gyroscope
+WiFi 2.4G Condition: Operating (5V)
+Communication
+BT 4.2, BLE
+ACCESSORIES
+USB 2.0*1
+Operating Temperature -30°C ~ +70°C Tablet 1 PCS
+Storage Temperature -40°C ~ +85°C ECU 1 PCS
+Protection Level IP65 Gyroscope 1 PCS
+Work Humidity Humidity 95%, non-condensing GNSS Antenna 2 PCS
+Vibration standard Main Cable 1 PCS
+MIL-STD-810
+(Operational)
+Data Cable 1 PCS
+Impact standard
+ISO16750
+(Operational) Tablet Power Cable 1 PCS
+Manages blade lift with solenoid valves guided by navigation data.
+5-36V DC Input Antenna harness 2 PCS
+Power
+ACC, State detection for ignition
+Achieves 2 cm accuracy in positioning. Mount 1 PCS
+GYROSCOPE
+Screw Accessories Pack 1 PCS
+Facilitates the conversion and import of design specifications.
+Range ±400°/s
+Support Rod Kit 1 PCS
+0.000055(°/s)/(LSB)
+LSB
+Condition: ±400°/s
+www.toknav.cn info@toknav.cn
+Manufacturers may update parameters at any time, please refer to the latest product information.
+11 12
+
+--- Page 9 ---
+TMC20 CHARACTERISTIC
+High-Precision Intelligent Display Screen
+Excavator Guidance System
+This industrial-grade vehicle-mounted computer is designed for rugged durability. It
+features an integrated high-precision GNSS module for accurate positioning and
+orientation. With an IP65 protection rating and superior shock resistance, it's built to
+withstand tough conditions. The device supports multiple communication methods,
+including dual-SIM full-network connectivity. Its high-resolution, high-brightness screen
+ensures clear visibility, making it ideal for a range of demanding work environments.
+Dynamic IMU Sensor
+This dynamic IMU sensor offers high precision and consistency in motion sensing, along with
+an ultra-wide temperature range. It's designed to meet the stringent environmental
+demands of engineering applications.
+High Precision
+TMC20 has a planar accuracy of up to 2cm, and a high accuracy of 3cm for fill and dig
+TMC20 is an efficient excavator guidance system. It utilizes BeiDou satellite positioning
+volumes. The high-precision guidance system reduces the risk of rework due to
+to provide construction workers with intuitive real-time graphical and numerical
+under-digging or over-digging. It meets various construction requirements (such as
+information, enabling more precise and efficient construction. This system is suitable for
+underwater riverbed excavation, riverbed dredging, riverbank slope trimming, high-speed
+various engineering scenarios, such as underwater riverbed excavation, riverbed
+track construction at test sites, etc.), and the construction quality is further enhanced.
+dredging, riverbank slope trimming, and high-speed track construction at test sites. It
+can significantly reduce the number of on-site auxiliary personnel, achieve
+Multi-Scenario Application
+one-person-one-machine construction, and lower labor costs. It is a powerful tool for
+improving construction quality and efficiency. Through inertial navigation and tilt sensing technology, combined with centimeter-level
+high-precision positioning, it obtains the three-dimensional coordinates of the boom, arm,
+and bucket to achieve precise construction guidance in all-weather and all-scenario
+conditions, such as ditch digging, slope trimming, riverbed excavation, night, rain, snow, and
+heavy fog.
+System composition
+Trench Excavation Construction Operations River Channel Excavation
+Intelligent Display Screen Dynamic IMU Sensor
+Slope Trimming Nighttime Operations Slope Leveling
+13 14
+
+--- Page 10 ---
+SPECIFICATION
+TMC20
+Excavator Guidance System SATELLITE SYSTEM SENSOR PERFORMANCE
+BDS B1I, B2I, B3I, B1C, B2a, B2b* Angle Measurement Pitch Angle: ±80°
+Range Roll Angle: ±180°
+GPS L1, L2, L5
+Angle Repeatability <0.05°
+GLONASS L1, L2, L3
+Angular Velocity
+±450°/s
+GALILEO E1, E5a, E5b, E6 Measurement Range
+QZSS L1, L2, L5, L6 LSB 0.01°
+IRNSS L5 Dynamic Accuracy 0.7°
+Acceleration
+L-Band ±6g
+Measurement Range
+GNSS Antenna GNSS Antenna
+WORKING ENVIRONMENT
+Update Rate 100Hz
+High-Precision Display
+Operating Temperature:
+and Control Terminal Voltage Input 9-36 V
+-40°C ~ +85°C
+Environment
+Storage Temperature: Power Consumption 0.1-0.24W
+-55°C ~ +85°C
+Interfaces CAN/RS-485/RS-232/TTL
+Complies with national standards
+GBT-3871, GBT-2423, Connector Model GX12 - 4 Pin (Male)
+Dynamic IMU Sensor Vibration Standards
+In-vehicle controller and GBT-28046 for vehicle
+vibration standards Product Dimensions 37.65524mm
+VEHICLE MOUNTED COMPUTER Waterproof Rating IP68
+Operating Temperature -40~85°C
+10.1-inch, Support 5-point
+Display Screen
+capacitive touth
+Storage Temperature -40~85°C
+Brightness 750cd/m2 ACCESSORIES
+Dynamic IMU Sensor
+Resolution 1024*600px Tablet 1 Unit
+RS232*2
+Gnss Antenna 2 PCS
+I/O RS485*1
+CAN*1/2 Dynamic IMU Sensor 2 PCS
+4G In-vehicle controller 1 PCS
+WiFi 2.4G
+Communication BT 4.2, BLE Satellite Antenna Cable 2 PCS
+USB 2.0*1 Satellite Antenna Extension 1 PCS
+Operating Temperature -30°C ~ +70°C Main Cable 1 PCS
+Storage Temperature -40°C ~ +85°C Gyro Cable 1 PCS
+Protection Level IP65 Mounting Pack 1 PCS
+Work Humidity Humidity 95%, non-condensing Tablet bracket 1 PCS
+Radio Antenna(Optional) 1 PCS
+Vibration standard
+MIL-STD-810
+(Operational)
+Impact standard
+ISO16750
+Reduce rework costs due to over-digging and under-digging, save fuel, and reduce costs. (Operational)
+5-36V DC Input
+Power
+Construction is possible 24 hours a day, day and night. ACC, State detection for ignition
+www.toknav.cn info@toknav.cn
+Automatically calculates the area, making the working area clear at a glance.
+Manufacturers may update parameters at any time, please refer to the latest product information.
+15 16

@@ -1,0 +1,920 @@
+
+
+--- Page 1 ---
+GNSS Antenna
+PRODUCT BROCHURE
+Guangzhou Toksurvey Information Technology Co.,Ltd
+www.toknavgnss.com | info@toknavgns.com
+Europe, North and South America
+Asia, Africa and Oceania
+Tel and WhatsApp
++86 139 2607 5986 (Jeffrey)
+No. 9 Caipin Road, Building B, Room 801-6, Huangpu District,
+Guangzhou, China 510000
+GNSS Receiver Manufacturer
+Professional OEM&ODM
+Over 15 years experience in R&D and manufacturing
+
+--- Page 2 ---
+ABOUT US
+Our Targets
+Company Introduction
+Guangzhou Toksurvey Information Technology Co.,
+Ltd. was founded in 2019 by a team of R&D
+engineers. The company team has nearly 15 years of
+R&D background. At present, the company has
+Make positioning Working together to To become a leader in Your reliable
+nearly 2,500 square meters of office and factory,
+more precise and improve global the global surveying supplier in
+complete set of research equipment, and strong easier. surveying quality. and mapping service. positioning!
+technical background.
+Mission Vision Value Slogan
+Our company is committed to the R&D,
+production and sales of high-precision satellite Fields of Application
+positioning terminal products. More than 60% of
+the employees are engineers. Driven by
+TOKNAV products can be widely used in precision
+technological innovation, the company maintains
+surveying & mapping, mining operations, deformation
+a steady growth rate of 60% every year.
+monitoring, autonomous driving and other fields. We
+Construction Monitoring
+currently have a number of mature GNSS application
+At present, the company has successfully solutions, such as deformation monitoring, CORS network,
+launched high-precision GNSS RTK (T5 series, marking robots, precision agriculture, mechanical control
+T10 series, T20 series, T30 series, T40 series and and digital construction field. TOKNAV products have Mapping & GIS Surveying
+T50 series), portable RTK receiver (P8 series), passed CE, FCC, KC, NGS, IGS and other certifications, and
+high-precision CORS station (NET660 series), are exported to more than 100 countries and regions
+data controller, GNSS antenna, precision around the world. Our products are well received in the
+Agriculture Marine
+agriculture, mechanical control, marking robot, global market, and now we have become a system
+USV and SLAM to the market. We not only integration supplier in the global market.
+provide trainings about our products, but also
+Certifications
+provide a series of relevant solutions.
+
+--- Page 3 ---
+WWW.TOKNAVGNSS.COM
+CONTENT Products
+GNSS Antenna Line Overview 1
+Choke Ring Antenna
+TCA920 Choke Ring Antenna 5
+TCA930 Choke Ring Antenna 7
+TCA930M Choke Ring Antenna 9
+Survey GNSS Antenna
+TSA320 Survey GNSS Antenna 11
+TSA500 Survey GNSS Antenna 13
+TSA520 Survey GNSS Antenna 15
+TSA1000 Survey GNSS Antenna 17
+Helix Antenna 19
+THA-X601A Helix Antenna
+THA-X603A Helix Antenna 21
+THA-7603A Helix Antenna 23
+THA-7609A Helix Antenna 25
+THA-9603A Helix Antenna 27
+
+--- Page 4 ---
+GNSS Antenna Line Overview
+PRODUCTS TCA920 TCA930 TCA930M TSA320 TSA500 TSA520 TSA1000
+ITEM
+GPS L1/L2/L5/L-Band L1/L2 L1/L2/L5/L-Band
+GLONASS L1/L2/L3 L1/L2/L3 L1/L2 L1/L2/L3
+GALILEO E1/E5a/E5b/E6 E1/E5a/E5b/E6 E1 E1/E5a/E5b/E6
+SIGNAL
+BDS B1/B2/B3 B1I/B2I/B3I/B1C/B2a/B2b B1/B2/B3 B1/B2/B3
+TRACKING
+QZSS L1/L2/L5/L6 L1/L2/L5/L6 L1/L2 L1/L2/L5/L6
+SBAS L1/L5 L1/L5 L1 L1/L5
+NavIC (IRNSS) L5 / L5
+Nominal
+50Ω
+Impedance
+Polarization RHCP
+Axial Ratio ≤2dB ≤3dB
+LNA Gain 50dB(typical) L1: 34±2dB L2: 36±2 dB 40dB(typical) L1: 34±2dB L2: 36±2 dB 40dB(typical)
+LNA Noise Figure ≤2dB
+Output/Input VSWR ≤2.0
+Operation Voltage +3.3VDC to +12VDC
+Operation Current 60mA(maximum) 45mA(maximum)
+Group Delay Ripple ＜5ns
+Connector TNC female
+Dimension ¢322mm*261mm ¢379mm*312mm ¢185mm*148mm ¢142mm*66.5mm ¢152mm*62.2mm
+PHYSICAL
+Weight ≤5.6kg ≤10.5kg ≤2.5Kg ≤450g ≤500g ≤400g ≤500g
+Mounting BSW5/8''-11 screw, depth≥22mm
+Operating -40℃ to +85℃
+Temperature
+Storage -55℃ to +85℃
+ENVIRONMENTAL
+Humidity 95% non-condensing
+Protection IP67
+1 2
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 5 ---
+GNSS Antenna Line Overview
+PRODUCTS THA-X601A THA-X603A THA-7603A THA-7609A THA-9603A
+ITEM
+GPS L1/L2 L1/L2/L5 L1/L2 L1/L2/L5
+GLONASS G1/G2/G3 L1/L2/L3 L1/L2
+GALILEO E1/E5b/E6 E1/E5a/E5b E1 E1/E5a/E5b
+SIGNAL
+BDS B1/B2/B3
+TRACKING
+QZSS \ L1/L2 L1/L2/L5/L6
+SBAS \ L1 L1/L5
+NavIC (IRNSS) \ L5
+Nominal
+50Ω
+Impedance
+Polarization RHCP
+Axial Ratio ≤3dB
+LNA Gain 33±2dB
+LNA Noise Figure ≤2dB ≤1.5dB ≤2dB
+Output/Input VSWR ≤2.0
+Operation Voltage +3.3VDC to +12VDC +3.3VDC to +5VDC +3.3VDC to +12VDC
+Operation Current 55mA(maximum) 35mA(maximum) 55mA(maximum)
+Group Delay Ripple No data ＜5ns ＜15ns ＜5ns
+Connector SMA male
+Dimensions ¢40mm*82.6mm ¢27.5mm*59mm ¢40mm*75.2mm ¢43.6mm*40.8mm ¢32.2mm*45.8mm
+PHYSICAL
+Weight ≤45g ≤25g ≤38g ≤30.5g ≤20g
+Mounting Refer to installation guidance
+Operating -40℃ to +70℃ Operating -40℃ to +70℃
+Temperature
+Storage -40℃ to +70℃ Storage -55℃ to +70℃
+ENVIRONMENTAL
+Humidity 95% non-condensing
+Protection IP67 IP65
+3 4
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 6 ---
+TCA920 Choke Ring Antenna TECHNICAL PARAMETERS
+ITE M SPE CI FI CAT IO N
+TOKNAV TCA920 Choke Ring Antenna is a high performance
+GPS L1/L2/L5/L-Band
+GNSS antenna for base station that covers full frequency
+GLONASS L1/L2/L3
+satellite signal tracking of GPS, GLONASS, GALILEO, BDS,
+GALILEO E1/E5a/E5b/E6
+QZSS, SBAS, IRNSS, as well as L-Band correction service. The
+SIGNAL TRACKING BDS B1/B2/B3
+2D choke coil with strong multipath suppression performance
+QZSS L1/L2/L5/L6
+that specifically designed for applications as land and marine
+surveying, channel surveying, earthquake and landslide SBAS L1/L5
+monitoring, deformation monitoring, and wharf container NavIC (IRNSS) L5
+operations that require absolute positioning accuracy and Nominal Impedance 50Ω
+multi-constellation support.
+Polarization RHCP
+CHARACTERISTIC Axial Ratio ≤2dB
+1205-1278MHz 6dBi(maximum)
+Gain at Zenith (90°)
+High Phase Center Stability 1559-1615MHz 6dBi(maximum)
+LNA LNA Gain 50dB(typical)
+The unique 2D choke ring design of TCA920 ensures
+Noise Figure ≤2dB
+an excellent multipath reduction performance across
+all GNSS frequency bands including L-Band. And the Output/Input VSWR ≤2.0
+antenna features the patented multi-point feeding Operation Voltage +3.3VDC to +12VDC
+technology to achieve greater phase center stability
+Operation Current 60mA(maximum)
+and hence effectively improve measurement
+Group Delay Ripple ＜5ns
+accuracy. It is ideal for applications of CORS stations,
+Dimensions ¢322mm*261 mm
+bridge and building deformation monitoring or
+geological monitoring due to its sub-millimeter phase Connector TNC female
+PHYSICAL
+center stability. Weight ≤5.6kg
+Mounting BSW5/8''-11 screw, depth≥22mm
+Track in Challenging Environments
+Operating -40℃ to +85℃
+Temperature
+The strong ability to receive low elevation signals with high gain and wide beam width Storage -55℃ to +85℃
+makes TCA920 an excellent choice for tracking visible satellites and provide stable and ENVIRONMENTAL Humidity 95% non-condensing
+precision GNSS data under complex environments, such as obstructed environment of
+Protection IP67
+tree lines or construction.
+Regulatory Compliance NGS, CE, FCC, RoHS
+Strong Anti-Interference Performance
+STRUCTURAL DIMENSION DRAWING
+The antenna Low Noise Amplifier(LNA) features an excellent out-of-band rejection
+performance, which can suppress the Electromagnetic Interference(EMI), providing (Dimension tolerance: +0.3mm)
+the stability and reliability of GNSS signals. Also, it effectively avoids disconnection
+dangerous when receivers are being interfered by wireless communication systems,
+for example power grid, communication base station or radio modem applications.
+More Ruggedized for Long Lasting Durability
+The TCA920 cover is made of Glass Fiber Reinforced Polymer (GFRP) material and is
+structurally strong and reliable. The newly designed choke rings are treated with a more
+robust double treatment for longer lasting durability in harsh environments. The IP67
+ruggedized cover is also designed for added protection for inside antenna avoid from
+dust and water. The antenna Mean Time Between Failures(MTBF) is over 30000 hours,
+which ensures long-time outdoor operation in challenging environments of high low
+temperature, high humidity and high salt fog.
+5 6
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 7 ---
+TCA930 Choke Ring Antenna
+TECHNICAL PARAMETERS
+ITE M SPE CI FI CAT IO N
+TOKNAV TCA930 Choke Ring Antenna is a high performance
+GPS L1/L2/L5/L-Band
+GNSS antenna for base station that covers full frequency
+GLONASS L1/L2/L3
+satellite signal tracking of GPS, GLONASS, GALILEO, BDS,
+GALILEO E1/E5a/E5b/E6
+QZSS, IRNSS and SBAS correction service. The 3D Choke Ring
+Antenna with strong multipath suppression performance that SIGNAL TRACKING BDS B1/B2/B3
+specifically designed for applications as land and marine QZSS L1/L2/L5/L6
+surveying, channel surveying, earthquake and landslide SBAS L1/L5
+monitoring, deformation monitoring, and wharf container NavIC (IRNSS) L5
+operations that require absolute positioning accuracy and
+Nominal Impedance 50Ω
+multi-constellation support.
+Polarization RHCP
+Axial Ratio ≤2dB
+CHARACTERISTIC
+1164-1300MHz 7.0dBi(maximum)
+Gain at Zenith (90°)
+1525-1615MHz 6.5dBi(maximum)
+High Phase Center Stability
+LNA LNA Gain 50dB(typical)
+The unique 3D choke ring design of TCA930 ensures Noise Figure ≤2dB
+an excellent multipath reduction performance across
+Output/Input VSWR ≤2.0
+all GNSS frequency bands including L-Band. And the
+Operation Voltage +3.3VDC to +12VDC
+antenna features the patented multi-point feeding
+technology to achieve greater phase center stability Operation Current 60mA(maximum)
+and hence effectively improve measurement Group Delay Ripple ＜5ns
+accuracy. It is ideal for applications of CORS stations, Dimensions ¢379mm*312m m
+bridge and building deformation monitoring or
+Connector TNC female
+geological monitoring due to its sub-millimeter phase PHYSICAL
+Weight ≤10.5kg
+center stability.
+Mounting BSW5/8''-11 screw, depth≥22mm
+Track in Challenging Environments Operating -40℃ to +85℃
+Temperature
+Storage -55℃ to +85℃
+The strong ability to receive low elevation signals with high gain and wide beam width
+ENVIRONMENTAL Humidity 95% non-condensing
+makes TCA930 an excellent choice for tracking visible satellites and provide stable and
+Protection IP67
+precision GNSS data under complex environments, such as obstructed environment of
+Regulatory Compliance IGS, NGS, CE, FCC, RoHS
+tree lines or construction.
+Strong Anti-Interference Performance STRUCTURAL DIMENSION DRAWING
+(Dimension tolerance: +0.3mm)
+The antenna LNA features an excellent out-of-band rejection performance, which can
+suppress the EMI, providing the stability and reliability of GNSS signals. Also, it
+effectively avoids disconnection dangerous when receivers are being interfered by
+wireless communication systems, for example power grid, communication base
+station or radio modem applications.
+More Ruggedized for Long Lasting Durability
+The TCA930 cover is made of GFRP material and is structurally strong and reliable. The
+newly designed choke rings are treated with a more robust double treatment for longer
+lasting durability in harsh environments. The IP67 ruggedized cover is also designed for
+added protection for inside antenna avoid from dust and water. The antenna Mean
+MTBF is over 30000 hours, which ensures long-time outdoor operation in challenging
+environments of high low temperature, high humidity and high salt fog. requirements,
+safe and reliable.
+7 8
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 8 ---
+TCA930M Choke Ring Antenna
+TECHNICAL PARAMETERS
+ITE M SPE CI FI CAT IO N
+TOKNAV TCA930M Choke Ring Antenna is a high performance
+GPS L1/L2/L5
+GNSS antenna for base station that covers full frequency
+satellite signal tracking of GPS, GLONASS, GALILEO, BDS, GLONASS L1/L2/L3
+QZSS, IRNSS, SBAS as well as L-Band correction service. It is a GALILEO E1/E5a/E5b/E6
+mini choke ring antenna with strong multipath suppression SIGNAL TRACKING BDS B1/B2/B3
+performance that specifically designed for applications as land
+QZSS L1/L2/L5/L6
+and marine surveying, channel surveying, earthquake and
+SBAS L1/L5
+landslide monitoring, deformation monitoring, and wharf
+NavIC (IRNSS) L5
+container operations that require absolute positioning accuracy
+L-Band
+and multi-constellation support.
+Nominal Impedance 50Ω
+CHARACTERISTIC
+Polarization RHCP
+Axial Ratio ≤3dB
+High Phase Center Stability
+LNA Azimuth Coverage 360°(Omni-directional)
+The TCA930M adopts unique choke ring structure
+Output VSWR ≤2.0
+design which delivers extraordinary multipath
+suppression performance for stable satellite signal Peak Gain 6.5dBi
+tracking. It also features patented multi-point Phase Center Repeatability 1mm
+feeding technology to achieve the repeatability of
+LNA Gain 50 2dB
+phase center and geometrical center, maximumly
+Noise Figure ≤2dB
+decreasing the measuring deviation. The stability of
+this antenna reaches submillimeter, ideal for Output VSWR ≤2.0
+LOW NOISE
+mission-critical applications. Passband Ripple 2dB
+AMPLIFIER
+Operation Voltage +3.3V to +12V DC
+Track in Challenging Environments Operation Current ≤60mA
+The TCA930M excels its signal tracking performance thanks to its high gain and wide Differential Propagation Delay ≤5ns
+beam width for directional diagram, which ensures ideal satellite signal reception even Dimensions 185mm*148 mm
+the antenna situates at low elevation and quickly tracks available satellites in
+PHYSICAL Connector TΦNC Female
+environments with blockages and output reliable and stable GNSS signals.
+Weight ≤2.5Kg
+Mounting 5/8"x11 Screws
+Strong Anti-Interference Performance
+Operating Temperature -40°C to + 85°C
+The LNA of this antenna features an excellent out-of-band rejection performance,
+Storage Temperature -55°C to + 85°C
+which can suppress unwanted electromagnetic interference and avoid interference ENVIRONMENTAL
+Humidity 95% No-condensing°C
+from power grid, communication base station, or radio modem applications and
+effectively decrease the risk of satellite signal tracking loss, providing the stability and Protection IP67
+reliability of GNSS signals. STRUCTURAL DIMENSION DRAWING
+(Dimension tolerance: +0.3mm)
+More Ruggedized for Long Lasting Durability
+The TCA930M is a ruggedized and durable mini choke ring antenna that built into an
+IP67 rating housing with multiple protection designs to withstand exposure against
+dust, rain, splash or sunlight. Its MTBF exceeds 30,000 hours and functions normally
+for a long period of time even under extreme environments as high and low
+temperature, high humidity, salt fog and etc. Its mini dimensions offer easy integration
+for positioning solutions.
+9 10
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 9 ---
+TSA320 Survey GNSS Antenna
+TECHNICAL PARAMETERS
+ITE M SPE CI FI CAT IO N
+TSA320 is an external measurement antenna that covers four
+GPS L1/L2/L5
+systems, namely GPS, GLONASS, BDS and GALILEO, providing
+GLONASS L1/L2/L3
+full-frequency compatibility. It meets the current requirements
+of multi-system compatibility for measurement devices. It finds GALILEO E1/E5a/E5b/E6
+extensive applications in geodetic surveying, marine SIGNAL RECEIVED BDS B1I/B2I/B3I/B1C/B2a/B2b
+measurement, channel surveying, land surveying, seismic QZSS L1/L2/L5/L6
+monitoring, bridge deformation monitoring, landslide
+SBAS L1/L5
+monitoring, container operations at ports, and other fields
+NavIC (IRNSS) L5
+within the surveying industry.
+L-Ban d
+Phase Center Offset 2mm
+CHARACTERISTIC
+Nominal Impedance 50Ω
+Polarization RHCP
+Tracking in Challenging Environments Axial Ratio ≤3dB
+The ability to receive low elevation signals with high gain and wide beam width makes Gain at Zenith (90°) 5dBi
+TSA320 an excellent choice for tracking visible satellites under challenging conditions, L1: 34 2dB
+LNA FEATURE LNA Gain
+providing the positioning solutions with precision and reliable data. It can be widely L2: 36 2dB
+used in agriculture tractors, unmanned vessels, also for autonomy vehicles, GIS Noise Figure ≤2dB
+surveying where high precision operations are needed.
+Output/Input VSWR ≤2.0
+Small Size and Light Weight Operation Voltage +3.3VDC to +12VDC
+Operation Current ≤45mA
+The light weight and small size TSA320 antenna can lighten the loads of small
+Group Delay Ripple ≤5ns
+unmanned vehicles, as well as a standard TNC female connector for easy integration.
+its IP67 ruggedized design can protect it from dust and water. Dimensions ¢142mm*66.5m m
+Connector TNC female
+MECHANICAL
+Strong Anti-Interference Performance Weight ≤450g
+The antenna LNA features an excellent out-of-band rejection performance, which can Mounting BSW5/8''-11 screw, dept12-14mm
+suppress the EMI, providing the stability and reliability of GNSS signals. Also, it Operating -40℃ to +85℃
+Temperature
+effectively avoids disconnection dangerous when receivers are operated under Storage -55℃ to +85℃
+complex electromagnetic environments such as communication base station and Humidity 95% non-condensing
+ENVIRONMENTAL
+busy urban area.
+Protection IP67
+Operating vibration specifications require compliance with the indus try vehicle vibration
+High Phase Center Stability
+national standards such as G BT-3871, GBT-2423, and GBT-28046
+The TSA320 features a multi-point feeding deign to achieve greater phase center
+STRUCTURAL DIMENSION DRAWING
+stability. It effectively improves measurement accuracy and provides better RTK
+solution. And TSA320 has passed the international NGS certificate test. (Dimension tolerance: +0.3mm)
+Key Features
+Support GPS, GLONASS, GALILEO, BDS, QZSS and SBAS signal reception.
+Stable phase center guarantees the accuracy of positioning within millimeter-level.
+Strong anti-interference ability to endure the harshest operating environments.
+IP67 ruggedized protection.
+11 12
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 10 ---
+TSA500 Survey GNSS Antenna
+TECHNICAL PARAMETERS
+ITE M SPE CI FI CAT IO N
+TSA500 is an external measurement antenna offers superior
+GPS L1/L2
+satellite signal tracking, including GPS, GLONASS, GALILEO,
+GLONASS L1/L2
+BDS, QZSS and SBAS signal reception. It meets the current
+requirements of multi-system compatibility for measurement GALILEO E1
+devices. It finds extensive applications in geodetic surveying, SIGNAL RECEIVED BDS B1/B2/B3
+marine measurement, channel surveying, land surveying, QZSS L1/L2
+seismic monitoring, bridge deformation monitoring, landslide
+SBAS L1
+monitoring, container operations at ports, and other fields
+Nominal Impedance 50Ω
+within the surveying industry.
+Polarization RHCP
+Axial Ratio ≤3dB
+CHARACTERISTIC
+1205-1278MHz 5.5dBi(maximum)
+Gain at Zenith (90°)
+1559-1615MHz 5.5dBi(maximum)
+High Phase Center Stability LNA Gain 40dB(typical)
+LNA FEATURE
+Noise Figure ≤2dB
+The TSA500 features a multi-point feeding deign to achieve greater phase center
+stability. It effectively improves measurement accuracy and provides better RTK Output/Input VSWR ≤2.0
+solution. And TSA500 has passed the international NGS certificate test. Operation Voltage +3.3V to +12VDC
+Operation Current 45mA(maximum)
+Tracking in Challenging Environments
+Group Delay Ripple ＜5ns
+The ability to receive low elevation signals with high gain and wide beam width makes
+Dimensions ¢152mm*62.2m m
+TSA500 an excellent choice for tracking visible satellites under challenging conditions,
+Connector TNC female
+providing the positioning solutions with precision and reliable data. It can be widely
+MECHANICAL
+used in agriculture tractors, unmanned vessels, also for autonomy vehicles, GIS Weight ≤500g
+surveying where high precision operations are needed. Mounting BSW5/8''-11 screw, 12-14mm
+Operating -40℃ to +85℃
+Strong Anti-Interference Performance Temperature Storage -55℃ to +85℃
+The antenna LNA features an excellent out-of-band rejection performance, which can Humidity 95% non-condensing
+suppress the EMI, providing the stability and reliability of GNSS signals. Also, it ENVIRONMENTAL Water/Dust
+IP67
+effectively avoids disconnection dangerous when receivers are operated under Resistance
+complex electromagnetic environments such as communication base station and Regulatory
+CE, FCC, RoHS
+busy urban area. Compliance
+Small Size and Light Weight
+STRUCTURAL DIMENSION DRAWING
+The light weight and small size TSA500 antenna can lighten the loads of small
+unmanned vehicles, as well as a standard TNC female connector for easy integration. (Dimension tolerance: +0.3mm)
+Its IP67 ruggedized design can protect it from dust and water.
+Key Features
+Support GPS, GLONASS, GALILEO, BDS, QZSS and SBAS signal reception.
+Stable phase center guarantees the accuracy of positioning within millimeter-level.
+Strong anti-interference ability to endure the harshest operating environments.
+IP67 ruggedized protection.
+13 14
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 11 ---
+TSA520 Survey GNSS Antenna
+TECHNICAL PARAMETERS
+ITE M SPE CI FI CAT IO N
+TSA520 is an external measurement antenna that covers four
+GPS L1/L2/L5
+systems, namely GPS, GLONASS, BDS and GALILEO, providing
+GLONASS L1/L2/L3
+full-frequency compatibility. It meets the current requirements
+GALILEO E1/E5a/E5b/E6
+of multi-system compatibility for measurement devices. It finds
+extensive applications in geodetic surveying, marine BDS B1/B2/B3
+SIGNAL RECEIVED
+measurement, channel surveying, land surveying, seismic QZSS L1/L2/L5/L6
+monitoring, bridge deformation monitoring, landslide
+SBAS L1/L5
+monitoring, container operations at ports, and other fields
+NavIC (IRNSS) L5
+within the surveying industry.
+L-Band
+Phase Center Offset 2mm
+CHARACTERISTIC
+Nominal Impedance 50Ω
+Polarization RHCP
+High Phase Center Stability
+Axial Ratio ≤3dB
+The TSA520 features a multi-point feeding deign to achieve greater phase center
+Gain at Zenith (90°) 4.5dBi
+stability. It effectively improves measurement accuracy and provides better RTK
+L1: 34 2dB
+solution. And TSA520 has passed the international NGS certificate test. LNA FEATURE LNA Gain
+L2: 36 2dB
+Tracking in Challenging Environments Noise Figure ≤2dB
+Output/Input VSWR ≤2.0
+The ability to receive low elevation signals with high gain and wide beam width makes
+TSA520 an excellent choice for tracking visible satellites under challenging conditions, Operation Voltage +3.3VDC to +12VDC
+providing the positioning solutions with precision and reliable data. It can be widely Operation Current ≤45mA
+used in agriculture tractors, unmanned vessels, also for autonomy vehicles, GIS
+Group Delay Ripple ≤5ns
+surveying where high precision operations are needed.
+Dimensions ¢152mm* 62.2m m
+Strong Anti-Interference Performance Connector TNC female
+MECHANICAL
+Weight ≤400g
+The antenna LNA features an excellent out-of-band rejection performance, which can
+suppress the EMI, providing the stability and reliability of GNSS signals. Also, it Mounting BSW5/8''-11 screw, dept12-14mm
+effectively avoids disconnection dangerous when receivers are operated under Operating -40℃ to +85℃
+Temperature
+complex electromagnetic environments such as communication base station and ENVIRONMENTAL Storage -55℃ to +85℃
+busy urban area. Humidity 95% non-condensing
+Small Size and Light Weight
+STRUCTURAL DIMENSION DRAWING
+The light weight and small size TSA520 antenna can lighten the loads of small
+(Dimension tolerance: +0.3mm)
+unmanned vehicles, as well as a standard TNC female connector for easy integration.
+its IP67 ruggedized design can protect it from dust and water.
+Key Features
+Support GPS, GLONASS, GALILEO, BDS, QZSS and SBAS signal reception.
+Stable phase center guarantees the accuracy of positioning within millimeter-level.
+Strong anti-interference ability to endure the harshest operating environments.
+IP67 ruggedized protection.
+15 16
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 12 ---
+TSA1000 Survey GNSS Antenna
+TECHNICAL PARAMETERS
+ITE M SPE CI FI CAT IO N
+TSA1000 is an external measurement antenna that covers four
+GPS L1/L2/L5/L-Band
+systems, namely GPS, GLONASS, BDS and GALILEO, providing
+GLONASS L1/L2/L3
+full-frequency compatibility. It meets the current requirements
+GALILEO E1/E5a/E5b/E6
+of multi-system compatibility for measurement devices. It finds
+BDS B1/B2/B3
+extensive applications in geodetic surveying, marine
+QZSS L1/L2/L5/L6
+measurement, channel surveying, land surveying, seismic
+SBAS L1/L5
+monitoring, bridge deformation monitoring, landslide
+NavIC (IRNSS) L5
+monitoring, container operations at ports, and other fields
+within the surveying industry. Nominal Impedance 50Ω
+Polarization RHCP
+SIGNAL RECEIVED
+Axial Ratio ≤3dB
+CHARACTERISTIC
+1164-1300MHz 5.5dBi(maximum)
+Gain at Zenith (90°)
+1525-1615MHz 5.5dBi(maximum)
+High Phase Center Stability LNA Gain 40dB(typical)
+Noise Figure ≤2dB
+TSA1000 features a multi-point feeding deign to achieve greater phase center
+Output/Input VSWR ≤2.0
+stability. It effectively improves measurement accuracy and provides better
+positioning solutions. Operation Voltage +3.3VDC to +12VDC
+Operation Current ≤45mA
+Tracking in Challenging Environments Group Delay Ripple ＜5ns
+The ability to receive low elevation signals with high gain and wide beam width makes Dimensions ¢152mm *62.2m m
+TSA1000 an excellent choice for tracking visible satellites under challenging Connector TNC female
+MECHANICAL
+conditions, providing the positioning solutions with precision and reliable data. It can Weight ≤500g
+be widely used in GNSS surveying applications where high precision is needed, such as
+Mounting BSW5/8''-11 screw, dept12-14mm
+obstructed environment of tree lines or construction.
+Temperature Operating -40℃ to +85℃
+Storage -55℃ to +85℃
+Strong Anti-Interference Performance
+Humidity 95% non-condensing
+ENVIRONMENTAL
+The antenna LNA features an excellent out-of-band rejection performance, which can Water/Dust Resistance IP67
+suppress the EMI, providing the stability and reliability of GNSS signals. Also, it Regulatory Compliance NGS、FCC、CE、RoHS
+effectively avoids disconnection dangerous when receivers are operated under
+complex electromagnetic environments such as communication base station and
+busy urban area. STRUCTURAL DIMENSION DRAWING
+(Dimension tolerance: +0.3mm)
+Durable, Easy-Installation Design for Precision Applications
+Its compact and lightweight design, making TSA1000 highly portable and suitable for
+outdoor operating in precision applications. The patented waterproof and breathable
+design, durable enclosure has been proven to sustain the harsh conditions by meeting
+IP67, easily protecting TSA1000 from dust and water for quite a long time.
+Key Features
+Support GPS, GLONASS, GALILEO, BDS, QZSS and SBAS signal reception.
+Stable phase center guarantees the accuracy of positioning within millimeter-level.
+Strong anti-interference ability to endure the harshest operating environments.
+IP67 ruggedized protection.
+17 18
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 13 ---
+THA-X601A Helix Antenna
+TECHNICAL PARAMETERS
+ITE M SPE CI F I CAT IO N
+THA-X601A is an external handheld antenna that covers four
+GPS L1/L2
+systems: GPS, GLONASS, BDS, GALILEO and L-Band. It finds
+GLONASS G1/G2/G3
+extensive applications in industries such as surveying,
+mapping, navigation, and dispatching. It is particularly suitable GALILEO E1/E6/E5b
+SIGNAL RECEIVED
+for various applications in lightweight drones, including BDS B1/B2/B3
+agriculture, surveying, aerial photography, remote telemetry,
+L-Ba nd
+disaster monitoring, traffic patrol, and security surveillance.
+Nominal Impedance 50Ω
+Polarization RHCP
+Axial Ratio ≤3dB
+CHARACTERISTIC
+ANTENNA FEATURE
+Azimuth Coverage 360°
+Maximum Gain 3.5dBi
+Multiple Feeds Design
+Output/Input VSWR ≤2.0
+The antenna utilizes a multiple feeds design, which aligns the phase center with the
+LNA Gain 33 2dB
+geometric center, minimizing the impact of antenna-induced measurement errors.
+Noise Figure ≤2dB
+Tracking in Complex Environments Output/Input VSWR ≤2.0
+LNA FEATURE
+Operation Voltage +3.3VDC to +12VDC
+The antenna unit has high gain and a wide beamwidth in the radiation pattern, ensuring
+effective reception of low elevation angle signals. It can still track satellites in Operation Current ≤55mA
+challenging conditions such as under tree cover, building obstructions, or during
+Gain Flatness 2dB
+inclined flight of aviation equipment.
+Dimensions ¢40mm*82.6m m
+MECHANICAL Weight ≤45g
+Compact Size
+Connector SMA-J
+The antenna's compact size, lightweight design, and low power consumption
+Operating -40℃ to +70℃
+contribute to an increase in battery life, resulting in extended operating time or
+Temperature
+increased flight endurance. ENVIRONMENTAL Storage -40℃ to +70℃
+Humidity 95% non-condensing
+Multi-Channel Signal
+The antenna has a wide operating frequency range, allowing it to simultaneously
+receive signals from multiple systems and multiple frequency points. This enhances STRUCTURAL DIMENSION DRAWING
+the overall reliability of the system by improving signal reception and ensuring
+(Dimension tolerance: +0.2mm)
+compatibility with various navigation and communication systems.
+Aerodynamically Streamlined Shape
+The antenna is designed with a low-drag shape, reducing its impact on the speed of the
+moving carrier. This design helps minimize the effects of wind resistance, allowing for
+more stable and accurate signal reception even at high velocities.
+19 20
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 14 ---
+THA-X603A Helix Antenna
+TECHNICAL PARAMETERS
+ITE M SPE CI FI CAT IO N
+THA-X603A is an external handheld antenna that covers four
+GPS L1/L2/L5
+systems GPS, BDS, GLONASS and GALILEO. It is widely used
+GLONASS L1/L2/L3
+in industries such as surveying, mapping, navigation, and
+SIGNAL RECEIVED
+dispatching. It is particularly suitable for various applications in GALILEO E1/E5a/E5b
+lightweight drones, including aerial photography, remote BDS B1/B2/B3
+telemetry, disaster monitoring, traffic patrol and security Nominal Impedance 50Ω
+surveillance.
+Polarization RHCP
+Axial Ratio ≤3dB
+ANTENNA FEATURE
+CHARACTERISTIC
+Azimuth Coverage 360°
+Maximum Gain 2dBi
+Advanced Patented D-QHA Technology for Exceptional
+Output/Input VSWR ≤2.0
+Low Elevation Tracking
+LNA Gain 23 2dB
+The THA-X603A antenna adopts patented D-QHA technology for stable performance Noise Figure ≤2dB
+of Wide-Angle Circular Polarization (WACP), which ensures exceptional low elevation
+Operation Voltage +3.3VDC to +12VDC
+satellite tracking while maintaining high gain and providing reliable signal tracking. LNA FEATURE
+Operation Current ≤35mA
+This consistent performance makes it ideal option for UAVs even under challenging
+Output/Input VSWR ≤2.0
+environments.
+Group Delay Ripple ≤5ns
+Small Form Factor, Light Weight, Low Power Consumption
+Dimensions ¢27.5mm*59m m
+Weighting only 25g, the lightweight THA-X603A helix antenna has a compact Connector SMA Male
+MECHANICAL
+dimension, with Ø27.5*59mm only. It's also a low power consumption antenna that Weight ≤25g
+could prolongs fly endurance of the UAVs. The antenna is built into a rugged IP67
+Mounting Refer to installation guidance
+waterproof housing to withstand exposure against dust and water. It equips rugged
+Operating -40℃ to +70℃
+SMA connector for easy installation, all these advantages significantly improve the Temperature
+ENVIRONMENTAL Storage -55℃ to +70℃
+overall reliability of the UAVs and could be easily integrated into flying solutions.
+Humidity 95% non-condensing
+High Phase Center Stability and Consistent Performance
+The THA-X603A antenna features a multi-point feeding technology that ensures a
+STRUCTURAL DIMENSION DRAWING
+high phase center stability with centimeter level accuracy. Its high gain with ultra-low
+signal loss, wide beam width for exceptional low elevation satellite tracking with (Dimension tolerance: +0.2mm)
+symmetric radiation patterns effectively improve positioning accuracy.
+Key Features
+The weight is only 25g, with low power consumption of only 35mA@3.3VDC.
+Comprehensive GNSS support GPS, GLONASS, GALILEO, BDS correction service.
+Patented D-QHA technology ensures reliable signal tracking.
+Centimeter phase center repeatability, high gain at low elevation.
+Improved signal filtering and excellent multipath rejection.
+Low power consumption, lightweight, small form factor facilitates easier integration.
+21 22
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 15 ---
+THA-7603A Helix Antenna
+TECHNICAL PARAMETERS
+THA-7603A is a high performance GNSS antenna designed for ITE M SPE CI FI CAT IO N
+high precision positioning service and offers superior satellite
+GPS L1/L2
+signal tracking, including GPS, GLONASS, GALILEO, BDS, QZSS
+GLONASS L1/L2
+and SBAS signal reception. Its RTK level positioning accuracy
+SIGNAL GALILEO E1
+makes it ideal to be integrated into application as surveying and
+RECEIVED BDS B1/B2/B3
+mapping, and various UAVs operations as aerial photography,
+QZSS L1/L2
+remote sensing, infrastructure inspection, traffic control, and
+public security. SBAS L1
+Nominal Impedance 50
+CHARACTERISTIC Polarization RHΩCP
+Axial Ratio ≤3dB
+Advanced D-QHA Technology 1205-1278MHz 4.2dBi(maximum]
+Gain at Zenith (90°)
+1559-1610MHz 3.8dBi(maximum]
+D-QHA technology significantly enhances the low-elevation angle tracking
+LNA FEATURE LNA Gain 33dB(typical]
+capabilities, it ensures THA-7603A Helix Antenna more stable performance of WACP,
+Noise Figure ≤1.5dB
+and smaller antenna phase center deviation, which ensures a more precise positioning
+accuracy. Output/Input VSWR ≤2.0
+Operation Voltage +3.3VDC to +12VDC
+Tracking in Challenging Environments
+Operation Current 55mA(maximum)
+THA-7603A Antenna is able to track any visible satellites under challenging conditions,
+Group Delay Ripple ＜15ns
+providing the positioning solutions with higher precision and reliable data. The ability
+Dimensions ¢40mm*75.2m m
+to track low elevation satellites while maintaining a high gain makes THA-7603A
+Antenna an excellent choice for any applications where the sky is partially visible, such Connector SMA male
+MECHANICAL
+as plant protection, tree lines, also for UAV power patrol, GIS surveying where high Weight ≤38g
+precision operations are needed.
+Mounting 3-M2.5*7
+Strong Anti-interference Performance Operating Temperature -40℃ to +70℃
+Storage Temperature -55℃ to +70℃
+The antenna LNA features an excellent out-of-band rejection performance, which can
+suppress the interference of magnetic disturbance, providing the stability and ENVIRONMENTAL Humidity 95% non-condensing
+reliability of GNSS signals. Also, it effectively avoids disconnection dangerous when Water/Dust Resistance IP67
+UAVs are operated under tower and electric power patrol.
+Regulatory Compliance CE, RoHS
+Toughest Precision Antenna
+STRUCTURAL DIMENSION DRAWING
+THA-7603A Antenna is the toughest precision antenna TOKNAV has designed to date,
+which features the latest low-wind resistance design. Moreover, THA-7603A Antenna (Dimension tolerance: +0.2mm)
+features ultra-durable watertight enclosures, Its IP67 ruggedized design can protect it
+from dust and water, as well as a standard SMA male connector for easy integration.
+Key Features
+Support GPS, GLONASS, GALILEO, BDS, QZSS and SBAS signal reception.
+D-QHA technology ensures an exceptional low elevation satellite tracking.
+Stable phase center guarantees the accuracy of positioning within millimeter-level.
+Strong anti-interference ability to endure the harshest operating environments.
+The weight is only 38g, with low power consumption of only 55mA@3.3VDC.
+23 24
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 16 ---
+THA-7609A Helix Antenna
+TECHNICAL PARAMETERS
+ITE M SPE CI FI CAT IO N
+The THA-7609A Helix Antenna is a high performance GNSS
+antenna designed for high precision positioning service and GPS L1/L2/L5
+offers superior satellite signal tracking, including GPS, GLONASS L1/L2
+GLONASS, GALILEO, BDS, as well as L-Band correction service. GALILEO E1/E5a/E5b
+It could be used for applications as surveying and mapping, and BDS B1/B2/B3
+various UAVs operations as aerial photography, remote sensing, SIGNAL
+QZSS L1/L2/L5/L6
+RECEIVED
+infrastructure inspection, traffic control, and public security.
+SBAS L1/L5
+IRNSS L5
+CHARACTERISTIC
+L-Band
+Nominal Impedance 50
+High Phase Center Stability and Consistent Performance
+Polarization RHΩCP
+D-QHA technology significantly enhances the low-elevation angle tracking
+Axial Ratio ≤3dB
+capabilities, it ensures THA-7609A Helix Antenna more stable performance of WACP,
+1166-1278MHz 2.6dBi (@Zenith)
+and smaller antenna phase center deviation, which ensures a more precise positioning
+Gain RHCP (maximum) 1559-1612MHz 2.8dBi (@Zenith)
+accuracy.
+L-Band 1.5dBi (@Zenith)
+Strong Anti-Interference Performance Azimuth Coverage 360° (Omni-directional)
+LNA FEATURE LNA Gain 33dB 2dB
+The THA-7609A adopts advanced circuit layout and equips a robust pre-filtered LNA
+that features an excellent out-of-band interference rejection performance and Noise Figure ≤2dB
+restraints possible unwanted electromagnetic interference, providing reliable and Output/Input VSWR ≤2.0
+stable GNSS signals and avoiding disconnection possibility when UAVs are flying in Operation Voltage +3.3V to +5V DC
+environments that have electromagnetic interference. Upper Band：<1400MHz>30dB <1450MHz>33dB <1700MHz>30dB
+Out of Band Rejection
+Lower Band：<1000MHz>41dB <1100MHz>40dB <1130MHz>28dB
+Operation Current 55mA
+Optimized Installation for Integration
+Group Delay Ripple ≤5ns
+Weighting only 30.5g, the lightweight THA-7609A Helix antenna has a compact
+Dimensions ¢43.6 mm *40.8m m
+dimension, with Ø43.6*40.8mm only. It employs screws mounting at the bottom of the
+Connector SMA -J
+antenna for better steadiness. All these advantages make it ideal for integrated design.
+MECHANICAL
+It could significantly improve the overall reliability of the UAVs by reducing weight and Weight ≤30.5g
+increasing fly endurance. Mounting 3-NO.3-48UNC screws fixed
+Operating -40℃ to +70℃
+Temperature
+Storage -55℃ to +70℃
+ENVIRONMENTAL
+Humidity 95% non-condensing
+Water/Dust Resistance IP67
+Key Features
+STRUCTURAL DIMENSION DRAWING
+Comprehensive GNSS support GPS, GLONASS, GALILEO, BDS and L-Band correction service. (Dimension tolerance: +0.2mm)
+Centimeter phase center repeatability, high gain at low elevation.
+Improved signal filtering and excellent multipath rejection.
+Lightweight, low profile facilitates easier integration.
+25 26
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 17 ---
+THA-9603A Helix Antenna
+TECHNICAL PARAMETERS
+ITE M SPE CI FI CAT IO N
+The THA-9603A is a high performance GNSS antenna designed for
+high precision positioning service and offers superior satellite signal GPS L1/L2/L5
+tracking, including GPS, GLONASS, GALILEO, BDS, as well as L-Band GLONASS L1/L2
+correction service. Its RTK level positioning accuracy makes it ideal to GALILEO E1/E5a/E5b
+be integrated into application as surveying and mapping, and various
+SIGNAL RECEIVED BDS B1/B2/B3
+UAVs operations as aerial photography, remote sensing,
+QZSS L1/L2/L5/L6
+infrastructure inspection, traffic control, and public security.
+SBAS L1/L5
+IRNSS L5
+CHARACTERISTIC
+L-Band
+Nominal Impedance 50
+Advanced Patented D-QHA Technology for Exceptional Low
+Polarization RHCP
+Elevation Tracking Ω
+Axial Ratio ≤3dB
+The THA-9603A antenna adopts patented D-QHA technology for stable performance
+1166-1278MHz 2.4dBi (@ Zenith]
+of WACP, which ensures exceptional low elevation satellite tracking while maintaining Gain RHCP
+1559-1612MHz 2.5dBi (@ Zenith]
+(maximum)
+high gain and providing reliable signal tracking. This consistent performance makes it
+L-Band 1.0dBi (@ Zenith)
+ideal option for UAVs even under challenging environments.
+Azimuth Coverage 360°(Omni-directional)
+LNA FEATURE LNA Gain 33 2dB
+Small Form Factor, Light Weight, Low Power Consumption Noise Figure ≤2dB
+Output/Input VSWR ≤2.0
+Weighting only 20g, the lightweight THA-9603A Helix antenna has a compact
+dimension, with Ø32.2*45.8mm only. It's also a low power consumption antenna that Operation Voltage +3.3VDC to +12VDC
+could prolongs fly endurance of the UAVs. The antenna is built into a rugged IP65 Upper Band：<1400MHz>30dB <1450MHz>33dB <1700MHz>30dB
+Out of Band Rejection
+waterproof housing to withstand exposure against dust and water. It equips rugged Lower Band：<1000MHz>41dB <1100MHz>40dB <1130MHz>28dB
+SMA connector for easy installation, all these advantages significantly improve the Operation Current 55mA(maximum)
+overall reliability of the UAVs and could be easily integrated into flying solutions. Group Delay Ripple ≤5ns
+Dimensions ¢32.2mm*45.8m m
+High Phase Center Stability & Consistent Performance Connector SMA male
+MECHANICAL
+Weight ≤20g
+The THA-9603A antenna features a multi-point feeding technology that ensures a
+high phase center stability with centimeter level accuracy. Its high gain with ultra-low Mounting Refer to installation guidance
+signal loss, wide beam width for exceptional low elevation satellite tracking with Operating -40℃ to +70℃
+Temperature
+symmetric radiation patterns effectively improve positioning accuracy. Storage -55℃ to +70℃
+ENVIRONMENTAL Humidity 95% non-condensing
+Water/Dust
+IP65
+Resistance
+Key Features
+STRUCTURAL DIMENSION DRAWING
+Comprehensive GNSS support GPS, GLONASS, GALILEO, BDS and L-Band correction service.
+Patented D-QHA technology ensures reliable signal tracking. (Dimension tolerance: +0.2mm)
+Centimeter phase center repeatability.
+Improved signal filtering and excellent multipath rejection.
+Low power consumption, lightweight, small form factor facilitates easier integration.
+Rugged housing, complying with IP65 standards, SMA connector.
+27 28
+Manufacturers may update parameters at any time, please refer to the latest product information.

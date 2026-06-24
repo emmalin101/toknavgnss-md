@@ -1,0 +1,353 @@
+
+
+--- Page 1 ---
+Accessories
+PRODUCT BROCHURE
+Guangzhou Toksurvey Information Technology Co.,Ltd
+www.toknavgnss.com | info@toknavgns.com
+Europe, North and South America
+Asia, Africa and Oceania
+Tel and WhatsApp
++86 139 2607 5986 (Jeffrey)
+No. 9 Caipin Road, Building B, Room 801-6, Huangpu District,
+Guangzhou, China 510000
+GNSS Receiver Manufacturer
+Professional OEM&ODM
+Over 15 years experience in R&D and manufacturing
+
+--- Page 2 ---
+ABOUT US
+Our Targets
+Company Introduction
+Guangzhou Toksurvey Information Technology Co.,
+Ltd. was founded in 2019 by a team of R&D
+engineers. The company team has nearly 15 years of
+R&D background. At present, the company has
+Make positioning Working together to To become a leader in Your reliable
+nearly 2,500 square meters of office and factory,
+more precise and improve global the global surveying supplier in
+complete set of research equipment, and strong easier. surveying quality. and mapping service. positioning!
+technical background.
+Mission Vision Value Slogan
+Our company is committed to the R&D,
+production and sales of high-precision satellite Fields of Application
+positioning terminal products. More than 60% of
+the employees are engineers. Driven by
+TOKNAV products can be widely used in precision
+technological innovation, the company maintains
+surveying & mapping, mining operations, deformation
+a steady growth rate of 60% every year.
+monitoring, autonomous driving and other fields. We
+Construction Monitoring
+currently have a number of mature GNSS application
+At present, the company has successfully
+solutions, such as deformation monitoring, CORS network,
+launched high-precision GNSS RTK (T5 series,
+marking robots, precision agriculture, mechanical control
+T10 series, T20 series, T30 series and T40 series), Mapping & GIS Surveying
+etc. TOKNAV products have passed CE, FCC, KC, NGS, IGS
+portable RTK receiver (P8 series), high-precision
+and other certifications, and are exported to more than 70
+CORS station (NET660 series), data controller,
+countries and regions around the world. Our products are
+GNSS antenna, precision agriculture, mechanical
+well received in the global market, and now we have become
+Agriculture Marine
+control, and marking robot to the market. We not
+a system integration supplier in the global market.
+only provide positioning products, but also
+provide a series of application solutions. Certifications
+
+--- Page 3 ---
+WWW.TOKNAVGNSS.COM
+CONTENT
+Products
+Accessories 1
+Power Adapter 7
+Antenna 10
+Accessory 12
+Wire 13
+Case 15
+
+--- Page 4 ---
+ACCESSORIES
+Antenna suction cup base and connecting rod
+5/8”-11 UNC Connector, Vertical Adsorptive Capacity:
+25kg, Applicable Model: T series Receivers and every kind
+of Antenna.
+P/N: TKA0027
+Tribrach
+5/8”-11 Internal Thread, Accuracy: 0.8mm/0-2m+, Work
+with Aluminum Tripod.
+P/N: TKA0004
+Black Tribrach
+With Optical Plummets, Work with Aluminum Tripod.
+P/N: TKA0028
+Black Tribrach Connector
+5/8”-11 UNC, Applicable Model: T series Receivers and
+every kind of Antenna.
+P/N: TKA0028-1
+11 1 22
+MMaannuuffaaccttuurreerrss mmaayy uuppddaattee ppaarraammeetteerrss aatt aannyy ttiimmee,, pplleeaassee rreeffeerr ttoo tthhee llaatteesstt pprroodduucctt iinnffoorrmmaattiioonn..
+
+--- Page 5 ---
+Accessories
+Controller Bracket - A Height Measuring Plate
+Applicable Model: PCR100 Help you on measuring the antenna height.
+P/N: TKA0003 P/N: TKA0006
+Controller Bracket - B Aluminum Alloy Tripod
+Aluminum Alloy Trip equipped with back strap and side
+fixed spiral, suitable for all stations, levelers, lasers and
+Applicable Model: PCR100U, PCR300, PCR500. prisms.
+Minimum Length: 105cm Maximum Length: 167cm
+P/N: TKA0003-1 P/N: TKA0012
+Extension Bar Toknav Carbon Fiber Pole
+30cm Extension Bar, to elevate the TOKNAV GNSS
+Maximum: 2.1m
+receiver.
+Minimum: 1.25m
+Applicable Model: Receivers and other accessories.
+P/N: TKA0023 P/N: TKA0005
+Tribrach Adapter 2.5m Pole
+Maximum: 2.5m
+Work with Tribrach, T series Receivers and etc.
+Minimum: 1.38m
+P/N: TKA0007 P/N: TKA205
+3 4
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 6 ---
+Accessories
+TKB 1000-C RTK Low Temperature Power Bar
+Mini Tripod
+working as a power supply, for extending the battery
+backup. It can work in an extrem low environment.
+minimum height: 150mm
+maximum height: 109mm
+Rated Capacity: 9000mAh
+Nominal Capacity: 8400 mAh
+P/N: TKA20
+Min. Capacity: 8100 mAh
+Pack Weight: ≈ 712g
+Tape Blade Pack Impedance: ≤180mΩ
+Operating Temperature Range
+Charging: 0 ～ 60℃
+help you on measuring the height of antenna and
+Discharging: -40 ～ 60℃
+others. -c
+P/N: TKS0003 P/N: TKB1000-C
+TKB1000 RTK Power Bar
+314.2mm
+working as a power supply, for extending the battery
+backup.
+Rated Capacity: 9000mAh
+Nominal Capacity: 9500 mAh
+Min. Capacity: 9000 mAh
+Pack Weight: ≈ 709g
+Pack Impedance: ≤200mΩ
+Operating Temperature Range
+Charging: 0 ～ 45℃
+Discharging: -20 ～ 50℃
+For more details of power bar, please check the specification
+P/N: TKB1000
+5 6
+Manufacturers may update parameters at any time, please refer to the latest product information.
+42.3mm
+
+--- Page 7 ---
+POWER ADAPTER
+USB Power Adapter
+Type C 5V2A USB Power Adapter. For charging your
+receiver or controller, USB available, QC3.0/MTK 2.0
+Fast Charge supported.
+Applicable Model: T5/T5Lite/T10Pro/P8 Series/PCR Series.
+P/N: AD0001E
+USB Power Adapter
+Type A 5V2A USB Power Adapter. For charging your
+receiver or controller, USB available, QC3.0/MTK 2.0
+Fast Charge supported.
+Applicable Model: T5/T5Lite/T10Pro/P8 Series/PCR Series.
+P/N: AD0003N
+CC Data Cable PD Power Adapter
+Type A 33W PD Power Adapter. For charging your
+1.2m Fast Charge Data Cable, USB Type-C to USB
+receiver or controller, USB Type-C available.
+Type-C Port.
+Applicable Model: T20Pro
+P/N: L090104-C2 P/N: AD0008N
+Type-C Data Cable PD Power Adapter
+Type C 33W PD Power Adapter. For charging your
+1.2m Fast Charge Data Cable, USB Type-C to USB Port. receiver or controller, USB Type-C available.
+Applicable Model: T20Pro
+P/N: L090101-C1
+P/N: AD0004E
+7 8
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 8 ---
+Power Adapter
+Lemo Power Adapter
+ANTENNA
+Type C 2-Pin Lemo Power Adapter.
+Applicable Model: NET660, NET660i, NET660i-H.
+P/N: AD0005-2
+Lemo Power Adapter
+Type A 2-Pin Lemo Power Adapter.
+Applicable Model: NET660, NET660i, NET660i-H.
+P/N: AD0004-2
+RTK Battery Pole Power Adapter
+Type C RTK Battery Pole Power Adapter.
+Applicable Model: TKB1000, TKB1000C.
+P/N: AD0007E
+RTK Battery Pole Power Adapter
+Type A RTK Battery Pole Power Adapter.
+Applicable Model: TKB1000, TKB1000C.
+External Radio Terminal Antenna
+P/N: AD0002N
+The power supply cable between power bar and receiver
+Applicable Model: External Digital Radio DL8635.
+Connect the power bar with your receiver, as a
+power supply.
+P/N: TCA0024
+Applicable Model: T10Pro,T20Pro.
+P/N: L090103-BR
+9 1 10
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 9 ---
+Antenna
+ACCESSORY
+410-470MHz Full Frequency Antenna
+SMA male connector, Gain: 2dbi, Lenghth:105mm, Whip.
+Applicable Model: T5.
+P/N: TCA0009
+450-470MHz Radio Terminal Antenna
+SMA male connector, Gain: 4dbi, Lenghth:305mm, Whip.
+Your helmet protects your head from
+Applicable Model: T10Pro, T20Pro. damage, reduces the impact on your head,
+improves night visibility in your reflective
+P/N: TCA0003 vest, and reminds pedestrians or vehicles
+around you to keep you safe and secure in
+any environment.
+4G Full Netcom Antenna
+MCX or other connectors, Gain: 2.0dB, Operating
+Temperature -40℃+85℃, Magnetic Installation.
+Applicable Model: NET660, NET660i, NET660i-H.
+TokNav White Helmet TokNav Vest
+P/N: TCA0020
+WIFI Antenna
+Applicable Model: NET660.
+P/N: TCA0019
+P/N: TKS0001 P/N: TKS0002
+11 12
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 10 ---
+WIRE
+15M GNSS Antenna Cable
+TNC-TNC Connector,
+Applicable Model: NET660, NET660i, NET660i-H.
+P/N: TCB0015
+30M GNSS Antenna Cable
+TNC-TNC Connector,
+Applicable Model: NET660, NET660i, NET660i-H.
+P/N: TCB0030
+7-Pin LEMO to DB9+USB Cable 7-Pin RTK External Radio Connector Cable
+7-Pin 0B LEMO Plug*1, USB Male *1, DB9 Female*1,
+Connect the External Radio with the Receiver and Power
+Length: 1.5m.
+Applicable Model: DL8635, T10Pro, T20Pro.
+Applicable Model: T10Pro, T20Pro, NET660i, NET660i-H
+and etc.
+P/N: L090102-P7
+P/N: L090106-P7
+7-Pin LEMO to DB9+USB Female Cable DB9 Male to Male
+7-Pin 0B LEMO Plug*1, USB Female*1, DB9 Female*1,
+Multiple devices supported, and can provide high-
+Length: 1.5m.
+speed data transmission.
+Applicable Model:NET660.
+P/N: TKA0026
+P/N: L090107-P7
+13 14
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 11 ---
+CASE Foam RTK Rover Kit (T10Pro)
+available space: receivers*1, Receiver/Controller Charger*2,
+Tribrach Adapter*2, Manual*1, Antenna*1, Controller*1,
+Controller Bracket*1 and corresponding calbes.
+Dimension: 391X289X136mm Weight: 0.3kg
+Material: EPP
+P/N: PMS10.0011
+RTK Rover Kit (T5Lite/T5)
+available space: receivers*1, Receiver/Controller Charger*2,
+Extension Bar/RTK Power Bar*1, Tribrach Adapter*1, Power
+Adaptor for Power Bar*1, Controller*1, Controller Bracket*1,
+T5Lite/T5 Series ToolKit
+Antenna*1, Manual*1,Height Measuring Plate*1, and
+corresponding calbes.
+available space: receivers*1, Antenna*1， Chargers*1 and
+corresponding calbes. Dimension: 356X313X162mm Weight: 1.9kg
+Material: PP Housing, EPP Liner
+Dimension: 180X170X90mm Weight: 0.3kg
+Material: 1680D Oxford Cloth Housing, EVA Liner
+P/N: PMS20.004
+P/N: T5&T5Lite-EVA-001
+Foam RTK Rover Kit (T5Lite/T5) RTK Rover Kit (T10Pro)
+available space: receivers*1, Receiver/Controller Charger*2,
+available space: receivers*1, Receiver/Controller Charger*2, Extension Bar/RTK Power Bar*1, Tribrach Adapter*1, Power
+Tribrach Adapter*2, Manual*1, Antenna*1, Controller*1, Adaptor for Power Bar*1, Controller*1, Controller Bracket*1,
+Controller Bracket*1 and corresponding calbes. Antenna*1, Manual*1,Height Measuring Plate*1, and
+corresponding calbes.
+Dimension: 391X289X136mm Weight: 0.3kg
+Dimension: 356X313X162mm Weight: 1.9kg
+Material: EPP
+Material: PP Housing, EPP Liner
+P/N: PMS05.0010 P/N: PMS10.005
+15 16
+Manufacturers may update parameters at any time, please refer to the latest product information.
+
+--- Page 12 ---
+RTK Rover Kit (T20Pro)
+1+1 RTK Toolbox (T10Pro)
+available space: receivers*1, Receiver/Controller Charger*2,
+Extension Bar/RTK Power Bar*1, Tribrach Adapter*1, Power
+available space: receivers*2, Receiver/Controller Charger*3,
+Adaptor for Power Bar*1, Controller*1, Controller Bracket*1,
+Controller*1, Extension Bar*1, Tribrach Adapter*2, Bracket*1,
+Antenna*1, Manual*1,Height Measuring Plate*1, and
+External Digital Radio*1,Tape Blade*1, Height Measuring
+corresponding calbes.
+Plate*1, Antenna*2, and corresponding calbes.
+Dimension: 356X313X162mm Weight: 1.9kg
+Dimension: 478X393X204mm Weight: 3.9kg
+Material: PP Housing, EPP Liner
+Material: PP Housing, EVA Liner
+P/N: PMS20.001
+P/N: PMS10.0013
+RTK Base Kit (T10Pro) 1+1 RTK Toolbox (T20Pro)
+available space: receivers*2, Receiver/Controller Charger*3,
+available space: receivers*1, Receiver/Controller Charger*2,
+Controller*1, Extension Bar*1, Tribrach Adapter*2, Bracket*1,
+Extension Bar*1, Tribrach Adapter*2, External Digital
+External Digital Radio*1, Tape Blade*1, Height Measuring
+Radio*1, Antenna*1, Height Measuring Plate*1, Tape Blade*1,
+Plate*1, Antenna*2, Manual*1, RTK Power Bar, Power Adaptor
+Manual and corresponding calbes.
+for Power Bar and corresponding calbes.
+Dimension: 356X313X162mm Weight: 2.05kg
+Dimension: 478X393X204mm Weight: 3.9kg
+Material: PP Housing, EVA Liner
+Material: PP Housing, EVA Liner
+P/N: PMS20.0014 P/N: PMS20.0012
+RTK Base Kit (T20Pro) ToolKit
+available space: receivers*1, Receiver/Controller Charger*2, Containing Tape*1, 5mm socket*1, 5.5mm socket*1, PH00
+Extension Bar*1, Tribrach Adapter*2, External Digital screw driver*1, PH1 screw driver*1, T8 screw driver*1,
+Radio*1, Antenna*1, Height Measuring Plate*1, Tape Blade*1, SMA/LEMO screw driver*2, 8mm L type socket*1,
+Manual and corresponding calbes. Tweezers*1.
+Dimension: 356X313X162mm Weight: 2.05kg Dimension: 330*230*80mm Weight: 1.03kg
+Material: PP Housing, EVA Liner Material: 680D Oxford Cloth Housing, EVA Liner
+P/N: PMS20.002 P/N: TK0105.0015
+17 18
+Manufacturers may update parameters at any time, please refer to the latest product information.

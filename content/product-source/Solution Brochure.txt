@@ -1,0 +1,245 @@
+
+
+--- Page 1 ---
+GNSS Application Solution
+PRODUCT BROCHURE
+Guangzhou Toksurvey Information Technology Co.,Ltd
+www.toknavgnss.com | info@toknavgns.com
+Europe, North and South America
+Asia, Africa and Oceania
+Tel and WhatsApp
++86 139 2607 5986 (Jeffrey)
+No. 9 Caipin Road, Building B, Room 801-6, Huangpu District,
+Guangzhou, China 510000
+GNSS Receiver Manufacturer
+Professional OEM&ODM
+Over 15 years experience in R&D and manufacturing
+
+--- Page 2 ---
+ABOUT US
+Our Targets
+Company Introduction
+Guangzhou Toksurvey Information Technology Co.,
+Ltd. was founded in 2019 by a team of R&D
+engineers. The company team has nearly 15 years of
+R&D background. At present, the company has
+Make positioning Working together to To become a leader in Your reliable
+nearly 2,500 square meters of office and factory,
+more precise and improve global the global surveying supplier in
+complete set of research equipment, and strong easier. surveying quality. and mapping service. positioning!
+technical background.
+Mission Vision Value Slogan
+Our company is committed to the R&D,
+production and sales of high-precision satellite Fields of Application
+positioning terminal products. More than 60% of
+the employees are engineers. Driven by
+TOKNAV products can be widely used in precision
+technological innovation, the company maintains
+surveying & mapping, mining operations, deformation
+a steady growth rate of 60% every year.
+monitoring, autonomous driving and other fields. We
+Construction Monitoring
+currently have a number of mature GNSS application
+At present, the company has successfully solutions, such as deformation monitoring, CORS network,
+launched high-precision GNSS RTK (T5 series, marking robots, precision agriculture, mechanical control
+T10 series, T20 series, T30 series, T40 series and and digital construction field. TOKNAV products have Mapping & GIS Surveying
+T50 series), portable RTK receiver (P8 series), passed CE, FCC, KC, NGS, IGS and other certifications, and
+high-precision CORS station (NET660 series), are exported to more than 100 countries and regions
+data controller, GNSS antenna, precision around the world. Our products are well received in the
+Agriculture Marine
+agriculture, mechanical control, marking robot, global market, and now we have become a system
+USV and SLAM to the market. We not only integration supplier in the global market.
+provide trainings about our products, but also
+Certifications
+provide a series of relevant solutions.
+
+--- Page 3 ---
+WWW.TOKNAVGNSS.COM
+CONTENT
+Products
+Deformation Monitoring 1
+CORS and VRS Service 3
+Marking Robot 5
+
+--- Page 4 ---
+Deformation Monitoring
+Product Mix
+The GNSS based monitoring system is widely applied in the fields of
+landslide geological hazard monitoring, dam deformation
+monitoring, mining area surface subsidence monitoring, tailings U6 Universal GNSS Receiver
+Lightning
+reservoir deformation monitoring, bridge deformation monitoring
+conductor
+and high-rise building deformation monitoring and other fields with
+potential safety hazards, which can effectively prevent and avoid
+disasters and ensure safety of important facilities and people's Solar panel
+property. controller
+Characteristic
+Pole setting
+Flexible control
+There is no need for line-of-sight between the stations, and
+the positioning options are flexible. Battery
+protection shell
+High real-time Lightning rod
+For the collected data, output data results in real time. grounding Surface
+Simple operation platform
+Easy to operate, data is intuitive and easy to understand.
+Automatic monitoring
+Automatic acquisition, processing, analysis and early warning of horizontal
+displacement and vertical displacement.
+12V battery
+Product Schematic Diagram
+Platform Display
+Dam deformation Bridges deformation
+monitoring monitoring
+Data Collecting
+Real-time
+differential data
+Building deformation Wind energy generators
+monitoring deformation monitoring
+Data Service Center
+If the warning
+thres hold i s
+exceeded, the relevant
+staff will be warned to make
+Side slope deformation Tower deformation
+emergency treatment.
+monitoring monitoring
+1 2
+1M
+Embedded part
+(ground cage)
+Login interface Position display
+Monitoring Device management
+WWW.TOKNAV.CN
+
+--- Page 5 ---
+CORS and VRS Service
+Advantage of Our Technology
+Full-stack self-developed software and hardware technology
+VRS Service
+The algorithms, software, and hardware used in our VRS service are independently developed.
+Definition
+Meeting various high-precision application needs
+VRS is a kind of Network Real Time Kinematic
+(NRTK) technology.
+Includes surveying users, agricultural drones for crop protection, building monitoring, geological
+VRS generate and provide a virtual reference station
+disaster monitoring, car lane-level navigation, electric bicycles, and other types of users.
+data near user’s position based on the regional real
+reference station for user to calculate RTK.
+Ability to serve a massive number of users
+VRS requires 3G/4G/5G to support communication.
+Data management, data processing, and user
+services are independent of each other through
+a data bus.
+Not only possesses powerful service capabilities
+of individual servers, but also supports a massive
+number of concurrent users through server
+expansion.
+Capability of satellite-based and ground-based fusion processing
+Capable of satellite-based and ground-based fusion
+processing, enabling network RTK and PPP-RTK
+Features & Benefits fusion processing.
+Instant access to RTK corrections.
+Ensures high-performance positioning in low-latitude
+Centimeter-accurate corrections tailored to your geographic location.
+area through processing multi-GNSS data and refining
+Built-in redundancy to ensure connectivity, consistency and quality.
+ionospheric models.
+Cost-effective and simple to use.
+Professionally-managed and secure.
+Streamlined workflows, done right the first time.
+Working Principle Application Areas
+Platform Display
+Definition
+We provide instant access to RTK
+corrections using a CORS GNSS network,
+proprietary software platform and VRS
+service monitoring platform.
+Infrastructure Economy
+Monitoring Platform
+VRS
+Software Platform
+SERVICES
+Base station network Device management
+CORS GNSS Network
+Transportation Agriculture
+3 4
+WWW.TOKNAV.CN
+
+--- Page 6 ---
+Marking Robot
+Application
+The TR10Pro Line Marking Robot is an auxiliary work
+robot capable of automatically measuring, marking,
+and drawing lines. It is equipped with an
+adjustable-width nozzle, making it suitable for various
+application scenarios such as sports fields, highways,
+municipal roads, airport runways, and more. The
+software comes with a variety of built-in templates, Sport fields Measurement guidance Highway
+including sports field designs, icons, arrows, and
+numbers, while also supporting user-defined editing
+or template importing. This significantly improves the
+efficiency of road marking, pre-marking, and spray
+printing, while reducing labor pressure and costs.
+Characteristic
+Parking lot Special marking Municipal road
+High-precision Positioning
+System Architechure
+The TR10Pro supports full constellation and full band frequency signal tracking with
+1408 channels. Its antenna can simultaneously receive signals from BDS, GPS, ALGORITHM
+Import design file
+GLONASS, GALILEO, SBAS, and QZSS s atellites, enabling full constellation
+Task scheduling
+positioning. The robot also supports Real-Time Kinematic(RTK) differential
+Decrypt, Route planning
+positioning and can access the Beidou ground-based augmentation system for Calculation Measuring and
+high-precision positioning. By combining high-precision positioning with robotic Locating
+Output
+operations, it achieves reliable and repeatable centimeter-level line marking accuracy.
+Automatic Task recording and
+Preset standard model
+Long Battery Life and High Speed marking, drawing report
+The TR10Pro is equipped with a built-in 48V/7.5Ah lithium battery, offering a top
+speed of 2.6km/h, a range of 30km, and a battery life up to 8 hours.
+Project management, progress,
+statistics, review, etc.
+Multi-functional
+System
+The TR10Pro can accommodate different sizes of spraying devices and can achieve
+different types of markings, such as dots, lines, curves, numbers, letters, and patterns.
+Physical Mobility
+It has built-in models of various sports fields, such as soccer and tennis courts. It
+Dimensions L*W*H: 525*746*527mm Motor specification: 400W*2
+supports custom editing of sports field models and is easy to use.
+(Removable side scribing mechanism with a width of 243mm）
+Maximum speed(m/s): 1m/s
+Wheelbase: 400mm
+Minimum turning radius: 0°(Turn in place)
+High Adaptability
+Wheel Track(mm): 465mm
+Maximum climbing ability: 20°
+Weight: 39.3kg
+The TR10Pro is compact and equipped with two 400W hub motors, enabling it to
+perform operations smoothly on rough surfaces like grass and gravel roads, with the Battery Performance
+ability to make sharp turns and climb slopes up to 20 degrees.
+Battery type: Lithium48V/7.5Ah Speed: 2.6km/s
+Battery Life: 8 hours Materials: Latex paint/Titanium white slurry
+Easy to Operate
+Endurance: 30km Hopper capacity: 10L
+Combining a controller with an Android tablet and our custom-developed app allows
+Accuracy: ≤1.5cm
+field operators to easily learn and operate the device with minimal training.
+Environment Line types: Dots, lines, curves, numbers, letters, patterns.
+Sports Field Type: Running track, tennis court, soccer field,
+Supports Multiple File Formats Communication: CAN
+( F i e l d M a r k i n g ) football field, lacrosse court, baseball field
+Operating temperature: -10℃~60℃
+The app supports various file formats, including dxf, csv etc., enabling the robot to Drawing Width: 5cm~15cm adjustable side nozzle
+Storage temperature: -10℃~45℃
+(Field Marking)
+follow designed construction plans for seamless implementation.
+IP rating: IP3X
+5 6
+WWW.TOKNAV.CN

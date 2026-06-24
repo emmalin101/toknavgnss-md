@@ -1,0 +1,187 @@
+{
+  "site": {
+    "name": "TOKNAV GNSS",
+    "domain": "https://toknavgnss.md",
+    "defaultEmail": "emma@toknav.cn",
+    "defaultWhatsApp": "+86 191 9534 6957",
+    "updatedAt": "2026-06-17"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "type": "Homepage",
+      "priority": "High",
+      "status": "Review",
+      "url": "/",
+      "focusKeyword": "GNSS receiver manufacturer",
+      "seoTitle": "High-Precision GNSS Receivers & RTK Solutions Manufacturer | TOKNAV",
+      "metaDescription": "TOKNAV supplies GNSS RTK receivers, antennas, CORS/VRS systems and machine control solutions for surveying, construction and agriculture projects.",
+      "h1": "High-Precision GNSS Receivers & RTK Solutions Manufacturer",
+      "cta": "Get a Quote",
+      "internalLinks": 6,
+      "notes": "Keep the first screen concise. Link to receiver, antenna, machine control and inquiry pages."
+    },
+    {
+      "id": "gnss-receivers",
+      "type": "Product Category",
+      "priority": "High",
+      "status": "Review",
+      "url": "/products/gnss-receivers/",
+      "focusKeyword": "GNSS receivers for surveying",
+      "seoTitle": "GNSS Receivers for Surveying, Mapping and Construction | TOKNAV",
+      "metaDescription": "Compare TOKNAV GNSS RTK receivers, base stations and CORS receivers for distributors, contractors and system integrators.",
+      "h1": "GNSS Receivers for Surveying, Mapping and Construction",
+      "cta": "Send Requirements",
+      "internalLinks": 8,
+      "notes": "Use only receiver images on hero. Add model comparison and application scenarios."
+    },
+    {
+      "id": "gnss-antennas",
+      "type": "Product Category",
+      "priority": "Medium",
+      "status": "Draft",
+      "url": "/products/gnss-antennas/",
+      "focusKeyword": "GNSS antenna supplier",
+      "seoTitle": "GNSS Antennas for CORS, Surveying and Machine Control | TOKNAV",
+      "metaDescription": "TOKNAV GNSS antennas include choke ring, survey, UAV and helix antennas for reliable multi-constellation positioning applications.",
+      "h1": "GNSS Antennas for CORS, Surveying and Machine Control",
+      "cta": "Ask for Datasheet",
+      "internalLinks": 5,
+      "notes": "Add signal bands, installation method, connector and environment details."
+    },
+    {
+      "id": "rugged-gis",
+      "type": "Product Category",
+      "priority": "Medium",
+      "status": "Draft",
+      "url": "/products/rugged-gis/",
+      "focusKeyword": "rugged GIS data collector",
+      "seoTitle": "Rugged GIS Data Collectors and Field Controllers | TOKNAV",
+      "metaDescription": "Explore rugged GIS handhelds and data collectors for surveying, mapping, field data collection and GNSS workflows.",
+      "h1": "Rugged GIS Data Collectors and Field Controllers",
+      "cta": "Get Recommendation",
+      "internalLinks": 5,
+      "notes": "Add Android version, screen, battery, IP rating and software compatibility."
+    },
+    {
+      "id": "machine-control",
+      "type": "Product Category",
+      "priority": "High",
+      "status": "Draft",
+      "url": "/products/precision-agriculture-machine-control/",
+      "focusKeyword": "machine control GNSS",
+      "seoTitle": "Precision Agriculture and Machine Control GNSS Systems | TOKNAV",
+      "metaDescription": "TOKNAV provides GNSS auto steering, land leveling and machine control systems for agriculture and construction machinery.",
+      "h1": "Precision Agriculture and Machine Control GNSS Systems",
+      "cta": "Send Project Requirements",
+      "internalLinks": 6,
+      "notes": "Split agriculture and construction use cases if traffic grows."
+    },
+    {
+      "id": "solutions",
+      "type": "Product Category",
+      "priority": "High",
+      "status": "Review",
+      "url": "/products/gnss-application-solutions/",
+      "focusKeyword": "GNSS application solutions",
+      "seoTitle": "GNSS Application Solutions for CORS, Monitoring, USV and SLAM | TOKNAV",
+      "metaDescription": "Build complete GNSS solutions for CORS/VRS, deformation monitoring, robotic marking, unmanned surface vessels and handheld SLAM mapping.",
+      "h1": "GNSS Application Solutions for Monitoring, CORS/VRS, Marking, USV and SLAM",
+      "cta": "Get Solution Quote",
+      "internalLinks": 7,
+      "notes": "Keep USV and SLAM pages linked from this category and homepage application area."
+    },
+    {
+      "id": "contact",
+      "type": "Lead Page",
+      "priority": "High",
+      "status": "Live",
+      "url": "/contact/",
+      "focusKeyword": "contact TOKNAV",
+      "seoTitle": "Contact TOKNAV for GNSS Product Inquiry and Distributor Support",
+      "metaDescription": "Contact TOKNAV for GNSS receiver quotations, OEM/ODM cooperation, distributor support and technical solution recommendations.",
+      "h1": "How Can We Help?",
+      "cta": "Submit Inquiry",
+      "internalLinks": 3,
+      "notes": "Keep Chinese and English company address accurate. Test the inquiry form monthly."
+    },
+    {
+      "id": "blog-rtk-receiver",
+      "type": "Blog",
+      "priority": "High",
+      "status": "Live",
+      "url": "/blog/how-to-choose-rtk-gnss-receiver-surveying-construction/",
+      "focusKeyword": "how to choose RTK GNSS receiver",
+      "seoTitle": "How to Choose an RTK GNSS Receiver for Surveying and Construction",
+      "metaDescription": "A practical buyer guide for choosing RTK GNSS receivers by accuracy, correction method, field workflow, durability and supplier support.",
+      "h1": "How to Choose an RTK GNSS Receiver for Surveying and Construction",
+      "cta": "Ask for Product Catalog",
+      "internalLinks": 4,
+      "notes": "Add product comparison table and link to GNSS receivers category."
+    },
+    {
+      "id": "news",
+      "type": "News",
+      "priority": "Medium",
+      "status": "Live",
+      "url": "/news.html",
+      "focusKeyword": "surveying industry news",
+      "seoTitle": "Surveying, GNSS, GIS and Geospatial Industry News | TOKNAV",
+      "metaDescription": "Daily surveying, GNSS, GIS, LiDAR, UAV, USV and geospatial industry news briefs with source links and comments.",
+      "h1": "Surveying News, Industry Buzz and Field Tech Updates",
+      "cta": "Read Briefing",
+      "internalLinks": 4,
+      "notes": "Auto-updated client-side news feed. Use this page for topical freshness and blog inspiration."
+    },
+    {
+      "id": "blog-cors-vrs",
+      "type": "Blog",
+      "priority": "Medium",
+      "status": "Live",
+      "url": "/blog/cors-vrs-vs-base-rover-rtk-gnss-correction/",
+      "focusKeyword": "CORS VRS vs base rover RTK",
+      "seoTitle": "CORS/VRS vs Base-Rover RTK: Which GNSS Correction Method Fits Your Project?",
+      "metaDescription": "Compare CORS/VRS and base-rover RTK workflows, costs, accuracy, infrastructure needs and buyer scenarios for GNSS projects.",
+      "h1": "CORS/VRS vs Base-Rover RTK: Which GNSS Correction Method Fits Your Project?",
+      "cta": "Send Your Requirements",
+      "internalLinks": 4,
+      "notes": "Good for AI Overview. Add FAQ schema if moved into WordPress."
+    }
+  ],
+  "blogIdeas": [
+    {
+      "id": "robot-white-skin",
+      "priority": "High",
+      "keyword": "robotic line marking machine",
+      "title": "TR10Pro Gets a New White Body: What Changed for Robotic Line Marking Buyers",
+      "intent": "Product update and buying decision",
+      "notes": "Use green old version and white new version product photos."
+    },
+    {
+      "id": "tboat-usv",
+      "priority": "High",
+      "keyword": "USV bathymetric survey boat",
+      "title": "How to Choose a USV for Bathymetric Survey and Water Monitoring",
+      "intent": "Solution comparison",
+      "notes": "Link to Tboat10 and Tboat20 pages."
+    },
+    {
+      "id": "slam-scanner",
+      "priority": "Medium",
+      "keyword": "handheld LiDAR SLAM scanner",
+      "title": "When to Use Handheld LiDAR SLAM Instead of GNSS Surveying",
+      "intent": "Application education",
+      "notes": "Explain GNSS-denied mapping and indoor/outdoor scenarios."
+    }
+  ],
+  "technicalChecklist": [
+    "Submit sitemap.xml in Google Search Console",
+    "Check robots.txt after every major launch",
+    "Keep admin pages noindex and disallowed",
+    "Compress large images before uploading",
+    "Add descriptive ALT text to product and application images",
+    "Use one clear H1 per page",
+    "Add internal links from blogs to product and inquiry pages",
+    "Test inquiry form after domain, email or plugin changes"
+  ]
+}
