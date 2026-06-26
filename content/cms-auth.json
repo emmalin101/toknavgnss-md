@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-23T01:36:27.538Z",
+  "updatedAt": "2026-06-26T01:28:00.401Z",
   "users": [
     {
       "id": "admin_22d26cf8-63e4-479a-a303-b16260389a0e",
@@ -8,6 +8,13 @@
       "passwordHash": "scrypt$JVnIPXeyaMF3ATpUyKJGuw$t5D1cW5xOk2Du_lOeL4sFf5FuVGSVycJwVbB8J6TAhMPZ-ohIanKeFeENlD-4KUgX_CRlYqcuIijCkQcw-RByQ",
       "createdAt": "2026-06-23T01:36:27.475Z",
       "updatedAt": "2026-06-23T01:36:27.475Z"
+    },
+    {
+      "id": "admin_5e404c85-d250-4a6d-95eb-49a4ae1fbc34",
+      "email": "info@toknavgnss.md",
+      "passwordHash": "scrypt$l4NQNON5pTcbyGeHLFdX0A$1VsTmwTbQCss_1ste9MyAfCRPj4EQM2vfbzyJ2F__2u45aYqPhMHJd9ATLALcTxjxGTGg-0_sxxTO2dOMz6r9w",
+      "createdAt": "2026-06-26T01:28:00.401Z",
+      "updatedAt": "2026-06-26T01:28:00.401Z"
     }
   ]
 }

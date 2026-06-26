@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-24T02:47:03.119Z",
+  "updatedAt": "2026-06-26T01:57:17.000Z",
   "pages": [
     {
       "id": "page_ee11bc22-86de-4cd0-a986-49460efac5aa",
@@ -59,6 +59,16 @@
                 "title": "U6",
                 "href": "/products/gnss-application-solutions/deformation-monitoring",
                 "image": "/assets/products/u6.webp"
+              },
+              {
+                "title": "TSR20",
+                "href": "/products/gnss-application-solutions/tsr20-slam",
+                "image": "/assets/products/tsr20.webp"
+              },
+              {
+                "title": "tBoat10",
+                "href": "/products/gnss-application-solutions/tboat-usv-series",
+                "image": "/assets/products/tboat10.webp"
               }
             ]
           }

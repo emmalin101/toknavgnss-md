@@ -72,6 +72,28 @@ export async function createFirstAdmin(email: string, password: string) {
   return user;
 }
 
+export async function createAdminUser(email: string, password: string) {
+  const store = await readAuthStore();
+  const users = store.users.length ? store.users : await listAdminUsers();
+  const normalizedEmail = email.toLowerCase().trim();
+  if (users.some((user) => user.email.toLowerCase() === normalizedEmail)) {
+    throw new Error("An admin user already uses this email.");
+  }
+
+  const now = nowIso();
+  const user: CmsAdminUser = {
+    id: createId("admin"),
+    email: normalizedEmail,
+    passwordHash: hashPassword(password),
+    createdAt: now,
+    updatedAt: now
+  };
+
+  store.users = [...users, user];
+  await writeAuthStore(store, `Create CMS admin ${normalizedEmail}`);
+  return user;
+}
+
 export async function updateAdminPassword(userId: string, password: string) {
   const store = await readAuthStore();
   const users = store.users.length
@@ -98,6 +120,20 @@ export async function updateAdminPassword(userId: string, password: string) {
   store.users = users;
   await writeAuthStore(store, "Change CMS admin password");
   return users[index];
+}
+
+export async function deleteAdminUser(userId: string, currentUserId: string) {
+  const store = await readAuthStore();
+  const users = store.users.length ? store.users : await listAdminUsers();
+  if (users.length <= 1) throw new Error("At least one admin account is required.");
+  if (userId === currentUserId) throw new Error("You cannot delete your own account while logged in.");
+
+  const user = users.find((item) => item.id === userId);
+  if (!user) throw new Error("Admin user not found.");
+
+  store.users = users.filter((item) => item.id !== userId);
+  await writeAuthStore(store, `Delete CMS admin ${user.email}`);
+  return user;
 }
 
 export async function authenticateAdmin(email: string, password: string) {

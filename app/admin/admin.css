@@ -508,6 +508,37 @@
   align-items: start;
 }
 
+.admin-users-panel {
+  margin-top: 18px;
+}
+
+.admin-user-list {
+  display: grid;
+  gap: 12px;
+}
+
+.admin-user-row {
+  display: grid;
+  grid-template-columns: minmax(220px, .75fr) minmax(220px, .9fr) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 14px;
+  border: 1px solid #d7e5f7;
+  border-radius: 14px;
+  background: #f8fbff;
+}
+
+.admin-user-row strong,
+.admin-user-row small {
+  display: block;
+}
+
+.admin-user-row small {
+  margin-top: 4px;
+  color: #607089;
+  font-weight: 700;
+}
+
 .admin-media-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
@@ -550,6 +581,7 @@
   .admin-field-grid,
   .admin-spec-row,
   .admin-inline-tools,
+  .admin-user-row,
   .admin-blog-image-tool,
   .admin-home-image-list {
     grid-template-columns: 1fr;

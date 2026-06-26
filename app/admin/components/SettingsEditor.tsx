@@ -4,6 +4,13 @@ import { useEffect, useState } from "react";
 import type { CmsSettings } from "../../lib/cms/types";
 import { CONTACT_PHONE, PRIMARY_CONTACT_EMAIL, SALES_CONTACT_EMAIL, WHATSAPP_PHONE } from "../../lib/contactInfo";
 
+type AdminUser = {
+  id: string;
+  email: string;
+  createdAt: string;
+  updatedAt: string;
+};
+
 const emptySettings: Partial<CmsSettings> = {
   siteName: "TOKNAV",
   logo: "/assets/toknav-logo-blue.png",
@@ -28,6 +35,10 @@ const emptySocialLinks: CmsSettings["socialLinks"] = {
 export default function SettingsEditor() {
   const [settings, setSettings] = useState<Partial<CmsSettings>>(emptySettings);
   const [password, setPassword] = useState("");
+  const [adminUsers, setAdminUsers] = useState<AdminUser[]>([]);
+  const [newAdminEmail, setNewAdminEmail] = useState("");
+  const [newAdminPassword, setNewAdminPassword] = useState("");
+  const [resetPasswords, setResetPasswords] = useState<Record<string, string>>({});
   const [error, setError] = useState("");
   const [message, setMessage] = useState("");
 
@@ -39,7 +50,14 @@ export default function SettingsEditor() {
         setSettings(payload.data);
       })
       .catch((err) => setError(err instanceof Error ? err.message : "Failed to load settings."));
+    refreshAdminUsers();
   }, []);
+
+  async function refreshAdminUsers() {
+    const response = await fetch("/api/cms/auth/users");
+    const payload = await response.json();
+    if (response.ok && payload.ok) setAdminUsers(payload.data);
+  }
 
   function update<K extends keyof CmsSettings>(key: K, value: CmsSettings[K]) {
     setSettings((current) => ({ ...current, [key]: value }));
@@ -84,6 +102,58 @@ export default function SettingsEditor() {
     }
     setPassword("");
     setMessage("Password updated.");
+    refreshAdminUsers();
+  }
+
+  async function createAdmin() {
+    setError("");
+    setMessage("");
+    const response = await fetch("/api/cms/auth/users", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: newAdminEmail, password: newAdminPassword })
+    });
+    const payload = await response.json();
+    if (!response.ok || !payload.ok) {
+      setError(payload.message || "Admin creation failed.");
+      return;
+    }
+    setNewAdminEmail("");
+    setNewAdminPassword("");
+    setMessage("Admin user created.");
+    refreshAdminUsers();
+  }
+
+  async function resetAdminPassword(userId: string) {
+    setError("");
+    setMessage("");
+    const response = await fetch(`/api/cms/auth/users/${userId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password: resetPasswords[userId] || "" })
+    });
+    const payload = await response.json();
+    if (!response.ok || !payload.ok) {
+      setError(payload.message || "Admin password reset failed.");
+      return;
+    }
+    setResetPasswords((current) => ({ ...current, [userId]: "" }));
+    setMessage("Admin password updated.");
+    refreshAdminUsers();
+  }
+
+  async function deleteAdmin(userId: string) {
+    if (!window.confirm("Delete this admin user?")) return;
+    setError("");
+    setMessage("");
+    const response = await fetch(`/api/cms/auth/users/${userId}`, { method: "DELETE" });
+    const payload = await response.json();
+    if (!response.ok || !payload.ok) {
+      setError(payload.message || "Admin deletion failed.");
+      return;
+    }
+    setMessage("Admin user deleted.");
+    refreshAdminUsers();
   }
 
   return (
@@ -125,6 +195,44 @@ export default function SettingsEditor() {
           <button className="admin-button-secondary" type="button" onClick={changePassword}>Update Password</button>
         </aside>
       </div>
+      <section className="admin-editor-panel admin-users-panel">
+        <div>
+          <h2>Admin Accounts</h2>
+          <p className="admin-muted">Add a second login account, reset passwords or remove accounts you no longer need.</p>
+        </div>
+        <div className="admin-inline-tools">
+          <label className="admin-field">
+            <span>New admin email</span>
+            <input className="admin-input" type="email" value={newAdminEmail} onChange={(event) => setNewAdminEmail(event.target.value)} placeholder="name@example.com" />
+          </label>
+          <label className="admin-field">
+            <span>Temporary password</span>
+            <input className="admin-input" type="password" value={newAdminPassword} onChange={(event) => setNewAdminPassword(event.target.value)} placeholder="At least 10 characters" />
+          </label>
+          <button className="admin-button" type="button" onClick={createAdmin}>Add Admin</button>
+        </div>
+        <div className="admin-user-list">
+          {adminUsers.map((user) => (
+            <article className="admin-user-row" key={user.id}>
+              <div>
+                <strong>{user.email}</strong>
+                <small>Updated {new Date(user.updatedAt).toLocaleDateString()}</small>
+              </div>
+              <input
+                className="admin-input"
+                type="password"
+                value={resetPasswords[user.id] || ""}
+                onChange={(event) => setResetPasswords((current) => ({ ...current, [user.id]: event.target.value }))}
+                placeholder="New password"
+              />
+              <div className="admin-actions">
+                <button className="admin-button-secondary" type="button" onClick={() => resetAdminPassword(user.id)}>Reset Password</button>
+                <button className="admin-danger-button" type="button" onClick={() => deleteAdmin(user.id)}>Delete</button>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
     </>
   );
 }

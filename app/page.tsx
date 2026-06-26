@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import type { CSSProperties, ElementType } from "react";
 import InquiryForm from "./components/InquiryForm";
+import HomeHeroCarousel from "./components/HomeHeroCarousel";
 import SiteHeader from "./components/SiteHeader";
 import { resolveDownloadHref } from "./lib/assetUrls";
 import { getBlockData, getCmsSettings, getPublishedCmsPageByPath } from "./lib/cms/public";
@@ -22,7 +23,9 @@ import { productCategories } from "./lib/products";
 const heroProducts = [
   { title: "T50Pro", href: "/products/gnss-receivers/t50pro", image: "/assets/products/t50pro.webp" },
   { title: "TR10Pro", href: "/products/gnss-application-solutions/marking-robot", image: "/assets/products/tr10pro-marking-robot-front.png" },
-  { title: "U6", href: "/products/gnss-application-solutions/deformation-monitoring", image: "/assets/products/u6.webp" }
+  { title: "U6", href: "/products/gnss-application-solutions/deformation-monitoring", image: "/assets/products/u6.webp" },
+  { title: "TSR20", href: "/products/gnss-application-solutions/tsr20-slam", image: "/assets/products/tsr20.webp" },
+  { title: "tBoat10", href: "/products/gnss-application-solutions/tboat-usv-series", image: "/assets/products/tboat10.webp" }
 ];
 
 const whyItems = [
@@ -164,7 +167,7 @@ export default function Home() {
   const trusted = getBlockData(cmsPage, "custom", fallbackTrusted, "home-trusted-band");
   const heroImage = String(hero.backgroundImage || fallbackHero.backgroundImage);
   const categoryItems = normalizeItems(categoryBlock.items, fallbackCategories);
-  const heroProductItems = normalizeItems(heroProductBlock.items, heroProducts).slice(0, 3);
+  const heroProductItems = normalizeItems(heroProductBlock.items, heroProducts);
   const applicationItems = normalizeItems(applicationBlock.items, applications);
   const trustedMetricsItems = normalizeItems(trusted.metrics, trustedMetrics as HomeImageItem[]);
   const trustedBackground = String(trusted.backgroundImage || fallbackTrusted.backgroundImage);
@@ -199,30 +202,7 @@ export default function Home() {
           </div>
         </div>
         <div className="home-hero-stage" aria-label="Featured TOKNAV products">
-          <div className="home-hero-carousel">
-            {heroProductItems.map((item, index) => (
-              <a
-                className="home-hero-slide"
-                href={item.href || "#products"}
-                key={item.title || item.image}
-                style={{ "--slide-delay": `${index * 4}s` } as CSSProperties}
-              >
-                <img src={item.image} alt={item.title || "TOKNAV product"} />
-                <span>
-                  <strong>{item.title}</strong>
-                  <small>View product details</small>
-                </span>
-              </a>
-            ))}
-          </div>
-          <div className="home-hero-carousel-dots" aria-hidden="true">
-            {heroProductItems.map((item, index) => (
-              <span
-                key={`${item.title || item.image}-dot`}
-                style={{ "--dot-delay": `${index * 4}s` } as CSSProperties}
-              />
-            ))}
-          </div>
+          <HomeHeroCarousel items={heroProductItems} />
         </div>
       </section>
 
