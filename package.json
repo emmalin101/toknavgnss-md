@@ -2,7 +2,7 @@
   "name": "toknavgnss-md",
   "private": true,
   "version": "1.0.0",
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "seed:cms": "node scripts/seed-cms.mjs", "cms:hash": "node scripts/create-admin-hash.mjs" },
+  "scripts": { "dev": "next dev", "build": "next build", "start": "node server.cjs", "seed:cms": "node scripts/seed-cms.mjs", "cms:hash": "node scripts/create-admin-hash.mjs" },
   "dependencies": { "next": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest" },
   "devDependencies": { "typescript": "latest", "@types/node": "latest", "@types/react": "latest", "@types/react-dom": "latest" }
 }
