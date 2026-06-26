@@ -1,0 +1,12 @@
+:HL["/_next/static/chunks/2xbyrifpfr1-u.css","style"]
+:HL["/assets/toknav-logo-white.png","image"]
+:HL["/assets/products/gnss-receiver-series-combo.webp","image"]
+:HL["/assets/products/pcr500.webp","image"]
+:HL["/assets/products/tca930.webp","image"]
+:HL["/assets/products/tag66.webp","image"]
+:HL["/assets/products/tbase.webp","image"]
+:HL["/assets/products/tboat20.webp","image"]
+:HL["/assets/products/tag88.webp","image"]
+:HL["/assets/products/tmc10.webp","image"]
+:HL["/assets/products/tmc20.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"category","param":{"type":"d","key":"precision-agriculture-machine-control","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"wAXyhqisputuJg_OMc7zA"}
