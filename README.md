@@ -8,6 +8,8 @@ This project now runs as a Next.js website with a lightweight CMS admin at `/adm
 - Page management with SEO fields and editable blocks
 - Blog create / edit / delete / draft / publish
 - Product create / edit / delete / draft / publish
+- Inquiry capture and follow-up status management
+- Customer records for new and old buyers
 - Media library upload / delete / copy URL / image alt text
 - Global settings for site name, logo, favicon, default SEO, social links, contact email and footer text
 - One-click sync of current website pages and product model data into the CMS
@@ -25,6 +27,8 @@ This project now runs as a Next.js website with a lightweight CMS admin at `/adm
 - `/admin/products`
 - `/admin/products/new`
 - `/admin/products/[id]/edit`
+- `/admin/inquiries`
+- `/admin/customers`
 - `/admin/media`
 - `/admin/settings`
 
@@ -97,6 +101,17 @@ Open a product model and edit:
 - `SEO title` and `SEO description`: product page metadata
 
 Published products are used by the frontend first. If a CMS product has specs, those specs override the older hardcoded specification table for that model.
+
+## Manage Inquiries and Customers
+
+Website inquiry forms submit to `/api/inquiry`. New inquiries are stored in the CMS and automatically matched to customer records by email or WhatsApp.
+
+Use:
+
+- `/admin/inquiries`: review inquiry messages, change lead status, edit product interest and add follow-up notes
+- `/admin/customers`: add or edit customer profiles, product interests, company details and long-term notes
+
+If email delivery is not configured, inquiry records are still saved in the CMS.
 
 ## Create Administrator Account
 

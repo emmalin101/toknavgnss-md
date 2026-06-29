@@ -109,9 +109,23 @@ async function deleteGithubFile(filePath: string, message: string) {
   }
 }
 
+async function writeLocalJsonFile(filePath: string, content: string) {
+  await mkdir(path.dirname(filePath), { recursive: true });
+  await writeFile(filePath, content, "utf8");
+}
+
+async function writeLocalUploadFile(relativePath: string, bytes: Buffer) {
+  const localPath = path.join(process.cwd(), relativePath);
+  if (!localPath.startsWith(uploadRoot)) return;
+  await mkdir(path.dirname(localPath), { recursive: true });
+  await writeFile(localPath, bytes);
+}
+
 export async function readCmsData(): Promise<CmsData> {
   if (useGithubStorage()) {
-    return ensureCmsDataShape(await readGithubJson<CmsData>("content/cms-data.json", ensureCmsDataShape(null)));
+    const data = ensureCmsDataShape(await readGithubJson<CmsData>("content/cms-data.json", ensureCmsDataShape(null)));
+    await writeLocalJsonFile(dataFilePath, `${JSON.stringify(data, null, 2)}\n`);
+    return data;
   }
 
   if (!existsSync(dataFilePath)) return ensureCmsDataShape(null);
@@ -134,6 +148,7 @@ export async function writeCmsData(data: CmsData, message = "Update CMS content"
 
   if (useGithubStorage()) {
     await writeGithubFile("content/cms-data.json", json, message);
+    await writeLocalJsonFile(dataFilePath, json);
     return normalized;
   }
 
@@ -144,7 +159,9 @@ export async function writeCmsData(data: CmsData, message = "Update CMS content"
 
 export async function readAuthStore(): Promise<CmsAuthStore> {
   if (useGithubStorage()) {
-    return ensureAuthStoreShape(await readGithubJson<CmsAuthStore>("content/cms-auth.json", ensureAuthStoreShape(null)));
+    const data = ensureAuthStoreShape(await readGithubJson<CmsAuthStore>("content/cms-auth.json", ensureAuthStoreShape(null)));
+    await writeLocalJsonFile(authFilePath, `${JSON.stringify(data, null, 2)}\n`);
+    return data;
   }
 
   if (!existsSync(authFilePath)) return ensureAuthStoreShape(null);
@@ -158,6 +175,7 @@ export async function writeAuthStore(data: CmsAuthStore, message = "Update CMS a
 
   if (useGithubStorage()) {
     await writeGithubFile("content/cms-auth.json", json, message);
+    await writeLocalJsonFile(authFilePath, json);
     return normalized;
   }
 
@@ -186,6 +204,7 @@ export async function saveUploadedMedia(filename: string, bytes: Buffer) {
 
   if (useGithubStorage()) {
     await writeGithubFile(repoPath, bytes, `Upload CMS media ${safeName}`);
+    await writeLocalUploadFile(`public/uploads/${folder}/${safeName}`, bytes);
     return { url: publicUrl, filename: safeName };
   }
 
@@ -202,7 +221,6 @@ export async function deleteUploadedMedia(url: string) {
 
   if (useGithubStorage()) {
     await deleteGithubFile(`public/${relative}`, `Delete CMS media ${path.basename(relative)}`);
-    return;
   }
 
   const localPath = path.join(process.cwd(), "public", relative);

@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/2xbyrifpfr1-u.css","style"]
+:HL["/_next/static/chunks/2n85wt0442vqn.css","style"]
 :HL["/assets/toknav-logo-white.png","image"]
 :HL["/assets/products/gnss-receiver-series-combo.webp","image"]
 :HL["/assets/products/pcr500.webp","image"]
@@ -6,6 +6,7 @@
 :HL["/assets/products/tag66.webp","image"]
 :HL["/assets/products/tbase.webp","image"]
 :HL["/assets/products/tboat20.webp","image"]
+:HL["/assets/products/tsurvey2.png","image"]
 :HL["/assets/about/cert-ce-p8.webp","image"]
 :HL["/assets/about/feedback-las-vegas-demo.webp","image"]
 :HL["/assets/about/feedback-las-vegas-talk.webp","image"]
@@ -33,4 +34,4 @@
 :HL["/assets/about/feedback-factory-training.webp","image"]
 :HL["/assets/about/feedback-factory-handshake.webp","image"]
 :HL["/assets/about/feedback-factory-demo-table.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"about","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"wAXyhqisputuJg_OMc7zA"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"about","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"0JP1R03Jb8bBwl8Ob2QQR"}

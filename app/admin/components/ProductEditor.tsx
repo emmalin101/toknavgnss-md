@@ -10,7 +10,8 @@ const categoryOptions = [
   ["gnss-antennas", "GNSS Antennas"],
   ["precision-agriculture-machine-control", "Precision Agriculture & Machine Control"],
   ["accessories", "Accessories"],
-  ["gnss-application-solutions", "GNSS Application Solutions"]
+  ["gnss-application-solutions", "GNSS Application Solutions"],
+  ["software", "Software"]
 ];
 
 const emptyProduct: Partial<CmsProduct> = {
@@ -41,7 +42,7 @@ function linesToArray(text: string) {
 }
 
 function cleanEditableSpecs(specs: CmsProductSpec[] | undefined) {
-  return (specs || []).filter((spec) => spec.label.trim() || spec.value.trim());
+  return (specs || []).filter((spec) => spec.label.trim() && spec.value.trim());
 }
 
 export default function ProductEditor({ id }: { id?: string }) {
@@ -90,7 +91,7 @@ export default function ProductEditor({ id }: { id?: string }) {
   async function save(status?: "draft" | "published") {
     setError("");
     setMessage("");
-    const payload = { ...product, status: status || product.status || "draft" };
+    const payload = { ...product, specs: cleanEditableSpecs(product.specs), status: status || product.status || "draft" };
     const response = await fetch(isEditing ? `/api/cms/products/${id}` : "/api/cms/products", {
       method: isEditing ? "PUT" : "POST",
       headers: { "Content-Type": "application/json" },

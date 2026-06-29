@@ -56,6 +56,8 @@ export function getDefaultCmsData(): CmsData {
     blogPosts: [],
     products: [],
     media: [],
+    inquiries: [],
+    customers: [],
     settings: getDefaultSettings()
   };
 }
@@ -77,6 +79,8 @@ export function ensureCmsDataShape(data: Partial<CmsData> | null | undefined): C
     blogPosts: Array.isArray(data?.blogPosts) ? data.blogPosts : [],
     products: Array.isArray(data?.products) ? data.products : [],
     media: Array.isArray(data?.media) ? data.media : [],
+    inquiries: Array.isArray(data?.inquiries) ? data.inquiries : [],
+    customers: Array.isArray(data?.customers) ? data.customers : [],
     settings: {
       ...defaults.settings,
       ...(data?.settings || {}),

@@ -10,6 +10,8 @@ const navItems = [
   ["Pages", "/admin/pages"],
   ["Blog", "/admin/blog"],
   ["Products", "/admin/products"],
+  ["Inquiries", "/admin/inquiries"],
+  ["Customers", "/admin/customers"],
   ["Media", "/admin/media"],
   ["Settings", "/admin/settings"]
 ];

@@ -81,6 +81,10 @@
   font: inherit;
 }
 
+.admin-select.compact {
+  width: min(260px, 100%);
+}
+
 .admin-textarea {
   min-height: 132px;
   resize: vertical;
@@ -539,6 +543,71 @@
   font-weight: 700;
 }
 
+.admin-inquiry-card {
+  align-items: stretch;
+}
+
+.admin-inquiry-main {
+  display: grid;
+  gap: 12px;
+}
+
+.admin-inquiry-main p {
+  margin: 0;
+  color: #475a78;
+  line-height: 1.65;
+  white-space: pre-wrap;
+}
+
+.admin-contact-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  color: #607089;
+  font-weight: 800;
+}
+
+.admin-contact-line a {
+  color: #202a98;
+}
+
+.admin-crm-layout {
+  grid-template-columns: minmax(280px, .68fr) minmax(0, 1fr);
+}
+
+.admin-customer-list {
+  display: grid;
+  gap: 10px;
+  max-height: 70vh;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.admin-customer-row {
+  display: grid;
+  gap: 5px;
+  width: 100%;
+  border: 1px solid #d7e5f7;
+  border-radius: 14px;
+  padding: 13px 14px;
+  background: #fff;
+  color: #07152c;
+  text-align: left;
+  cursor: pointer;
+}
+
+.admin-customer-row.active,
+.admin-customer-row:hover {
+  border-color: #202a98;
+  box-shadow: 0 12px 28px rgba(32, 42, 152, .12);
+}
+
+.admin-customer-row span,
+.admin-customer-row small {
+  color: #607089;
+  font-weight: 700;
+}
+
 .admin-media-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
@@ -582,6 +651,7 @@
   .admin-spec-row,
   .admin-inline-tools,
   .admin-user-row,
+  .admin-crm-layout,
   .admin-blog-image-tool,
   .admin-home-image-list {
     grid-template-columns: 1fr;

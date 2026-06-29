@@ -1,7 +1,18 @@
 import { NextResponse } from "next/server";
 import { getCurrentAdmin } from "./auth";
 import { createId, nowIso, slugify } from "./defaults";
-import type { CmsBlock, CmsBlogPost, CmsPage, CmsProduct, CmsProductSpec, CmsStatus } from "./types";
+import type {
+  CmsBlock,
+  CmsBlogPost,
+  CmsCustomer,
+  CmsCustomerStatus,
+  CmsInquiry,
+  CmsInquiryStatus,
+  CmsPage,
+  CmsProduct,
+  CmsProductSpec,
+  CmsStatus
+} from "./types";
 
 export function jsonError(message: string, status = 400, errors?: Record<string, string>) {
   return NextResponse.json({ ok: false, message, errors }, { status });
@@ -32,6 +43,18 @@ export function cleanString(value: unknown, maxLength = 5000) {
 
 export function cleanStatus(value: unknown): CmsStatus {
   return value === "published" ? "published" : "draft";
+}
+
+export function cleanInquiryStatus(value: unknown): CmsInquiryStatus {
+  return ["new", "contacted", "quoted", "won", "lost", "archived"].includes(String(value))
+    ? (value as CmsInquiryStatus)
+    : "new";
+}
+
+export function cleanCustomerStatus(value: unknown): CmsCustomerStatus {
+  return ["lead", "active", "repeat", "inactive"].includes(String(value))
+    ? (value as CmsCustomerStatus)
+    : "lead";
 }
 
 export function cleanStringArray(value: unknown, maxItems = 24) {
@@ -151,6 +174,52 @@ export function normalizeProductInput(input: ProductInput, existing?: CmsProduct
     seoTitle: cleanString(input.seoTitle, 220) || existing?.seoTitle || name,
     seoDescription: cleanString(input.seoDescription, 360) || existing?.seoDescription || "",
     createdAt: existing?.createdAt || now,
+    updatedAt: now
+  };
+}
+
+type InquiryInput = Partial<CmsInquiry>;
+
+export function normalizeInquiryInput(input: InquiryInput, existing?: CmsInquiry): CmsInquiry {
+  const now = nowIso();
+
+  return {
+    id: existing?.id || cleanString(input.id, 80) || createId("inquiry"),
+    name: cleanString(input.name, 180) || existing?.name || "",
+    email: cleanString(input.email, 180).toLowerCase() || existing?.email || "",
+    whatsapp: cleanString(input.whatsapp, 80) || existing?.whatsapp || "",
+    company: cleanString(input.company, 180) || existing?.company || "",
+    country: cleanString(input.country, 120) || existing?.country || "",
+    product: cleanString(input.product, 220) || existing?.product || "",
+    message: cleanString(input.message, 8000) || existing?.message || "",
+    source: cleanString(input.source, 120) || existing?.source || "website",
+    status: cleanInquiryStatus(input.status || existing?.status),
+    customerId: cleanString(input.customerId, 100) || existing?.customerId || "",
+    notes: cleanString(input.notes, 4000) || existing?.notes || "",
+    createdAt: existing?.createdAt || cleanString(input.createdAt, 80) || now,
+    updatedAt: now
+  };
+}
+
+type CustomerInput = Partial<CmsCustomer>;
+
+export function normalizeCustomerInput(input: CustomerInput, existing?: CmsCustomer): CmsCustomer {
+  const now = nowIso();
+  const name = cleanString(input.name, 180) || existing?.name || cleanString(input.company, 180) || "Unnamed Customer";
+
+  return {
+    id: existing?.id || cleanString(input.id, 80) || createId("customer"),
+    name,
+    email: cleanString(input.email, 180).toLowerCase() || existing?.email || "",
+    whatsapp: cleanString(input.whatsapp, 80) || existing?.whatsapp || "",
+    company: cleanString(input.company, 180) || existing?.company || "",
+    country: cleanString(input.country, 120) || existing?.country || "",
+    products: cleanStringArray(input.products || existing?.products, 64),
+    source: cleanString(input.source, 120) || existing?.source || "website",
+    status: cleanCustomerStatus(input.status || existing?.status),
+    notes: cleanString(input.notes, 8000) || existing?.notes || "",
+    lastInquiryAt: cleanString(input.lastInquiryAt, 80) || existing?.lastInquiryAt || "",
+    createdAt: existing?.createdAt || cleanString(input.createdAt, 80) || now,
     updatedAt: now
   };
 }

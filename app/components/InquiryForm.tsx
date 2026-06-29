@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { ArrowRight, CheckCircle2, Loader2, ShieldCheck, XCircle } from "lucide-react";
 import { useI18n } from "./I18nProvider";
-import { PRIMARY_CONTACT_EMAIL, SALES_CONTACT_EMAIL } from "../lib/contactInfo";
 
 type InquiryFormValues = {
   name: string;
@@ -31,7 +30,6 @@ const initialValues: InquiryFormValues = {
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const whatsappPattern = /^\+?[0-9 ()-]{7,22}$/;
-const inquiryFormAction = `https://formsubmit.co/${PRIMARY_CONTACT_EMAIL}`;
 const productOptions = [
   "GNSS Receiver",
   "Rugged & GIS",
@@ -39,6 +37,7 @@ const productOptions = [
   "Precision Agriculture",
   "Machine Control",
   "CORS / VRS Solution",
+  "Software",
   "Dealer Cooperation"
 ];
 
@@ -102,9 +101,8 @@ export default function InquiryForm() {
     }
   }
 
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const form = event.currentTarget;
     const nextErrors = validate(values, t);
     setErrors(nextErrors);
 
@@ -117,25 +115,29 @@ export default function InquiryForm() {
     setStatus("submitting");
     setStatusMessage(t("form.status.submitting"));
 
-    window.setTimeout(() => {
-      form.submit();
-    }, 120);
+    try {
+      const response = await fetch("/api/inquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(values)
+      });
+      const payload = await response.json();
+      if (!response.ok || !payload.ok) throw new Error(payload.message || "Submission failed.");
+      setStatus("success");
+      setStatusMessage(payload.message || "Inquiry submitted successfully.");
+      setValues(initialValues);
+    } catch (err) {
+      setStatus("error");
+      setStatusMessage(err instanceof Error ? err.message : "Submission failed. Please try again.");
+    }
   }
 
   return (
     <form
-      action={inquiryFormAction}
       className="b2b-inquiry-form"
-      method="POST"
       onSubmit={handleSubmit}
       noValidate
     >
-      <input type="hidden" name="_subject" value="New TOKNAV Website Inquiry" />
-      <input type="hidden" name="_cc" value={SALES_CONTACT_EMAIL} />
-      <input type="hidden" name="_template" value="table" />
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="https://toknavgnss.md/thanks.html" />
-      <input type="text" name="_honey" className="honeypot" tabIndex={-1} autoComplete="off" />
       <input
         aria-hidden="true"
         autoComplete="off"

@@ -80,6 +80,43 @@ export type CmsMediaItem = {
   updatedAt: string;
 };
 
+export type CmsInquiryStatus = "new" | "contacted" | "quoted" | "won" | "lost" | "archived";
+
+export type CmsInquiry = {
+  id: string;
+  name: string;
+  email: string;
+  whatsapp: string;
+  company: string;
+  country: string;
+  product: string;
+  message: string;
+  source: string;
+  status: CmsInquiryStatus;
+  customerId: string;
+  notes: string;
+  createdAt: string;
+  updatedAt: string;
+};
+
+export type CmsCustomerStatus = "lead" | "active" | "repeat" | "inactive";
+
+export type CmsCustomer = {
+  id: string;
+  name: string;
+  email: string;
+  whatsapp: string;
+  company: string;
+  country: string;
+  products: string[];
+  source: string;
+  status: CmsCustomerStatus;
+  notes: string;
+  lastInquiryAt: string;
+  createdAt: string;
+  updatedAt: string;
+};
+
 export type CmsSettings = {
   siteName: string;
   logo: string;
@@ -107,6 +144,8 @@ export type CmsData = {
   blogPosts: CmsBlogPost[];
   products: CmsProduct[];
   media: CmsMediaItem[];
+  inquiries: CmsInquiry[];
+  customers: CmsCustomer[];
   settings: CmsSettings;
 };
 

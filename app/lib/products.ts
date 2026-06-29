@@ -119,6 +119,17 @@ export const productCategories: ProductCategory[] = [
     image: "/assets/products/tboat20.webp",
     sourcePdf: "Solution Brochure.pdf",
     buyerIntent: "Explain complete project solutions and recommended product mix."
+  },
+  {
+    slug: "software",
+    name: "Software",
+    kicker: "Survey / Data Collection / Field Workflows",
+    title: "TOKNAV Survey Software for RTK Field Data Collection and Stakeout",
+    description:
+      "tSurvey and tSurvey 2.0 software support GNSS field data collection, coordinate systems, projection workflows, stakeout and professional survey operations on Android controllers.",
+    image: "/assets/products/tsurvey2.png",
+    sourcePdf: "tSurvey2.0.pdf",
+    buyerIntent: "Compare TOKNAV survey software for RTK data collection, stakeout and multilingual field workflows."
   }
 ];
 
@@ -777,6 +788,43 @@ export const products: Product[] = [
       "/assets/products/tsr20-studio.webp",
       "/assets/products/tsr20-kit.webp"
     ]
+  },
+  {
+    slug: "tsurvey",
+    name: "tSurvey",
+    categorySlug: "software",
+    type: "Android engineering survey software",
+    image: "/assets/products/tsurvey.png",
+    excerpt: "Android field surveying software for RTK measurement, point collection, stakeout and construction survey workflows.",
+    applications: ["RTK field survey", "Point and line stakeout", "Construction layout", "Controller data collection"],
+    highlights: ["Android-based survey workflow", "Engineering measurement tools", "RTK receiver connection", "Project and point management", "Import and export field data"],
+    specs: [
+      { label: "Platform", value: "Android field controller software" },
+      { label: "Core workflow", value: "Project setup, GNSS receiver connection, data collection, stakeout and field export" },
+      { label: "Typical users", value: "Survey crews, construction layout teams and RTK equipment dealers" },
+      { label: "Source", value: "TOKNAV official tSurvey software page and tSurvey PDF" }
+    ],
+    source: "TOKNAV official tSurvey software page",
+    gallery: ["/assets/products/tsurvey.png"]
+  },
+  {
+    slug: "tsurvey-2-0",
+    name: "tSurvey 2.0",
+    categorySlug: "software",
+    type: "Multilingual GNSS survey software",
+    image: "/assets/products/tsurvey2.png",
+    excerpt: "Upgraded GNSS survey software for multilingual field work, coordinate systems, data collection and professional stakeout.",
+    applications: ["Multilingual RTK survey", "Coordinate conversion", "Road and construction stakeout", "GNSS field data management"],
+    highlights: ["Supports multiple languages", "Coordinate systems and projection methods", "Field data collection", "Point / line / surface stakeout", "CAD and map-based field workflow"],
+    specs: [
+      { label: "Platform", value: "Android controller software for TOKNAV GNSS workflows" },
+      { label: "Languages", value: "Multi-language interface for international field teams" },
+      { label: "Coordinate workflow", value: "Coordinate systems, projection methods and field project setup" },
+      { label: "Field functions", value: "Data collection, stakeout, project management, import/export and map-assisted work" },
+      { label: "Source", value: "TOKNAV official tSurvey 2.0 software page and tSurvey2.0 PDF" }
+    ],
+    source: "TOKNAV official tSurvey 2.0 software page",
+    gallery: ["/assets/products/tsurvey2.png", "/assets/products/tsurvey.png"]
   }
 ];
 
@@ -1310,6 +1358,36 @@ const tsr20Specs: ProductSpecGroup[] = [
   }
 ];
 
+const softwareSpecs: ProductSpecGroup[] = [
+  {
+    title: "Survey Workflow",
+    specs: [
+      { label: "Platform", value: "Android field surveying software for TOKNAV GNSS receiver and controller workflows" },
+      { label: "Project setup", value: "Create field projects, manage survey points and prepare coordinate workflow before site work" },
+      { label: "Receiver connection", value: "Connect GNSS receivers for RTK survey, base-rover operation and field data collection" },
+      { label: "Field collection", value: "Point collection, line work, map-assisted measurement and export-ready field records" }
+    ]
+  },
+  {
+    title: "Stakeout and Field Functions",
+    specs: [
+      { label: "Stakeout", value: "Point, line and construction stakeout workflows for daily survey and site layout" },
+      { label: "Coordinate workflow", value: "Coordinate systems, projection methods and conversion preparation for project requirements" },
+      { label: "Data exchange", value: "Import and export field data for office processing, design files and project handover" },
+      { label: "Buyer fit", value: "Survey crews, construction teams, equipment dealers and system integrators" }
+    ]
+  },
+  {
+    title: "International Use",
+    specs: [
+      { label: "tSurvey", value: "Android engineering survey software for practical RTK field measurement" },
+      { label: "tSurvey 2.0", value: "Upgraded multilingual interface with richer survey workflow support for global field teams" },
+      { label: "Training", value: "Suitable for dealer demonstrations, controller bundle sales and customer onboarding" },
+      { label: "Source", value: "TOKNAV official software pages and tSurvey / tSurvey 2.0 PDFs" }
+    ]
+  }
+];
+
 const detailedSpecGroups: Record<string, ProductSpecGroup[]> = {
   t5lite: t5FamilySpecs,
   t5: t5FamilySpecs,
@@ -1338,7 +1416,9 @@ const detailedSpecGroups: Record<string, ProductSpecGroup[]> = {
   tmc20: agriMachineSpecs.tmc20,
   "marking-robot": markingRobotSpecs,
   "tboat-usv-series": tboatSpecs,
-  "tsr20-slam": tsr20Specs
+  "tsr20-slam": tsr20Specs,
+  tsurvey: softwareSpecs,
+  "tsurvey-2-0": softwareSpecs
 };
 
 const categoryApplications: Record<string, { title: string; text: string; products: string }[]> = {
@@ -1373,6 +1453,11 @@ const categoryApplications: Record<string, { title: string; text: string; produc
     { title: "Robotic Line Marking", text: "RTK-guided marking workflows for sports fields, roads, runways and pre-marking service providers.", products: "TR10Pro Line Marking Robot" },
     { title: "USV Hydrographic Survey", text: "Unmanned surface vehicle workflows for bathymetric survey, water quality monitoring, patrol and underwater surveying projects.", products: "Tboat10 / Tboat20 USV" },
     { title: "Handheld LiDAR SLAM", text: "Mobile 3D scanning for indoor mapping, outdoor buildings, digital twins, power line patrol and GNSS-denied environments.", products: "TSR20 Handheld LiDAR SLAM" }
+  ],
+  software: [
+    { title: "RTK Field Data Collection", text: "Android survey software for point collection, project setup and GNSS receiver field workflows.", products: "tSurvey, tSurvey 2.0" },
+    { title: "Stakeout and Construction Layout", text: "Prepare coordinate workflows, collect data and guide point or line stakeout on site.", products: "tSurvey 2.0" },
+    { title: "Dealer Training and Support", text: "Bundle software with controllers and receivers for customer onboarding, demonstrations and field support.", products: "tSurvey software family" }
   ]
 };
 
@@ -1411,6 +1496,12 @@ const catalogDownloads: Record<string, ProductDownload> = {
     label: "Download Solution Brochure",
     description: "Application brochure for monitoring, CORS/VRS and complete GNSS project solutions.",
     href: "/assets/downloads/catalogs/solution-brochure.pdf",
+    kind: "catalog"
+  },
+  software: {
+    label: "Download tSurvey 2.0 Software PDF",
+    description: "Software brochure for multilingual GNSS field survey, coordinate workflow and stakeout functions.",
+    href: "/assets/downloads/datasheets/tsurvey2.pdf",
     kind: "catalog"
   }
 };
@@ -1529,6 +1620,18 @@ const modelDatasheets: Record<string, ProductDatasheet> = {
     description: "TSR20 handheld LiDAR SLAM scanner brochure with mapping modes, LiDAR, camera and POS specifications.",
     href: "/assets/downloads/datasheets/tsr20.pdf",
     updated: "2026-06"
+  },
+  tsurvey: {
+    label: "Download tSurvey PDF",
+    description: "tSurvey Android engineering survey software brochure for RTK field workflows.",
+    href: "/assets/downloads/datasheets/tsurvey.pdf",
+    updated: "2025"
+  },
+  "tsurvey-2-0": {
+    label: "Download tSurvey 2.0 PDF",
+    description: "tSurvey 2.0 software brochure for multilingual GNSS survey, coordinate and stakeout workflows.",
+    href: "/assets/downloads/datasheets/tsurvey2.pdf",
+    updated: "2025"
   }
 };
 

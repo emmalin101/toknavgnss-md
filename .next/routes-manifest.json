@@ -119,6 +119,22 @@
       "namedRegex": "^/api/cms/blog/(?<nxtPid>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/api/cms/customers/[id]",
+      "regex": "^/api/cms/customers/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/cms/customers/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/api/cms/inquiries/[id]",
+      "regex": "^/api/cms/inquiries/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/cms/inquiries/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/api/cms/media/[id]",
       "regex": "^/api/cms/media/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -212,10 +228,22 @@
       "namedRegex": "^/admin/blog/new(?:/)?$"
     },
     {
+      "page": "/admin/customers",
+      "regex": "^/admin/customers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/customers(?:/)?$"
+    },
+    {
       "page": "/admin/dashboard",
       "regex": "^/admin/dashboard(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/admin/dashboard(?:/)?$"
+    },
+    {
+      "page": "/admin/inquiries",
+      "regex": "^/admin/inquiries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/inquiries(?:/)?$"
     },
     {
       "page": "/admin/login",
@@ -294,6 +322,18 @@
       "regex": "^/api/cms/blog(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/cms/blog(?:/)?$"
+    },
+    {
+      "page": "/api/cms/customers",
+      "regex": "^/api/cms/customers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/cms/customers(?:/)?$"
+    },
+    {
+      "page": "/api/cms/inquiries",
+      "regex": "^/api/cms/inquiries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/cms/inquiries(?:/)?$"
     },
     {
       "page": "/api/cms/media",

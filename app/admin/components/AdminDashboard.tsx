@@ -1,16 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { CmsBlogPost, CmsMediaItem, CmsPage, CmsProduct } from "../../lib/cms/types";
+import type { CmsBlogPost, CmsCustomer, CmsInquiry, CmsMediaItem, CmsPage, CmsProduct } from "../../lib/cms/types";
 
 type Counts = {
   pages: CmsPage[];
   blogPosts: CmsBlogPost[];
   products: CmsProduct[];
   media: CmsMediaItem[];
+  inquiries: CmsInquiry[];
+  customers: CmsCustomer[];
 };
 
-const empty: Counts = { pages: [], blogPosts: [], products: [], media: [] };
+const empty: Counts = { pages: [], blogPosts: [], products: [], media: [], inquiries: [], customers: [] };
 
 async function loadResource<T>(url: string) {
   const response = await fetch(url, { cache: "no-store" });
@@ -30,9 +32,11 @@ export default function AdminDashboard() {
       loadResource<CmsPage[]>("/api/cms/pages"),
       loadResource<CmsBlogPost[]>("/api/cms/blog"),
       loadResource<CmsProduct[]>("/api/cms/products"),
-      loadResource<CmsMediaItem[]>("/api/cms/media")
+      loadResource<CmsMediaItem[]>("/api/cms/media"),
+      loadResource<CmsInquiry[]>("/api/cms/inquiries"),
+      loadResource<CmsCustomer[]>("/api/cms/customers")
     ])
-      .then(([pages, blogPosts, products, media]) => setData({ pages, blogPosts, products, media }))
+      .then(([pages, blogPosts, products, media, inquiries, customers]) => setData({ pages, blogPosts, products, media, inquiries, customers }))
       .catch((err) => setError(err instanceof Error ? err.message : "Failed to load dashboard."));
   }, []);
 
@@ -40,7 +44,9 @@ export default function AdminDashboard() {
     ["Pages", data.pages.length],
     ["Blog Posts", data.blogPosts.length],
     ["Products", data.products.length],
-    ["Media", data.media.length]
+    ["Media", data.media.length],
+    ["Inquiries", data.inquiries.length],
+    ["Customers", data.customers.length]
   ];
 
   async function syncCurrentWebsite() {
@@ -52,13 +58,15 @@ export default function AdminDashboard() {
       const payload = await response.json();
       if (!response.ok || !payload.ok) throw new Error(payload.message || "Sync failed.");
       setSyncMessage(`Synced: ${payload.data.pagesAdded} pages added, ${payload.data.productsAdded} products added, ${payload.data.productsUpdated} products updated.`);
-      const [pages, blogPosts, products, media] = await Promise.all([
+      const [pages, blogPosts, products, media, inquiries, customers] = await Promise.all([
         loadResource<CmsPage[]>("/api/cms/pages"),
         loadResource<CmsBlogPost[]>("/api/cms/blog"),
         loadResource<CmsProduct[]>("/api/cms/products"),
-        loadResource<CmsMediaItem[]>("/api/cms/media")
+        loadResource<CmsMediaItem[]>("/api/cms/media"),
+        loadResource<CmsInquiry[]>("/api/cms/inquiries"),
+        loadResource<CmsCustomer[]>("/api/cms/customers")
       ]);
-      setData({ pages, blogPosts, products, media });
+      setData({ pages, blogPosts, products, media, inquiries, customers });
     } catch (err) {
       setError(err instanceof Error ? err.message : "Sync failed.");
     } finally {
@@ -96,6 +104,14 @@ export default function AdminDashboard() {
         <a className="admin-card" href="/admin/products/new">
           <h2>Add Product</h2>
           <p className="admin-muted">Publish product pages with specs, gallery and inquiry content.</p>
+        </a>
+        <a className="admin-card" href="/admin/inquiries">
+          <h2>Follow Inquiries</h2>
+          <p className="admin-muted">Update lead status, product interest and follow-up notes.</p>
+        </a>
+        <a className="admin-card" href="/admin/customers">
+          <h2>Manage Customers</h2>
+          <p className="admin-muted">Keep new and old customer contact records in one place.</p>
         </a>
         <a className="admin-card" href="/admin/media">
           <h2>Upload Media</h2>

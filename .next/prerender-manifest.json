@@ -1610,6 +1610,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/products/software": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/products/[category]",
+      "dataRoute": "/products/software.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/products/software/tsurvey": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/products/[category]/[model]",
+      "dataRoute": "/products/software/tsurvey.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/products/software/tsurvey-2-0": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/products/[category]/[model]",
+      "dataRoute": "/products/software/tsurvey-2-0.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/robots.txt": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -1781,8 +1853,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "6ec18b9afe371dcb981826bbb02ae6a0",
-    "previewModeSigningKey": "c1abad81771c1f8f1d52d0fba6c16794e39083a021cba4b2c43bf0c1c27906d5",
-    "previewModeEncryptionKey": "0777080d7dd7db785e593c8a9958f58b8154ceb7a7caeda10183c1e1f967b6ec"
+    "previewModeId": "8dca564f56d4a05d757e69257cd71a4e",
+    "previewModeSigningKey": "5cf69d2762e5948227a0e8edf7c5990b02c5596d09af215645c18527220280d6",
+    "previewModeEncryptionKey": "0e639ae0eb5f756fa5ded0fca87534addc6ec0a9a404cfcf2c54973b9c37b86e"
   }
 }
