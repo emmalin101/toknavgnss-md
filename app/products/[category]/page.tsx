@@ -2,8 +2,11 @@ import { ArrowRight, FileText, Layers3, Search } from "lucide-react";
 import { notFound } from "next/navigation";
 import CmsBlocksRenderer from "../../components/CmsBlocksRenderer";
 import SiteHeader from "../../components/SiteHeader";
-import { getBlockData, getPublishedCmsPageByPath } from "../../lib/cms/public";
-import { getCategory, getCategoryApplications, getProductsByCategory, productCategories } from "../../lib/products";
+import { getBlockData, getPublishedCmsPageByPathAsync } from "../../lib/cms/public";
+import { getCategory, getCategoryApplications, getProductsByCategory, getProductsByCategoryAsync, productCategories } from "../../lib/products";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 type CategoryPageProps = {
   params: Promise<{ category: string }>;
@@ -17,7 +20,7 @@ export async function generateMetadata({ params }: CategoryPageProps) {
   const { category: categorySlug } = await params;
   const category = getCategory(categorySlug);
   if (!category) return {};
-  const cmsPage = getPublishedCmsPageByPath(`/products/${category.slug}`);
+  const cmsPage = await getPublishedCmsPageByPathAsync(`/products/${category.slug}`);
 
   return {
     title: cmsPage?.seoTitle || `${category.name} | TOKNAV Product Category`,
@@ -31,9 +34,9 @@ export default async function ProductCategoryPage({ params }: CategoryPageProps)
   const category = getCategory(categorySlug);
   if (!category) notFound();
 
-  const categoryProducts = getProductsByCategory(category.slug);
+  const categoryProducts = await getProductsByCategoryAsync(category.slug);
   const categoryApplications = getCategoryApplications(category.slug);
-  const cmsPage = getPublishedCmsPageByPath(`/products/${category.slug}`);
+  const cmsPage = await getPublishedCmsPageByPathAsync(`/products/${category.slug}`);
   const hero = getBlockData(
     cmsPage,
     "hero",

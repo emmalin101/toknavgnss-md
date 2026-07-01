@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import CmsBlocksRenderer from "../components/CmsBlocksRenderer";
 import SiteHeader from "../components/SiteHeader";
-import { getBlockData, getCmsSettings, getPublishedCmsPageByPath } from "../lib/cms/public";
+import { getBlockData, getCmsSettingsAsync, getPublishedCmsPageByPathAsync } from "../lib/cms/public";
 import {
   CONTACT_PHONE,
   MOLDOVA_DEALER,
@@ -66,9 +66,14 @@ const contactEntries = [
   }
 ];
 
-export default function ContactPage() {
-  const cmsPage = getPublishedCmsPageByPath("/contact");
-  const settings = getCmsSettings();
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+export default async function ContactPage() {
+  const [cmsPage, settings] = await Promise.all([
+    getPublishedCmsPageByPathAsync("/contact"),
+    getCmsSettingsAsync()
+  ]);
   const hero = getBlockData(cmsPage, "hero", fallbackHero, "page-hero");
   const primaryEmail = settings.contactEmail || PRIMARY_CONTACT_EMAIL;
   const secondaryEmail = settings.contactEmailSecondary || SALES_CONTACT_EMAIL;
@@ -344,8 +349,8 @@ export default function ContactPage() {
   );
 }
 
-export function generateMetadata() {
-  const cmsPage = getPublishedCmsPageByPath("/contact");
+export async function generateMetadata() {
+  const cmsPage = await getPublishedCmsPageByPathAsync("/contact");
   return {
     title: cmsPage?.seoTitle || "Contact TOKNAV | GNSS Receiver Quote and Dealer Cooperation",
     description:

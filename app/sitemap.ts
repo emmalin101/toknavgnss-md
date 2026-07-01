@@ -1,10 +1,13 @@
 import type { MetadataRoute } from "next";
-import { getAllBlogPosts } from "./lib/blogs";
-import { getAllProducts, productCategories } from "./lib/products";
+import { getAllBlogPostsAsync } from "./lib/blogs";
+import { getAllProductsAsync, productCategories } from "./lib/products";
 
 const siteUrl = "https://toknavgnss.md";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
   const baseRoutes = ["", "/products", "/about", "/contact", "/inquiry", "/blog", "/news"].map((route) => ({
     url: `${siteUrl}${route}`,
@@ -16,12 +19,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now
   }));
 
-  const productRoutes = getAllProducts().map((product) => ({
+  const [allProducts, allBlogPosts] = await Promise.all([
+    getAllProductsAsync(),
+    getAllBlogPostsAsync()
+  ]);
+
+  const productRoutes = allProducts.map((product) => ({
     url: `${siteUrl}/products/${product.categorySlug}/${product.slug}`,
     lastModified: now
   }));
 
-  const blogRoutes = getAllBlogPosts().map((post) => ({
+  const blogRoutes = allBlogPosts.map((post) => ({
     url: `${siteUrl}/blog/${post.slug}`,
     lastModified: now
   }));

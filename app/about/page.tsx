@@ -1,8 +1,11 @@
 import { ArrowRight, BadgeCheck, CalendarDays, Globe2, ShieldCheck, UsersRound } from "lucide-react";
 import CmsBlocksRenderer from "../components/CmsBlocksRenderer";
 import SiteHeader from "../components/SiteHeader";
-import { getBlockData, getPublishedCmsPageByPath } from "../lib/cms/public";
+import { getBlockData, getPublishedCmsPageByPathAsync } from "../lib/cms/public";
 import type { CmsPage } from "../lib/cms/types";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 const youtubeUploadsEmbed = "https://www.youtube.com/embed/videoseries?list=UU7YvmJlQYioSnNjsoxlBPxQ";
 type GalleryTuple = [string, string];
@@ -98,8 +101,8 @@ function getGalleryItems(cmsPage: CmsPage | null | undefined, blockTitle: string
   return items.length ? items : fallback;
 }
 
-export default function AboutPage() {
-  const cmsPage = getPublishedCmsPageByPath("/about");
+export default async function AboutPage() {
+  const cmsPage = await getPublishedCmsPageByPathAsync("/about");
   const hero = getBlockData(cmsPage, "hero", fallbackHero, "page-hero");
   const feedbackPhotos = getGalleryItems(cmsPage, "about-feedback-gallery", defaultFeedbackPhotos);
   const certificates = getGalleryItems(cmsPage, "about-certification-gallery", defaultCertificates);
@@ -226,8 +229,8 @@ export default function AboutPage() {
   );
 }
 
-export function generateMetadata() {
-  const cmsPage = getPublishedCmsPageByPath("/about");
+export async function generateMetadata() {
+  const cmsPage = await getPublishedCmsPageByPathAsync("/about");
   return {
     title: cmsPage?.seoTitle || "About TOKNAV | GNSS Receiver Manufacturer, Certifications and Global Customers",
     description:

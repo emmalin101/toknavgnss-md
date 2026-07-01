@@ -2,7 +2,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Clock, Search } from "lucide-react";
 import SiteHeader from "../../components/SiteHeader";
-import { getAllBlogPosts, getBlogPost, renderMarkdown } from "../../lib/blogs";
+import { getAllBlogPosts, getAllBlogPostsAsync, getBlogPostAsync, renderMarkdown } from "../../lib/blogs";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 type BlogDetailPageProps = {
   params: Promise<{ slug: string }>;
@@ -14,7 +17,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: BlogDetailPageProps) {
   const { slug } = await params;
-  const post = getBlogPost(slug);
+  const post = await getBlogPostAsync(slug);
   if (!post) return {};
 
   return {
@@ -25,10 +28,13 @@ export async function generateMetadata({ params }: BlogDetailPageProps) {
 
 export default async function BlogDetailPage({ params }: BlogDetailPageProps) {
   const { slug } = await params;
-  const post = getBlogPost(slug);
+  const [post, allPosts] = await Promise.all([
+    getBlogPostAsync(slug),
+    getAllBlogPostsAsync()
+  ]);
   if (!post) notFound();
 
-  const relatedPosts = getAllBlogPosts().filter((item) => item.slug !== post.slug);
+  const relatedPosts = allPosts.filter((item) => item.slug !== post.slug);
 
   return (
     <main>

@@ -1,6 +1,6 @@
 import { Mail } from "lucide-react";
 import SocialLinks from "./SocialLinks";
-import { getCmsSettings } from "../lib/cms/public";
+import { getCmsSettingsAsync } from "../lib/cms/public";
 import {
   CONTACT_EMAILS,
   CONTACT_PHONE,
@@ -53,8 +53,8 @@ const footerColumns = [
   }
 ];
 
-export default function SiteFooter() {
-  const settings = getCmsSettings();
+export default async function SiteFooter() {
+  const settings = await getCmsSettingsAsync();
   const emails = [...CONTACT_EMAILS];
   const phone = CONTACT_PHONE;
   const whatsapp = WHATSAPP_PHONE;

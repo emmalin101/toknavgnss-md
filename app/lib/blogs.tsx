@@ -2,7 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import Link from "next/link";
 import type React from "react";
-import { getPublishedCmsBlogPosts } from "./cms/public";
+import { getPublishedCmsBlogPosts, getPublishedCmsBlogPostsAsync } from "./cms/public";
+import type { CmsBlogPost } from "./cms/types";
 
 const blogDirectory = path.join(process.cwd(), "content", "blogs");
 
@@ -62,8 +63,8 @@ function cleanSlug(value: string, fallback: string) {
   return slug || fallback.replace(/\.md$/, "");
 }
 
-export function getAllBlogPosts(): BlogPost[] {
-  const cmsPosts = getPublishedCmsBlogPosts().map((post, index) => ({
+function mapCmsPost(post: CmsBlogPost, index: number): BlogPost {
+  return {
     file: "cms",
     slug: post.slug,
     title: post.title,
@@ -75,10 +76,12 @@ export function getAllBlogPosts(): BlogPost[] {
     content: post.body,
     wordCount: post.body.split(/\s+/).filter(Boolean).length,
     priority: index + 1
-  }));
+  };
+}
 
+function getFileBlogPosts(cmsPosts: BlogPost[]) {
   const cmsSlugs = new Set(cmsPosts.map((post) => post.slug));
-  const filePosts = articleFiles.map((file, index) => {
+  return articleFiles.map((file, index) => {
     const content = fs.readFileSync(path.join(blogDirectory, file), "utf8");
     const slug = cleanSlug(extractField(content, "URL Slug"), file);
     const title = extractH1(content);
@@ -103,12 +106,24 @@ export function getAllBlogPosts(): BlogPost[] {
       priority: cmsPosts.length + index + 1
     };
   }).filter((post) => !cmsSlugs.has(post.slug));
+}
 
-  return [...cmsPosts, ...filePosts];
+export function getAllBlogPosts(): BlogPost[] {
+  const cmsPosts = getPublishedCmsBlogPosts().map(mapCmsPost);
+  return [...cmsPosts, ...getFileBlogPosts(cmsPosts)];
+}
+
+export async function getAllBlogPostsAsync(): Promise<BlogPost[]> {
+  const cmsPosts = (await getPublishedCmsBlogPostsAsync()).map(mapCmsPost);
+  return [...cmsPosts, ...getFileBlogPosts(cmsPosts)];
 }
 
 export function getBlogPost(slug: string) {
   return getAllBlogPosts().find((post) => post.slug === slug);
+}
+
+export async function getBlogPostAsync(slug: string) {
+  return (await getAllBlogPostsAsync()).find((post) => post.slug === slug);
 }
 
 function renderInline(text: string) {

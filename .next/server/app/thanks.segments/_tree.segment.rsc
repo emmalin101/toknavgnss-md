@@ -7,4 +7,4 @@
 :HL["/assets/products/tbase.webp","image"]
 :HL["/assets/products/tboat20.webp","image"]
 :HL["/assets/products/tsurvey2.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"thanks","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"0JP1R03Jb8bBwl8Ob2QQR"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"thanks","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"CasevgDFRXa3mzArzFAzs"}

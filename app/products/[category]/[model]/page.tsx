@@ -4,7 +4,7 @@ import SiteHeader from "../../../components/SiteHeader";
 import { resolveDownloadHref } from "../../../lib/assetUrls";
 import {
   getCategory,
-  getProduct,
+  getProductAsync,
   getProductDownloads,
   getProductBuyerBenefits,
   getProductFaqs,
@@ -14,8 +14,12 @@ import {
   getProductSeoTitle,
   getProductSpecGroups,
   getProductsByCategory,
+  getProductsByCategoryAsync,
   productCategories
 } from "../../../lib/products";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 type ProductDetailPageProps = {
   params: Promise<{ category: string; model: string }>;
@@ -32,7 +36,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: ProductDetailPageProps) {
   const { category, model } = await params;
-  const product = getProduct(category, model);
+  const product = await getProductAsync(category, model);
   if (!product) return {};
 
   return {
@@ -44,10 +48,10 @@ export async function generateMetadata({ params }: ProductDetailPageProps) {
 export default async function ProductDetailPage({ params }: ProductDetailPageProps) {
   const { category: categorySlug, model } = await params;
   const category = getCategory(categorySlug);
-  const product = getProduct(categorySlug, model);
+  const product = await getProductAsync(categorySlug, model);
   if (!category || !product) notFound();
 
-  const related = getProductsByCategory(category.slug)
+  const related = (await getProductsByCategoryAsync(category.slug))
     .filter((item) => item.slug !== product.slug)
     .slice(0, 4);
   const specGroups = getProductSpecGroups(product)

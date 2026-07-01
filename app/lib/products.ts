@@ -1,4 +1,5 @@
-import { getPublishedCmsProducts } from "./cms/public";
+import { getPublishedCmsProducts, getPublishedCmsProductsAsync } from "./cms/public";
+import type { CmsProduct } from "./cms/types";
 
 export type ProductSpec = {
   label: string;
@@ -1639,7 +1640,7 @@ export function getCategory(slug: string) {
   return productCategories.find((category) => category.slug === slug);
 }
 
-function mapCmsProduct(product: ReturnType<typeof getPublishedCmsProducts>[number]): Product {
+function mapCmsProduct(product: CmsProduct): Product {
   return {
     slug: product.slug,
     name: product.name,
@@ -1664,8 +1665,18 @@ export function getAllProducts() {
   return [...cmsProducts, ...products.filter((product) => !cmsKeys.has(`${product.categorySlug}/${product.slug}`))];
 }
 
+export async function getAllProductsAsync() {
+  const cmsProducts = (await getPublishedCmsProductsAsync()).map(mapCmsProduct);
+  const cmsKeys = new Set(cmsProducts.map((product) => `${product.categorySlug}/${product.slug}`));
+  return [...cmsProducts, ...products.filter((product) => !cmsKeys.has(`${product.categorySlug}/${product.slug}`))];
+}
+
 export function getProductsByCategory(categorySlug: string) {
   return getAllProducts().filter((product) => product.categorySlug === categorySlug);
+}
+
+export async function getProductsByCategoryAsync(categorySlug: string) {
+  return (await getAllProductsAsync()).filter((product) => product.categorySlug === categorySlug);
 }
 
 export function getCategoryApplications(categorySlug: string) {
@@ -1674,6 +1685,10 @@ export function getCategoryApplications(categorySlug: string) {
 
 export function getProduct(categorySlug: string, productSlug: string) {
   return getAllProducts().find((product) => product.categorySlug === categorySlug && product.slug === productSlug);
+}
+
+export async function getProductAsync(categorySlug: string, productSlug: string) {
+  return (await getAllProductsAsync()).find((product) => product.categorySlug === categorySlug && product.slug === productSlug);
 }
 
 export function getProductSpecGroups(product: Product): ProductSpecGroup[] {

@@ -1,8 +1,11 @@
 import { ArrowRight, BookOpen, Boxes, CheckCircle2 } from "lucide-react";
 import CmsBlocksRenderer from "../components/CmsBlocksRenderer";
 import SiteHeader from "../components/SiteHeader";
-import { getBlockData, getPublishedCmsPageByPath } from "../lib/cms/public";
-import { getAllProducts, productCategories } from "../lib/products";
+import { getBlockData, getPublishedCmsPageByPathAsync } from "../lib/cms/public";
+import { getAllProductsAsync, productCategories } from "../lib/products";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 const fallbackHero = {
   label: "Product Center",
@@ -13,9 +16,11 @@ const fallbackHero = {
   buttonLink: "/inquiry"
 };
 
-export default function ProductsPage() {
-  const allProducts = getAllProducts();
-  const cmsPage = getPublishedCmsPageByPath("/products");
+export default async function ProductsPage() {
+  const [allProducts, cmsPage] = await Promise.all([
+    getAllProductsAsync(),
+    getPublishedCmsPageByPathAsync("/products")
+  ]);
   const hero = getBlockData(cmsPage, "hero", fallbackHero, "page-hero");
 
   return (
@@ -87,8 +92,8 @@ export default function ProductsPage() {
   );
 }
 
-export function generateMetadata() {
-  const cmsPage = getPublishedCmsPageByPath("/products");
+export async function generateMetadata() {
+  const cmsPage = await getPublishedCmsPageByPathAsync("/products");
   return {
     title: cmsPage?.seoTitle || "TOKNAV Products | GNSS Receivers, Antennas, Controllers and RTK Solutions",
     description:

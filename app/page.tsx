@@ -17,8 +17,11 @@ import InquiryForm from "./components/InquiryForm";
 import HomeHeroCarousel from "./components/HomeHeroCarousel";
 import SiteHeader from "./components/SiteHeader";
 import { resolveDownloadHref } from "./lib/assetUrls";
-import { getBlockData, getCmsSettings, getPublishedCmsPageByPath } from "./lib/cms/public";
+import { getBlockData, getCmsSettingsAsync, getPublishedCmsPageByPathAsync } from "./lib/cms/public";
 import { productCategories } from "./lib/products";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 const heroProducts = [
   { title: "T50Pro", href: "/products/gnss-receivers/t50pro", image: "/assets/products/t50pro.webp" },
@@ -157,8 +160,8 @@ function HomeSectionTitle({ title, text }: { title: string; text?: string }) {
   );
 }
 
-export default function Home() {
-  const cmsPage = getPublishedCmsPageByPath("/");
+export default async function Home() {
+  const cmsPage = await getPublishedCmsPageByPathAsync("/");
   const hero = getBlockData(cmsPage, "hero", fallbackHero, "home-hero");
   const cta = getBlockData(cmsPage, "cta", fallbackCta, "home-cta");
   const categoryBlock = getBlockData(cmsPage, "custom", { items: fallbackCategories }, "home-product-categories");
@@ -304,9 +307,11 @@ export default function Home() {
   );
 }
 
-export function generateMetadata() {
-  const cmsPage = getPublishedCmsPageByPath("/");
-  const settings = getCmsSettings();
+export async function generateMetadata() {
+  const [cmsPage, settings] = await Promise.all([
+    getPublishedCmsPageByPathAsync("/"),
+    getCmsSettingsAsync()
+  ]);
   return {
     title: cmsPage?.seoTitle || settings.defaultSeoTitle,
     description: cmsPage?.seoDescription || settings.defaultSeoDescription,

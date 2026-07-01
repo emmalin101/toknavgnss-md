@@ -1,8 +1,8 @@
-import { getCmsSettings } from "../lib/cms/public";
+import { getCmsSettingsAsync } from "../lib/cms/public";
 import { WHATSAPP_PHONE, whatsappHref } from "../lib/contactInfo";
 
-export default function WhatsAppButton() {
-  const settings = getCmsSettings();
+export default async function WhatsAppButton() {
+  const settings = await getCmsSettingsAsync();
   const href = whatsappHref(settings.whatsappPhone || WHATSAPP_PHONE);
 
   return (

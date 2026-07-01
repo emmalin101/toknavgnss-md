@@ -2,8 +2,11 @@ import Link from "next/link";
 import { ArrowRight, BookOpen, Search, Sparkles } from "lucide-react";
 import CmsBlocksRenderer from "../components/CmsBlocksRenderer";
 import SiteHeader from "../components/SiteHeader";
-import { getAllBlogPosts } from "../lib/blogs";
-import { getBlockData, getPublishedCmsPageByPath } from "../lib/cms/public";
+import { getAllBlogPostsAsync } from "../lib/blogs";
+import { getBlockData, getPublishedCmsPageByPathAsync } from "../lib/cms/public";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 const fallbackHero = {
   label: "Knowledge Center",
@@ -12,9 +15,11 @@ const fallbackHero = {
     "Practical buying guides for overseas distributors, surveying teams, engineering contractors, agriculture dealers and system integrators."
 };
 
-export default function BlogIndexPage() {
-  const posts = getAllBlogPosts();
-  const cmsPage = getPublishedCmsPageByPath("/blog");
+export default async function BlogIndexPage() {
+  const [posts, cmsPage] = await Promise.all([
+    getAllBlogPostsAsync(),
+    getPublishedCmsPageByPathAsync("/blog")
+  ]);
   const hero = getBlockData(cmsPage, "hero", fallbackHero, "page-hero");
 
   return (
@@ -77,8 +82,8 @@ export default function BlogIndexPage() {
   );
 }
 
-export function generateMetadata() {
-  const cmsPage = getPublishedCmsPageByPath("/blog");
+export async function generateMetadata() {
+  const cmsPage = await getPublishedCmsPageByPathAsync("/blog");
   return {
     title: cmsPage?.seoTitle || "TOKNAV Blog | GNSS, RTK and Precision Positioning Guides",
     description:

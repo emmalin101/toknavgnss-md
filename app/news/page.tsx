@@ -1,7 +1,10 @@
 import { ArrowRight, Flame, TrendingUp } from "lucide-react";
 import CmsBlocksRenderer from "../components/CmsBlocksRenderer";
 import SiteHeader from "../components/SiteHeader";
-import { getBlockData, getPublishedCmsPageByPath } from "../lib/cms/public";
+import { getBlockData, getPublishedCmsPageByPathAsync } from "../lib/cms/public";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 const newsItems = [
   {
@@ -51,8 +54,8 @@ const fallbackHero = {
   subtitle: "Short, easy-to-read updates for surveying, mapping, construction, machine control and positioning buyers."
 };
 
-export default function NewsPage() {
-  const cmsPage = getPublishedCmsPageByPath("/news");
+export default async function NewsPage() {
+  const cmsPage = await getPublishedCmsPageByPathAsync("/news");
   const hero = getBlockData(cmsPage, "hero", fallbackHero, "page-hero");
 
   return (
@@ -115,8 +118,8 @@ export default function NewsPage() {
   );
 }
 
-export function generateMetadata() {
-  const cmsPage = getPublishedCmsPageByPath("/news");
+export async function generateMetadata() {
+  const cmsPage = await getPublishedCmsPageByPathAsync("/news");
   return {
     title: cmsPage?.seoTitle || "TOKNAV News | GNSS and Geospatial Industry Updates",
     description: cmsPage?.seoDescription || "Read concise GNSS, RTK, surveying, GIS, LiDAR, USV and machine-control industry updates from TOKNAV.",

@@ -1,7 +1,7 @@
 import { ArrowRight, Boxes, ChevronDown } from "lucide-react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import SiteSearch, { type SearchItem } from "./SiteSearch";
-import { productCategories, products } from "../lib/products";
+import { getAllProductsAsync, productCategories } from "../lib/products";
 
 const staticSearchItems: SearchItem[] = [
   {
@@ -42,7 +42,8 @@ const staticSearchItems: SearchItem[] = [
   }
 ];
 
-export default function SiteHeader() {
+export default async function SiteHeader() {
+  const allProducts = await getAllProductsAsync();
   const searchItems: SearchItem[] = [
     ...staticSearchItems,
     ...productCategories.map((category) => ({
@@ -51,7 +52,7 @@ export default function SiteHeader() {
       category: "Product Category",
       text: category.buyerIntent
     })),
-    ...products.map((product) => ({
+    ...allProducts.map((product) => ({
       title: product.name,
       url: `/products/${product.categorySlug}/${product.slug}`,
       category: "Product",

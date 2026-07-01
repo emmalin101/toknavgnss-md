@@ -1,15 +1,28 @@
-import { readCmsDataSync } from "./storage";
+import { readCmsData, readCmsDataSync } from "./storage";
 import type { CmsBlock, CmsPage, CmsSettings } from "./types";
 
-export function getPublishedCmsPageByPath(path: string): CmsPage | null {
+function findPublishedPageByPath(pages: CmsPage[], path: string) {
   const trimPath = (value: string) => (value === "/" ? "/" : value.replace(/\/$/, ""));
   const normalizedPath = trimPath(path);
+  return pages.find((page) => page.status === "published" && trimPath(page.path) === normalizedPath) ?? null;
+}
+
+export function getPublishedCmsPageByPath(path: string): CmsPage | null {
   const data = readCmsDataSync();
-  return data.pages.find((page) => page.status === "published" && trimPath(page.path) === normalizedPath) ?? null;
+  return findPublishedPageByPath(data.pages, path);
+}
+
+export async function getPublishedCmsPageByPathAsync(path: string): Promise<CmsPage | null> {
+  const data = await readCmsData();
+  return findPublishedPageByPath(data.pages, path);
 }
 
 export function getCmsSettings(): CmsSettings {
   return readCmsDataSync().settings;
+}
+
+export async function getCmsSettingsAsync(): Promise<CmsSettings> {
+  return (await readCmsData()).settings;
 }
 
 export function getBlock(page: CmsPage | null, type: CmsBlock["type"], title?: string) {
@@ -33,6 +46,14 @@ export function getPublishedCmsBlogPosts() {
   return readCmsDataSync().blogPosts.filter((post) => post.status === "published");
 }
 
+export async function getPublishedCmsBlogPostsAsync() {
+  return (await readCmsData()).blogPosts.filter((post) => post.status === "published");
+}
+
 export function getPublishedCmsProducts() {
   return readCmsDataSync().products.filter((product) => product.status === "published");
+}
+
+export async function getPublishedCmsProductsAsync() {
+  return (await readCmsData()).products.filter((product) => product.status === "published");
 }

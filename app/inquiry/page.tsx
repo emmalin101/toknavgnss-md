@@ -2,8 +2,11 @@ import { Clock, Mail, MapPinned, MessageCircle, ShieldCheck } from "lucide-react
 import CmsBlocksRenderer from "../components/CmsBlocksRenderer";
 import InquiryForm from "../components/InquiryForm";
 import SiteHeader from "../components/SiteHeader";
-import { getBlockData, getPublishedCmsPageByPath } from "../lib/cms/public";
+import { getBlockData, getPublishedCmsPageByPathAsync } from "../lib/cms/public";
 import { CONTACT_EMAILS, MOLDOVA_DEALER, WHATSAPP_PHONE } from "../lib/contactInfo";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 const fallbackHero = {
   label: "B2B Inquiry",
@@ -12,8 +15,8 @@ const fallbackHero = {
     "Send your project details to TOKNAV. Our team will help match the right GNSS receiver, antenna, CORS/VRS solution or distributor-ready package for your market."
 };
 
-export default function InquiryPage() {
-  const cmsPage = getPublishedCmsPageByPath("/inquiry");
+export default async function InquiryPage() {
+  const cmsPage = await getPublishedCmsPageByPathAsync("/inquiry");
   const hero = getBlockData(cmsPage, "hero", fallbackHero, "page-hero");
 
   return (
@@ -61,8 +64,8 @@ export default function InquiryPage() {
   );
 }
 
-export function generateMetadata() {
-  const cmsPage = getPublishedCmsPageByPath("/inquiry");
+export async function generateMetadata() {
+  const cmsPage = await getPublishedCmsPageByPathAsync("/inquiry");
   return {
     title: cmsPage?.seoTitle || "Request a GNSS Receiver Quote | TOKNAV",
     description:
