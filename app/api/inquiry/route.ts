@@ -104,10 +104,7 @@ async function sendInquiryEmail(payload: {
 export async function POST(request: Request) {
   try {
     const body = (await request.json()) as InquiryPayload;
-
-    if (clean(body.website)) {
-      return NextResponse.json({ ok: true, message: "Inquiry received." });
-    }
+    const honeypotValue = clean(body.website);
 
     const payload = {
       name: clean(body.name),
@@ -142,10 +139,10 @@ export async function POST(request: Request) {
     const inquiry: CmsInquiry = {
       id: createId("inquiry"),
       ...payload,
-      source: "website",
+      source: honeypotValue ? "website-form-autofill" : "website",
       status: "new",
       customerId,
-      notes: "",
+      notes: honeypotValue ? "Hidden anti-spam field was filled by the browser; inquiry kept after required-field validation." : "",
       updatedAt: payload.createdAt
     };
 
@@ -196,7 +193,12 @@ export async function POST(request: Request) {
       console.error("Inquiry email delivery failed", emailError);
     }
 
-    return NextResponse.json({ ok: true, message: "Inquiry submitted successfully." });
+    return NextResponse.json({
+      ok: true,
+      message: "Inquiry submitted successfully.",
+      inquiryId: inquiry.id,
+      customerId
+    });
   } catch {
     return NextResponse.json(
       { ok: false, message: `Submission failed. Please email ${PRIMARY_CONTACT_EMAIL} directly.` },

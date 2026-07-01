@@ -116,10 +116,11 @@ export default function InquiryForm() {
     setStatusMessage(t("form.status.submitting"));
 
     try {
+      const { website: _website, ...submissionValues } = values;
       const response = await fetch("/api/inquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(values)
+        body: JSON.stringify(submissionValues)
       });
       const payload = await response.json();
       if (!response.ok || !payload.ok) throw new Error(payload.message || "Submission failed.");
