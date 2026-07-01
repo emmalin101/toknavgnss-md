@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - /bin/mkdir -p /home/toknavgn/toknavgnss-md/tmp
+    - /bin/touch /home/toknavgn/toknavgnss-md/tmp/restart.txt
